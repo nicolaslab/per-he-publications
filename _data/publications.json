@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-03-01 04:23:29 UTC",
-  "n_authors": 63,
-  "n_publications": 905,
-  "n_sotl": 243,
+  "last_updated": "2026-03-05 13:04:34 UTC",
+  "n_authors": 65,
+  "n_publications": 915,
+  "n_sotl": 252,
   "authors": [
     {
       "orcid_id": "0000-0003-4241-4933",
@@ -75,6 +75,15 @@
       "name": "Anna McGregor",
       "school": "School of Biodiversity, One Health and Veterinary Medicine",
       "display_name": "Anna McGregor"
+    },
+    {
+      "orcid_id": "0000-0001-9734-2143",
+      "given_name": "Alison",
+      "family_name": "Reid",
+      "affiliation": "University of Glasgow",
+      "name": "Alison Reid",
+      "school": "School of Biodiversity, One Health and Veterinary Medicine",
+      "display_name": "Alison Reid"
     },
     {
       "orcid_id": "0000-0002-8514-7030",
@@ -565,9 +574,30 @@
       "name": "Dougie Marks",
       "school": "Scool of Medicine, Dentistry and Nursing",
       "display_name": "Dougie Marks"
+    },
+    {
+      "orcid_id": "0009-0009-7322-675X",
+      "given_name": "Emilie",
+      "family_name": "Law",
+      "affiliation": "University of Glasgow",
+      "name": "Emilie Law",
+      "school": "School of Biodiversity, One Health and Veterinary Medicine",
+      "display_name": "Emilie Law"
     }
   ],
   "publications": [
+    {
+      "title": "A Model for Student-selected Components in Artificial Intelligence: Design of Artificial Intelligence Tools for Real-world Application",
+      "year": 2026,
+      "type": "conference-paper",
+      "url": "https://www.gla.ac.uk/myglasgow/add/events/annuallearningandteachingconference/",
+      "network_authors": "Hamish Runciman",
+      "network_authors_school": "Hamish Runciman [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0002-8352-7451",
+      "network_schools": "School of Medicine Dentistry and Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
     {
       "title": "A manifesto for plant science education",
       "year": 2026,
@@ -631,7 +661,7 @@
       "is_sotl": false
     },
     {
-      "title": "Educating or academic integrity: effectiveness of a digital resource on plagiarism awareness among postgraduate bioscience students",
+      "title": "Educating for academic integrity: effectiveness of a digital resource on plagiarism awareness among postgraduate bioscience students",
       "year": 2026,
       "journal": "Research Square",
       "type": "journal-article",
@@ -860,6 +890,17 @@
       "network_authors_school": "Michelle Welsh [School of Medicine Dentistry and Nursing]",
       "network_orcids": "0000-0003-1469-0201",
       "network_schools": "School of Medicine Dentistry and Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "A Cross-years Course Leader Collaboration to Improve Veterinary Students' Assessment and Feedback Literacy",
+      "year": 2025,
+      "type": "conference-paper",
+      "network_authors": "Emilie Law",
+      "network_authors_school": "Emilie Law [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_orcids": "0009-0009-7322-675X",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
     },
@@ -2482,6 +2523,18 @@
       "is_sotl": false
     },
     {
+      "title": "Dr Hamish Runciman and Miss Lauren Duguid (New AI in education MOOC special)",
+      "year": 2024,
+      "type": "other",
+      "url": "https://meinpodcast.libsyn.com/dr-hamish-runciman-and-miss-lauren-duguid-new-ai-in-education-mooc-special",
+      "network_authors": "Hamish Runciman",
+      "network_authors_school": "Hamish Runciman [School of Medicine Dentistry and Nursing]",
+      "network_orcids": "0000-0002-8352-7451",
+      "network_schools": "School of Medicine Dentistry and Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
       "title": "EEG markers of vigilance, task-induced fatigue and motivation during sustained attention: Evidence for decoupled alpha- and beta-signatures",
       "year": 2024,
       "type": "preprint",
@@ -3114,6 +3167,20 @@
       "is_sotl": false
     },
     {
+      "title": "Clinical supervisors' and students' perspectives on preparedness for veterinary workplace clinical training: An international study",
+      "year": 2023,
+      "journal": "Veterinary Record",
+      "type": "journal-article",
+      "doi": "10.1002/vetr.3504",
+      "url": "https://doi.org/10.1002/vetr.3504",
+      "network_authors": "Alison Reid",
+      "network_authors_school": "Alison Reid [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_orcids": "0000-0001-9734-2143",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
       "title": "Community Health Workers' Perceptions of Depression and of Barriers and Facilitators in Mental Health Care in Sierra Leone: A Qualitative Study",
       "year": 2023,
       "journal": "BJPsych Open",
@@ -3382,6 +3449,17 @@
       "is_sotl": false
     },
     {
+      "title": "Helping our Students Swallow Information: The Use of Bitesized Teaching and Mentimeter in the Small Animal Primary Care Rotation",
+      "year": 2023,
+      "type": "conference-paper",
+      "network_authors": "Emilie Law",
+      "network_authors_school": "Emilie Law [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_orcids": "0009-0009-7322-675X",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
       "title": "Identifying Core Global Mental Health Professional Competencies: A Multi-Sectoral Perspective",
       "year": 2023,
       "journal": "MedRxiv",
@@ -3536,6 +3614,19 @@
       "network_authors_school": "Lindsey Pope [School of Health and Wellbeing]",
       "network_orcids": "0000-0003-0899-9616",
       "network_schools": "School of Health and Wellbeing",
+      "is_sotl": false
+    },
+    {
+      "title": "Rating and ranking preparedness characteristics important for veterinary workplace clinical training: a novel application of pairwise comparisons and the Elo algorithm",
+      "year": 2023,
+      "journal": "Frontiers in Medicine",
+      "type": "journal-article",
+      "doi": "10.3389/fmed.2023.1128058",
+      "url": "https://doi.org/10.3389/fmed.2023.1128058",
+      "network_authors": "Alison Reid",
+      "network_authors_school": "Alison Reid [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_orcids": "0000-0001-9734-2143",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
       "is_sotl": false
     },
     {
@@ -4187,6 +4278,20 @@
       "sotl_matched_on": "keyword"
     },
     {
+      "title": "Lecture Capture: Friend or Foe?",
+      "year": 2022,
+      "journal": "Journal of Veterinary Medical Education",
+      "type": "journal-article",
+      "doi": "10.3138/jvme-2020-0052",
+      "url": "https://doi.org/10.3138/jvme-2020-0052",
+      "network_authors": "Alison Reid",
+      "network_authors_school": "Alison Reid [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_orcids": "0000-0001-9734-2143",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
+      "is_sotl": true,
+      "sotl_matched_on": "journal"
+    },
+    {
       "title": "Lecture capture: Practical recommendations for students and instructors.",
       "year": 2022,
       "journal": "Scholarship of Teaching and Learning in Psychology",
@@ -4197,6 +4302,18 @@
       "network_authors_school": "Emily Nordmann [School of Psychology and Neuroscience]",
       "network_orcids": "0000-0002-0806-1081",
       "network_schools": "School of Psychology and Neuroscience",
+      "is_sotl": true,
+      "sotl_matched_on": "journal"
+    },
+    {
+      "title": "Lecture capture: friend or foe?",
+      "year": 2022,
+      "journal": "Journal of Veterinary Medical Education",
+      "type": "journal-article",
+      "network_authors": "Alison Reid",
+      "network_authors_school": "Alison Reid [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_orcids": "0000-0001-9734-2143",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
       "is_sotl": true,
       "sotl_matched_on": "journal"
     },
@@ -5308,6 +5425,17 @@
       "network_orcids": "0000-0003-0830-7915",
       "network_schools": "School of Psychology and Neuroscience",
       "is_sotl": false
+    },
+    {
+      "title": "Using Mentimeter to Capture the Efficacy of Bitesized Teaching in Small Animal Primary Care",
+      "year": 2021,
+      "type": "conference-paper",
+      "network_authors": "Emilie Law",
+      "network_authors_school": "Emilie Law [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_orcids": "0009-0009-7322-675X",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
     },
     {
       "title": "Using posters to assess undergraduate student nurses’ understanding of public health issues.",
@@ -7817,6 +7945,20 @@
       "network_orcids": "0000-0002-0806-1081",
       "network_schools": "School of Psychology and Neuroscience",
       "is_sotl": false
+    },
+    {
+      "title": "Peer-assisted learning - an antidote for spoonfeeding? Reflections on peer-assisted learning activites in a veterinary curriculum",
+      "year": 2017,
+      "journal": "MedEdPublish",
+      "type": "journal-article",
+      "doi": "10.15694/mep.2017.000159",
+      "url": "https://doi.org/10.15694/mep.2017.000159",
+      "network_authors": "Alison Reid",
+      "network_authors_school": "Alison Reid [School of Biodiversity, One Health and Veterinary Medicine]",
+      "network_orcids": "0000-0001-9734-2143",
+      "network_schools": "School of Biodiversity, One Health and Veterinary Medicine",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
     },
     {
       "title": "Predicting Student Progression",
