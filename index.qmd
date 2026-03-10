@@ -20,6 +20,8 @@ pub_data <- fromJSON(here::here("_data", "publications.json"))
 
 This website provides an automatically updated list of outputs from the College of MVLS Learning Teaching and Scholarship network at the University of Glasgow. Publication data is sourced directly from [ORCID](https://orcid.org) profiles and updated weekly via GitHub Actions.
 
+If you are a member of staff and would like your ORCID to be added, please complete the spreadsheet located in the Scholarship section of the [MVLS LTS Network Sharepoint](https://gla.sharepoint.com/sites/CollegeMVLS-LearningTeaching/SitePages/MVLS-LTS-Network.aspx).
+
 ::: callout-note
 ## Current Statistics
 
