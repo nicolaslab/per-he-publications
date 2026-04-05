@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-03-29 04:38:56 UTC",
+  "last_updated": "2026-04-05 04:38:24 UTC",
   "n_authors": 66,
-  "n_publications": 959,
-  "n_sotl": 270,
+  "n_publications": 961,
+  "n_sotl": 271,
   "authors": [
     {
       "orcid_id": "0000-0003-4241-4933",
@@ -646,6 +646,18 @@
       "network_authors_school": "Lynsay Crawford [School of Health & Wellbeing]; Lindsey Pope [School of Health and Wellbeing]",
       "network_orcids": "0000-0003-0148-0854; 0000-0003-0899-9616",
       "network_schools": "School of Health & Wellbeing; School of Health and Wellbeing",
+      "is_sotl": true,
+      "sotl_matched_on": "journal"
+    },
+    {
+      "title": "Beyond the myths: epistemic justice in curriculum contestation",
+      "year": 2026,
+      "journal": "Medical Education",
+      "type": "journal-article",
+      "network_authors": "Lynsay Crawford",
+      "network_authors_school": "Lynsay Crawford [School of Health & Wellbeing]",
+      "network_orcids": "0000-0003-0148-0854",
+      "network_schools": "School of Health & Wellbeing",
       "is_sotl": true,
       "sotl_matched_on": "journal"
     },
@@ -9021,6 +9033,18 @@
       "network_schools": "School of Infection & Immunity",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "Functional study of the role played by nucleolar proteins in the control of neural progenitor homeostasis using zebrafish as a model",
+      "year": 2015,
+      "type": "dissertation-thesis",
+      "doi": "10.70675/8f262d07z482az4edfz994dze498d38cff7e",
+      "url": "https://doi.org/10.70675/8f262d07z482az4edfz994dze498d38cff7e",
+      "network_authors": "Alessandro Brombin",
+      "network_authors_school": "Alessandro Brombin [MVLS Graduate School]",
+      "network_orcids": "0000-0001-8262-9248",
+      "network_schools": "MVLS Graduate School",
+      "is_sotl": false
     },
     {
       "title": "Glutamine synthetase activity fuels nucleotide biosynthesis and supports growth of glutamine-restricted glioblastoma.",
