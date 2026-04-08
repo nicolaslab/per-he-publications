@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-03-18 16:52:52 UTC",
+  "last_updated": "2026-04-05 04:38:24 UTC",
   "n_authors": 66,
-  "n_publications": 955,
-  "n_sotl": 267,
+  "n_publications": 961,
+  "n_sotl": 271,
   "authors": [
     {
       "orcid_id": "0000-0003-4241-4933",
@@ -596,6 +596,20 @@
   ],
   "publications": [
     {
+      "title": "3D‐Printed Protein Models as an Educational Tool in Biochemistry Outreach",
+      "year": 2026,
+      "journal": "Biochemistry and Molecular Biology Education",
+      "type": "journal-article",
+      "doi": "10.1002/bmb.70030",
+      "url": "https://doi.org/10.1002/bmb.70030",
+      "network_authors": "Shaun Bremner-Hart",
+      "network_authors_school": "Shaun Bremner-Hart [School of Molecular Biosciences]",
+      "network_orcids": "0000-0002-8429-5154",
+      "network_schools": "School of Molecular Biosciences",
+      "is_sotl": true,
+      "sotl_matched_on": "journal"
+    },
+    {
       "title": "A Model for Student-selected Components in Artificial Intelligence: Design of Artificial Intelligence Tools for Real-world Application",
       "year": 2026,
       "type": "conference-paper",
@@ -620,6 +634,32 @@
       "network_schools": "School of Molecular Biosciences",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "Beyond the myths: Epistemic justice in curriculum contestation",
+      "year": 2026,
+      "journal": "Medical Education",
+      "type": "journal-article",
+      "doi": "10.1111/medu.70216",
+      "url": "https://doi.org/10.1111/medu.70216",
+      "network_authors": "Lynsay Crawford; Lindsey Pope",
+      "network_authors_school": "Lynsay Crawford [School of Health & Wellbeing]; Lindsey Pope [School of Health and Wellbeing]",
+      "network_orcids": "0000-0003-0148-0854; 0000-0003-0899-9616",
+      "network_schools": "School of Health & Wellbeing; School of Health and Wellbeing",
+      "is_sotl": true,
+      "sotl_matched_on": "journal"
+    },
+    {
+      "title": "Beyond the myths: epistemic justice in curriculum contestation",
+      "year": 2026,
+      "journal": "Medical Education",
+      "type": "journal-article",
+      "network_authors": "Lynsay Crawford",
+      "network_authors_school": "Lynsay Crawford [School of Health & Wellbeing]",
+      "network_orcids": "0000-0003-0148-0854",
+      "network_schools": "School of Health & Wellbeing",
+      "is_sotl": true,
+      "sotl_matched_on": "journal"
     },
     {
       "title": "Clinical‐year veterinary students are most likely to be confident and competent in calving procedures after blending simulator practicals with videos",
@@ -719,6 +759,16 @@
       "network_schools": "School of Health and Wellbeing",
       "is_sotl": true,
       "sotl_matched_on": "journal"
+    },
+    {
+      "title": "Homelessness is not a Choice: Bustin' the Myths - Keeping it Real!",
+      "year": 2026,
+      "type": "conference-paper",
+      "network_authors": "Lynsay Crawford",
+      "network_authors_school": "Lynsay Crawford [School of Health & Wellbeing]",
+      "network_orcids": "0000-0003-0148-0854",
+      "network_schools": "School of Health & Wellbeing",
+      "is_sotl": false
     },
     {
       "title": "Incorporating GenAI into critical appraisal undergraduate medical education summative coursework",
@@ -911,6 +961,17 @@
       "network_authors_school": "Rafael Henry-Venson [School of Medicine, Dentistry and Nursing]",
       "network_orcids": "0000-0002-1959-8503",
       "network_schools": "School of Medicine, Dentistry and Nursing",
+      "is_sotl": true,
+      "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "Undergraduate Medical Student Teaching in Out of Hours General Practice",
+      "year": 2026,
+      "type": "conference-paper",
+      "network_authors": "Katie  Brown",
+      "network_authors_school": "Katie Brown [School of Health and Wellbeing]",
+      "network_orcids": "0009-0003-8516-6199",
+      "network_schools": "School of Health and Wellbeing",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
     },
@@ -8972,6 +9033,18 @@
       "network_schools": "School of Infection & Immunity",
       "is_sotl": true,
       "sotl_matched_on": "keyword"
+    },
+    {
+      "title": "Functional study of the role played by nucleolar proteins in the control of neural progenitor homeostasis using zebrafish as a model",
+      "year": 2015,
+      "type": "dissertation-thesis",
+      "doi": "10.70675/8f262d07z482az4edfz994dze498d38cff7e",
+      "url": "https://doi.org/10.70675/8f262d07z482az4edfz994dze498d38cff7e",
+      "network_authors": "Alessandro Brombin",
+      "network_authors_school": "Alessandro Brombin [MVLS Graduate School]",
+      "network_orcids": "0000-0001-8262-9248",
+      "network_schools": "MVLS Graduate School",
+      "is_sotl": false
     },
     {
       "title": "Glutamine synthetase activity fuels nucleotide biosynthesis and supports growth of glutamine-restricted glioblastoma.",
