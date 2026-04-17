@@ -2,104 +2,45 @@ name: Update Publications
 
 on:
   schedule:
-    - cron: '0 2 * * 0'
-  workflow_dispatch:
-  push:
-    branches:
-      - master
-    paths:
-      - 'R/**'
-      - '_data/**'
-      - '*.qmd'
-      - '_quarto.yml'
-      - '.github/workflows/**'
-      - 'styles.css'
+    - cron: '0 6 * * 1'   # Runs every Monday at 6am UTC
+  workflow_dispatch:        # Also allows you to trigger it manually
 
 permissions:
   contents: write
   pages: write
   id-token: write
 
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
-
 jobs:
-  build-and-deploy:
+  update-and-deploy:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    
+
     steps:
-      - name: Checkout repository
+      - name: Check out the repository
         uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          fetch-depth: 0
-      
-      - name: Setup R
-        uses: r-lib/actions/setup-r@v2
-        with:
-          r-version: '4.4.0'
-          use-public-rspm: true
-      
-      - name: Install system dependencies
+          python-version: '3.12'
+
+      - name: Install Python packages
+        run: pip install requests
+
+      - name: Fetch publications from ORCID
+        run: python fetch_publications.py
+
+      - name: Save updated data back to the repository
         run: |
-          sudo apt-get update
-          sudo apt-get install -y libcurl4-openssl-dev libssl-dev libxml2-dev
-      
-      - name: Install R packages
-        run: |
-          install.packages(c(
-            "httr2",
-            "purrr", 
-            "dplyr",
-            "tidyr",
-            "stringr",
-            "jsonlite",
-            "glue",
-            "DT",
-            "ggplot2",
-            "here",
-            "readxl"
-          ), repos = "https://cloud.r-project.org")
-        shell: Rscript {0}
-      
-      - name: Setup Quarto
-        uses: quarto-dev/quarto-actions/setup@v2
-      
-      - name: Fetch ORCID publications
-        run: Rscript R/fetch_orcid_publications.R
-      
-      - name: Clear cached content
-        run: |
-          rm -rf _freeze
-          rm -rf .quarto
-          rm -rf docs
-          rm -rf *_files
-          rm -rf _site
-      
-      - name: Render Quarto website
-        run: quarto render
-      
-      - name: Commit updated data
-        run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add _data/
-          git diff --staged --quiet && echo "No changes to commit" && exit 0
-          git commit -m "Update publication data [skip ci]"
-          git pull --rebase origin master
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add _data/publications.json
+          git diff --staged --quiet || git commit -m "Update publications data [automated]"
           git push
-      
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
-      
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Build and publish the website
+        uses: quarto-dev/quarto-actions/publish@v2
         with:
-          path: 'docs'
-      
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+          target: gh-pages
