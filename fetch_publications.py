@@ -27,6 +27,7 @@ PER_JOURNALS = {
     "american journal of physics",
     "cbe life sciences education",
     "european journal of physics",
+    "Europhysics Letters",
     "higher education",
     "innovations in education and teaching international",
     "international journal of science education",
