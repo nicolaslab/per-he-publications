@@ -11,6 +11,7 @@ import json
 import csv
 import time
 import os
+import html
 from datetime import datetime
 
 # ── ORCID API settings ────────────────────────────────────────────────────────
@@ -22,41 +23,50 @@ HEADERS = {"Accept": "application/json"}
 # Papers published in these journals are automatically tagged as PER
 
 PER_JOURNALS = {
+    "active learning in higher education",
+    "american journal of physics",
+    "cbe life sciences education",
+    "european journal of physics",
+    "higher education",
+    "innovations in education and teaching international",
+    "international journal of science education",
+    "journal of college science teaching",
+    "Journal of Perspectives in Applied Academic Practice",
+    "journal of research in science teaching",
+    "Journal of Science Education and Technology",
+    "latin american journal of physics education",
     "physical review physics education research",
     "physical review special topics - physics education research",
-    "american journal of physics",
-    "european journal of physics",
     "physics education",
-    "latin american journal of physics education",
-    "international journal of science education",
-    "journal of research in science teaching",
     "science education",
     "studies in higher education",
-    "higher education",
     "teaching in higher education",
-    "active learning in higher education",
-    "innovations in education and teaching international",
-    "journal of college science teaching",
-    "cbe life sciences education",
 }
 
 # Papers with these words in the title are also tagged as PER
 PER_KEYWORDS = [
-    "physics education",
-    "physics teaching",
-    "physics learning",
-    "undergraduate physics",
-    "physics curriculum",
-    "physics pedagogy",
     "active learning",
-    "peer instruction",
+    "conceptual understanding",
+    "evidence-based teaching",
     "flipped classroom",
+    "higher education",
     "inquiry-based",
+    "lecture",
+    "peer instruction",
+    "physics curriculum",
+    "physics education",
+    "physics learning",
+    "physics pedagogy",
+    "physics teaching",
+    "postgraduate",
+    "science communication",
     "science education",
     "stem education",
-    "higher education",
+    "students",
+    "student engagement", 
     "student understanding",
-    "conceptual understanding",
+    "undergraduate physics",
+    "writing skills", 
 ]
 
 # ── Functions ─────────────────────────────────────────────────────────────────
@@ -88,12 +98,26 @@ def fetch_works(orcid_id):
         return []
 
 
+def clean_doi(doi_str):
+    """Normalise a DOI to bare lowercase form, stripping any URL prefix."""
+    if not doi_str:
+        return None
+    doi = doi_str.strip().lower()
+    # Remove common URL prefixes
+    for prefix in ("https://doi.org/", "http://doi.org/",
+                   "https://dx.doi.org/", "http://dx.doi.org/"):
+        if doi.startswith(prefix):
+            doi = doi[len(prefix):]
+    return doi or None
+
+
 def get_doi(work_summary):
     """Pull the DOI out of a work summary, if there is one."""
     ids = (work_summary.get("external-ids") or {}).get("external-id") or []
     for item in ids:
         if (item or {}).get("external-id-type") == "doi":
-            return (item.get("external-id-value") or "").lower().strip()
+            raw = (item.get("external-id-value") or "")
+            return clean_doi(raw)
     return None
 
 def is_per_paper(title, journal):
@@ -109,16 +133,23 @@ def is_per_paper(title, journal):
     return False
 
 
+def clean_title(title_str):
+    """Remove HTML entities and extra whitespace from titles."""
+    import html
+    return html.unescape(title_str or "").strip()
+
+
 def parse_work_group(group, author_name, author_orcid):
     """Extract the useful fields from one ORCID work group."""
     summaries = group.get("work-summary", [])
     if not summaries:
         return None
-    s = summaries[0]  # use the first (most complete) summary
+    s = summaries[0]
 
-    title   = (s.get("title",         {})
-                .get("title",         {})
-                .get("value", "Untitled"))
+    raw_title = (s.get("title",         {})
+                  .get("title",         {})
+                  .get("value", "Untitled"))
+    title   = clean_title(raw_title)
     journal = (s.get("journal-title") or {}).get("value", "")
     w_type  = s.get("type", "")
     doi     = get_doi(s)
@@ -130,17 +161,16 @@ def parse_work_group(group, author_name, author_orcid):
         year = pub_date["year"].get("value")
 
     return {
-        "title":    title,
-        "year":     year,
-        "journal":  journal,
-        "type":     w_type,
-        "doi":      doi,
-        "url":      url,
-        "is_per":   is_per_paper(title, journal),
-        "authors":  [author_name],
-        "orcids":   [author_orcid],
+        "title":   title,
+        "year":    year,
+        "journal": journal,
+        "type":    w_type,
+        "doi":     doi,
+        "url":     url,
+        "is_per":  is_per_paper(title, journal),
+        "authors": [author_name],
+        "orcids":  [author_orcid],
     }
-
 
 # ── Main ───────────────────────────────────────────────────────────────────────
 
