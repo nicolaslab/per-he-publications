@@ -90,12 +90,11 @@ def fetch_works(orcid_id):
 
 def get_doi(work_summary):
     """Pull the DOI out of a work summary, if there is one."""
-    ids = work_summary.get("external-ids", {}).get("external-id", [])
+    ids = (work_summary.get("external-ids") or {}).get("external-id") or []
     for item in ids:
-        if item.get("external-id-type") == "doi":
-            return item.get("external-id-value", "").lower().strip()
+        if (item or {}).get("external-id-type") == "doi":
+            return (item.get("external-id-value") or "").lower().strip()
     return None
-
 
 def is_per_paper(title, journal):
     """Decide whether a paper looks like Physics Education Research."""
