@@ -2,42 +2,25 @@ project:
   type: website
   output-dir: docs
 
-execute:
-  freeze: false
-
 website:
-  title: "MVLS LTS Network"
+  title: "PER-HE Publications"
+  description: "Publications by the UK & Ireland Physics Higher Education Research community"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - href: publications.qmd
-        text: All Outputs
+        text: All Publications
       - href: authors.qmd
         text: Authors
       - href: about.qmd
         text: About
     right:
       - icon: github
-        href: https://github.com/mvls-lts/outputs
-        aria-label: GitHub
-  page-footer:
-    center: |
-      Data sourced from [ORCID](https://orcid.org)
+        href: https://github.com/nicolaslab/per-he-publications
 
 format:
   html:
-    theme:
-      light: flatly
-      dark: darkly
+    theme: cosmo
     css: styles.css
     toc: true
-    code-fold: true
-    code-summary: "Show code"
-    include-in-header:
-      - text: |
-          <link rel="preconnect" href="https://fonts.googleapis.com">
-          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-          <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Noto+Serif:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
-          <script data-goatcounter="https://emilynordmann.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
-
