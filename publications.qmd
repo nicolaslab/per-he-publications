@@ -1,135 +1,54 @@
 ---
-title: "Outputs"
+title: "All Publications"
 ---
 
-```{r}
-#| label: setup
-#| include: false
+```{ojs}
+//| echo: false
 
-library(jsonlite)
-library(dplyr)
-library(tidyr)
-library(DT)
-library(glue)
-library(stringr)
+data = await FileAttachment("_data/publications.json").json()
+pubs = data.publications
+
+viewof search = Inputs.text({
+  label: "Search",
+  placeholder: "Title, author, journal...",
+  width: 400
+})
+
+viewof yearFilter = Inputs.select(
+  ["All years", ...new Set(pubs.map(p => p.year).filter(Boolean).sort().reverse())],
+  { label: "Year" }
+)
+
+viewof perOnly = Inputs.toggle({ label: "Physics Education Research only", value: false })
+
+filtered = pubs.filter(p => {
+  const q = search.toLowerCase()
+  const matchSearch = !q ||
+    (p.title  || "").toLowerCase().includes(q) ||
+    (p.authors || []).join(" ").toLowerCase().includes(q) ||
+    (p.journal || "").toLowerCase().includes(q)
+  const matchYear = yearFilter === "All years" || p.year === yearFilter
+  const matchPer  = !perOnly || p.is_per
+  return matchSearch && matchYear && matchPer
+})
+
+md`**Showing ${filtered.length} of ${pubs.length} publications** — last updated ${data.last_updated}`
+
+Inputs.table(filtered, {
+  columns: ["year", "title", "authors", "journal"],
+  header: {
+    year:    "Year",
+    title:   "Title",
+    authors: "Authors",
+    journal: "Journal"
+  },
+  format: {
+    title: (t, i) => {
+      const pub = filtered[i]
+      return pub.url ? htl.html`<a href="${pub.url}" target="_blank">${t}</a>` : t
+    },
+    authors: a => (a || []).join(", ")
+  },
+  rows: 20
+})
 ```
-
-```{r}
-#| label: load-data
-#| include: false
-
-pub_data <- fromJSON(here::here("_data", "publications.json"))
-pubs <- pub_data$publications |>
-  as_tibble() |>
-  mutate(
-    # Create clickable title if URL exists
-    title_link = case_when(
-      !is.na(url) & url != "" ~ glue('<a href="{url}" target="_blank">{title}</a>'),
-      TRUE ~ title
-    ),
-    type_clean = str_to_title(str_replace_all(type, "-", " ")),
-    year = replace_na(year, 0),
-    sotl_label = if_else(is_sotl == TRUE, "SoTL", "Discpline-specific"),
-    school_display = replace_na(network_schools, "—")
-  )
-```
-
-Browse and search all `r nrow(pubs)` outputs from network members. Use the dropdown filters and search box below each column header to filter by type, year, or other criteria.
-
-::: {.callout-tip}
-## Output Types in This Collection
-
-```{r}
-#| label: type-summary
-#| echo: false
-#| results: asis
-
-type_counts <- pubs |>
-  count(type_clean, sort = TRUE) |>
-  filter(!is.na(type_clean), type_clean != "")
-
-for (i in seq_len(nrow(type_counts))) {
-  cat(glue("- **{type_counts$type_clean[i]}**: {type_counts$n[i]}\n"), sep = "\n")
-}
-```
-
-:::
-
-
-```{r}
-#| label: pub-table
-#| echo: false
-
-pubs |>
-  select(
-    Title = title_link,
-    Year = year,
-    School = school_display,
-    Journal = journal,
-    Type = type_clean,
-    Category = sotl_label,
-    `Network Authors` = network_authors
-  ) |>
-  datatable(
-    escape = FALSE,  # This is critical for HTML links to render
-    filter = "top",
-    options = list(
-      pageLength = 25,
-      order = list(list(1, "desc")),
-      columnDefs = list(
-        list(width = "30%", targets = 0),
-        list(width = "6%", targets = 1),
-        list(width = "6%", targets = 5),
-        list(className = "dt-left", targets = "_all")
-      ),
-      searchCols = list(
-        NULL,
-        NULL,
-        NULL,
-        NULL,
-        NULL,
-        NULL,
-        NULL
-      )
-    ),
-    rownames = FALSE
-  )
-```
-## Publications by Year
-
-```{r}
-#| label: by-year
-#| echo: false
-#| fig-width: 10
-#| fig-height: 5
-
-library(ggplot2)
-
-# UofG brand colours
-uofg_blue <- "#003865"
-uofg_cobalt <- "#0075B0"
-
-year_counts <- pubs |>
-  filter(year > 0) |>
-  count(year) |>
-  arrange(year)
-
-ggplot(year_counts, aes(x = year, y = n)) +
-  geom_col(fill = uofg_blue) +
-  labs(
-    x = "Year",
-    y = "Number of Publications",
-    title = "Publications per Year"
-  ) +
-  theme_minimal() +
-  theme(
-    plot.title = element_text(hjust = 0.5, size = 14, face = "bold", colour = uofg_blue),
-    axis.title = element_text(colour = uofg_blue),
-    panel.grid.minor = element_blank(),
-    panel.grid.major.x = element_blank()
-  )
-```
-
-------------------------------------------------------------------------
-
-*Data sourced from ORCID. Last updated: `r pub_data$last_updated`*
