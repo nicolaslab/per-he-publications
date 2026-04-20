@@ -1,52 +1,46 @@
 ---
 title: "About"
-subtitle: "How this publication list works"
 ---
 
 ## Overview
 
-This website automatically aggregates and displays publications from members of the College of MVLS Learning Teaching and Scholarship network. Rather than manually maintaining a list that quickly becomes outdated, we leverage the [ORCID](https://orcid.org) infrastructure to keep our publication list current.
+This website automatically aggregates publications from members of the
+[UK & Ireland Physics Higher Education Research (PER-HE) community](https://per-he.org).
+Rather than manually maintaining a list that quickly becomes outdated, we use
+[ORCID](https://orcid.org) profiles to keep the publication list current.
 
-## How It Works
+## How it works
 
-```{mermaid}
-flowchart LR
-    A[ORCID Profiles] -->|Weekly fetch| B[R Script]
-    B --> C[SoTL Classification]
-    C --> D[JSON Data File]
-    D --> E[Quarto Website]
-    E -->|GitHub Actions| F[GitHub Pages]
-```
-
-1. **Data Source**: Each network member maintains their own ORCID profile with their publications
-2. **Automated Fetching**: A weekly GitHub Actions workflow runs an R script that queries the ORCID public API
-3. **Deduplication**: Publications that appear on multiple authors' profiles (collaborations) are deduplicated by DOI
-4. **SoTL Classification**: Publications are automatically tagged as education-related based on journal names and title keywords
-5. **Website Generation**: Quarto renders the data into a searchable, browsable website
-6. **Deployment**: The site is automatically deployed to GitHub Pages
-
-## SoTL Classification
-
-Publications are automatically classified as Scholarship of Teaching and Learning (SoTL) or education-related using two methods:
-
-### Journal Matching
-
-Publications appearing in known education journals are automatically tagged. The list includes journals across higher education, medical education, science education, and discipline-specific pedagogy journals.
-
-### Keyword Matching
-
-For publications not matched by journal, titles are scanned for education-related terms such as "teaching", "learning", "pedagogy", "curriculum", "assessment", "student", and many others.
-
-This classification is imperfect but provides a useful filter without requiring manual curation. The keyword and journal lists can be expanded by editing `R/fetch_orcid_publications.R`.
+1. **Author list**: Researchers in the community share their ORCID identifier,
+   which is added to a CSV file in this repository.
+2. **Automated fetching**: A weekly GitHub Actions workflow runs a Python script
+   that queries the ORCID public API for each author's publications.
+3. **Deduplication**: Papers appearing on multiple authors' profiles
+   (collaborations) are merged into a single entry using their DOI.
+4. **PER classification**: Papers are automatically tagged as Physics Education
+   Research based on the journal name and title keywords.
+5. **Website generation**: Quarto renders the data into this searchable,
+   browsable website, deployed automatically to GitHub Pages.
 
 ## Limitations
 
-- **Only ORCID-indexed publications**: Works not added to ORCID profiles won't appear
-- **Metadata quality varies**: Publication details depend on how they were entered in ORCID
-- **Weekly updates**: There's up to a 7-day delay between ORCID updates and website updates
-- **No full-text**: We only display metadata, not full papers
+- Only works added to an author's ORCID profile will appear here.
+- Metadata quality depends on how entries were added to ORCID.
+- There is up to a 7-day delay between an ORCID update and this site updating.
 
-## Source Code
+## Getting listed
 
-The complete source code for this website is available on GitHub. Feel free to fork and adapt for your own network.
+If you are a member of the UK & Ireland PER community and would like your
+publications included, please contact us via [per-he.org](https://per-he.org)
+with your ORCID identifier.
 
+## Source code
+
+The source code for this site is available on
+[GitHub](https://github.com/nicolaslab/per-he-publications).
+It is written in Python and Quarto, and runs entirely on free GitHub
+infrastructure.
+
+---
+
+*Data sourced from [ORCID](https://orcid.org)*
