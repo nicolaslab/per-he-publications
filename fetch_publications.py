@@ -32,6 +32,7 @@ PER_JOURNALS = {
     "Europhysics Letters",
     "higher education",
     "innovations in education and teaching international",
+    "International Journal for Academic Development",
     "international journal of science education",
     "journal of college science teaching",
     "Journal of Perspectives in Applied Academic Practice",
