@@ -3,21 +3,6 @@
   "total": 170,
   "publications": [
     {
-      "title": "Analysis of Lyman &#946; and Lyman &#947; lines in a pre-eruptive and eruptive prominence with solar orbiter SPICE observations",
-      "year": "2026",
-      "journal": "Monthly Notices of the Royal Astronomical Society",
-      "type": "journal-article",
-      "doi": null,
-      "url": "",
-      "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
-    },
-    {
       "title": "Analysis of Lyman β and Lyman γ lines in a pre-eruptive and eruptive prominence with Solar Orbiter SPICE observations",
       "year": "2026",
       "journal": "Monthly Notices of the Royal Astronomical Society",
@@ -33,13 +18,28 @@
       ]
     },
     {
+      "title": "Analysis of Lyman β and Lyman γ lines in a pre-eruptive and eruptive prominence with solar orbiter SPICE observations",
+      "year": "2026",
+      "journal": "Monthly Notices of the Royal Astronomical Society",
+      "type": "journal-article",
+      "doi": null,
+      "url": "",
+      "is_per": false,
+      "authors": [
+        "Nicolas Labrosse"
+      ],
+      "orcids": [
+        "0000-0002-4638-157X"
+      ]
+    },
+    {
       "title": "How to design the perfect lecture",
       "year": "2026",
       "journal": "Europhysics Letters",
       "type": "journal-article",
       "doi": "10.1209/0295-5075/ae2047",
       "url": "https://doi.org/10.1209/0295-5075/ae2047",
-      "is_per": false,
+      "is_per": true,
       "authors": [
         "Anna Wood"
       ],
@@ -99,7 +99,7 @@
       "type": "other",
       "doi": null,
       "url": "",
-      "is_per": false,
+      "is_per": true,
       "authors": [
         "Nicolas Labrosse"
       ],
@@ -129,7 +129,7 @@
       "type": "journal-article",
       "doi": "10.1007/s10956-025-10198-0",
       "url": "https://doi.org/10.1007/s10956-025-10198-0",
-      "is_per": false,
+      "is_per": true,
       "authors": [
         "Nicolas Labrosse"
       ],
@@ -264,7 +264,7 @@
       "type": "journal-article",
       "doi": "10.56433/jpaap.v11i2.430",
       "url": "https://doi.org/10.56433/jpaap.v11i2.430",
-      "is_per": false,
+      "is_per": true,
       "authors": [
         "Nicolas Labrosse"
       ],
@@ -474,7 +474,7 @@
       "type": "other",
       "doi": "10.1088/2058-7058/35/11/20",
       "url": "https://doi.org/10.1088/2058-7058/35/11/20",
-      "is_per": false,
+      "is_per": true,
       "authors": [
         "Nicolas Labrosse"
       ],
@@ -519,7 +519,7 @@
       "type": "journal-article",
       "doi": "10.1080/01587919.2020.1869521",
       "url": "https://doi.org/10.1080/01587919.2020.1869521",
-      "is_per": false,
+      "is_per": true,
       "authors": [
         "Anna Wood"
       ],
@@ -624,7 +624,7 @@
       "type": "preprint",
       "doi": "10.31235/osf.io/wy9da",
       "url": "https://doi.org/10.31235/osf.io/wy9da",
-      "is_per": false,
+      "is_per": true,
       "authors": [
         "Anna Wood"
       ],
@@ -1179,7 +1179,7 @@
       "type": "journal-article",
       "doi": "10.14297/jpaap.v5i2.280",
       "url": "https://doi.org/10.14297/jpaap.v5i2.280",
-      "is_per": false,
+      "is_per": true,
       "authors": [
         "Nicolas Labrosse"
       ],
@@ -1209,7 +1209,7 @@
       "type": "journal-article",
       "doi": "10.1103/physrevphyseducres.12.023101",
       "url": "https://doi.org/10.1103/physrevphyseducres.12.023101",
-      "is_per": false,
+      "is_per": true,
       "authors": [
         "Anna Wood"
       ],
@@ -1569,7 +1569,7 @@
       "type": "journal-article",
       "doi": null,
       "url": "",
-      "is_per": false,
+      "is_per": true,
       "authors": [
         "Nicolas Labrosse"
       ],
