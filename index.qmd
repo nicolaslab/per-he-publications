@@ -1,77 +1,20 @@
 ---
-title: "MVLS LTS Network Outputs"
-last-updated: "Auto-updated weekly"
+title: "PER-HE Publications"
 ---
 
-```{r}
-#| label: setup
-#| include: false
+This site automatically lists publications from members of the
+[UK & Ireland Physics Higher Education Research community](https://per-he.org).
 
-library(jsonlite)
-library(dplyr)
-library(tidyr)
-library(glue)
+Publications are fetched weekly from researchers' [ORCID](https://orcid.org)
+profiles and updated automatically. Papers are tagged as Physics Education
+Research (PER) based on the journal they appear in or keywords in the title.
 
-# Load publication data
-pub_data <- fromJSON(here::here("_data", "publications.json"))
-```
+👉 **[Browse all publications](publications.qmd)**
 
-## Overview
+👉 **[See all contributing authors](authors.qmd)**
 
-This website provides an automatically updated list of outputs from the College of MVLS Learning Teaching and Scholarship network at the University of Glasgow. Publication data is sourced directly from [ORCID](https://orcid.org) profiles and updated weekly via GitHub Actions.
+---
 
-If you are a member of staff and would like your ORCID to be added, please complete the spreadsheet located in the Scholarship section of the [MVLS LTS Network Sharepoint](https://gla.sharepoint.com/sites/CollegeMVLS-LearningTeaching/SitePages/MVLS-LTS-Network.aspx).
-
-::: callout-note
-## Current Statistics
-
--   **`r pub_data$n_authors`** linked authors
--   **`r pub_data$n_sotl`** SoTL/education outputs
--   **Last updated:** `r pub_data$last_updated`
-:::
-
-## Recent SoTL Publications
-
-Publications are automatically classified based on journal name and keywords to identify those related to the **Scholarship of Teaching and Learning (SoTL)** and those that are likely to be discipline-specific, so errors may occur. 
-
-```{r}
-#| label: recent-pubs
-#| echo: false
-#| results: asis
-
-pubs <- pub_data$publications |>
- as_tibble() |>
- filter(type == "journal-article",
-        !is.na(sotl_matched_on)) |>
- head(10)
-
-for (i in seq_len(nrow(pubs))) {
-  pub <- pubs[i, ]
-  
-  # Build citation string with school in brackets
-  author_text <- if (!is.na(pub$network_authors_school) && pub$network_authors_school != "") {
-    glue("{pub$network_authors_school}. ")
-  } else {
-    ""
-  }
-  
-  title_text <- if (!is.na(pub$url) && pub$url != "") {
-    glue("[{pub$title}]({pub$url})")
-  } else {
-    pub$title
-  }
-  
-  year_text <- if (!is.na(pub$year)) glue(" ({pub$year})") else ""
-  journal_text <- if (!is.na(pub$journal) && pub$journal != "") glue(" *{pub$journal}*.") else ""
-  
-  cat(glue("- {author_text}{title_text}{year_text}.{journal_text}\n\n"))
-}
-```
-
-[View all publications →](publications.qmd)
-
-## Quick Links
-
--   [Browse all outputs](publications.qmd) - Full searchable list
--   [Network authors](authors.qmd) - View all contributing authors
--   [About this site](about.qmd) - How this works
+*To have your publications listed here, please send your ORCID identifier to
+the site maintainer, or visit [per-he.org](https://per-he.org) for more
+information.*
