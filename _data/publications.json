@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-04-20",
-  "total": 170,
+  "total": 150,
   "publications": [
     {
       "title": "Analysis of Lyman β and Lyman γ lines in a pre-eruptive and eruptive prominence with Solar Orbiter SPICE observations",
@@ -23,7 +23,7 @@
       "journal": "Monthly Notices of the Royal Astronomical Society",
       "type": "journal-article",
       "doi": null,
-      "url": "",
+      "url": "https://eprints.gla.ac.uk/376792/",
       "is_per": false,
       "authors": [
         "Nicolas Labrosse"
@@ -68,7 +68,7 @@
       "journal": "Monthly Notices of the Royal Astronomical Society",
       "type": "journal-article",
       "doi": null,
-      "url": "",
+      "url": "https://eprints.gla.ac.uk/378573/",
       "is_per": false,
       "authors": [
         "Nicolas Labrosse"
@@ -98,7 +98,7 @@
       "journal": "",
       "type": "other",
       "doi": null,
-      "url": "",
+      "url": "https://wonkhe.com/blogs/what-needs-to-change-to-make-evidence-based-teaching-the-norm/",
       "is_per": true,
       "authors": [
         "Nicolas Labrosse"
@@ -333,12 +333,12 @@
       ]
     },
     {
-      "title": "Two-horn quiescent prominence observed in Hα and Mg II hk lines with THEMIS and IRIS",
+      "title": "Two-horn quiescent prominence observed in Hα and Mg ii h&k lines with THEMIS and IRIS",
       "year": "2023",
-      "journal": "Astronomy and Astrophysics",
-      "type": "journal-article",
-      "doi": "10.1051/0004-6361/202345970",
-      "url": "https://doi.org/10.1051/0004-6361/202345970",
+      "journal": "Arxiv",
+      "type": "other",
+      "doi": "10.48550/arxiv.2309.13776",
+      "url": "https://doi.org/10.48550/arxiv.2309.13776",
       "is_per": false,
       "authors": [
         "Nicolas Labrosse"
@@ -348,12 +348,12 @@
       ]
     },
     {
-      "title": "Two-horn quiescent prominence observed in Hα and Mg ii h&k lines with THEMIS and IRIS",
+      "title": "Two-horn quiescent prominence observed in Hα and Mg II hk lines with THEMIS and IRIS",
       "year": "2023",
-      "journal": "Arxiv",
-      "type": "other",
-      "doi": "10.48550/arxiv.2309.13776",
-      "url": "https://doi.org/10.48550/arxiv.2309.13776",
+      "journal": "Astronomy and Astrophysics",
+      "type": "journal-article",
+      "doi": "10.1051/0004-6361/202345970",
+      "url": "https://doi.org/10.1051/0004-6361/202345970",
       "is_per": false,
       "authors": [
         "Nicolas Labrosse"
@@ -933,21 +933,6 @@
       ]
     },
     {
-      "title": "The Influence of the Solar Coronal Radiation on Coronal Plasma Structures, I: Determination of the Incident Coronal Radiation",
-      "year": "2018",
-      "journal": "Solar Physics",
-      "type": "journal-article",
-      "doi": "10.1007/s11207-018-1255-z",
-      "url": "https://doi.org/10.1007/s11207-018-1255-z",
-      "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
-    },
-    {
       "title": "The development of lower-atmosphere turbulence early in a solar flare",
       "year": "2018",
       "journal": "Science Advances",
@@ -978,12 +963,12 @@
       ]
     },
     {
-      "title": "Visibility of Prominences Using the He i D<SUB>3</SUB> Line Filter on the PROBA-3/ASPIICS Coronagraph",
+      "title": "The Influence of the Solar Coronal Radiation on Coronal Plasma Structures, I: Determination of the Incident Coronal Radiation",
       "year": "2018",
       "journal": "Solar Physics",
       "type": "journal-article",
-      "doi": "10.1007/s11207-018-1251-3",
-      "url": "https://doi.org/10.1007/s11207-018-1251-3",
+      "doi": "10.1007/s11207-018-1255-z",
+      "url": "https://doi.org/10.1007/s11207-018-1255-z",
       "is_per": false,
       "authors": [
         "Nicolas Labrosse"
@@ -999,6 +984,21 @@
       "type": "other",
       "doi": "10.48550/arxiv.1807.00155",
       "url": "https://doi.org/10.48550/arxiv.1807.00155",
+      "is_per": false,
+      "authors": [
+        "Nicolas Labrosse"
+      ],
+      "orcids": [
+        "0000-0002-4638-157X"
+      ]
+    },
+    {
+      "title": "Visibility of Prominences Using the He i D<SUB>3</SUB> Line Filter on the PROBA-3/ASPIICS Coronagraph",
+      "year": "2018",
+      "journal": "Solar Physics",
+      "type": "journal-article",
+      "doi": "10.1007/s11207-018-1251-3",
+      "url": "https://doi.org/10.1007/s11207-018-1251-3",
       "is_per": false,
       "authors": [
         "Nicolas Labrosse"
@@ -1193,7 +1193,7 @@
       "journal": "",
       "type": "journal-article",
       "doi": null,
-      "url": "",
+      "url": "https://ui.adsabs.harvard.edu/#abs/2016arXiv160100587W",
       "is_per": false,
       "authors": [
         "Nicolas Labrosse"
@@ -1253,7 +1253,7 @@
       "journal": "",
       "type": "journal-article",
       "doi": null,
-      "url": "",
+      "url": "https://ui.adsabs.harvard.edu/#abs/2016AGUFMSH13D..02F",
       "is_per": false,
       "authors": [
         "Nicolas Labrosse"
@@ -1278,6 +1278,21 @@
       ]
     },
     {
+      "title": "Magnetic Field and Plasma Diagnostics from Coordinated Prominence Observations",
+      "year": "2016",
+      "journal": "",
+      "type": "journal-article",
+      "doi": null,
+      "url": "https://ui.adsabs.harvard.edu/#abs/2016ASPC..504..119S",
+      "is_per": false,
+      "authors": [
+        "Nicolas Labrosse"
+      ],
+      "orcids": [
+        "0000-0002-4638-157X"
+      ]
+    },
+    {
       "title": "MAGNETIC FIELD IN ATYPICAL PROMINENCE STRUCTURES: BUBBLE, TORNADO, AND ERUPTION",
       "year": "2016",
       "journal": "The Astrophysical Journal",
@@ -1293,27 +1308,12 @@
       ]
     },
     {
-      "title": "Magnetic Field and Plasma Diagnostics from Coordinated Prominence Observations",
-      "year": "2016",
-      "journal": "",
-      "type": "journal-article",
-      "doi": null,
-      "url": "",
-      "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
-    },
-    {
       "title": "Prominence plasma and magnetic field structure - A coordinated observation with IRIS, Hinode and THEMIS",
       "year": "2016",
       "journal": "",
       "type": "journal-article",
       "doi": null,
-      "url": "",
+      "url": "https://ui.adsabs.harvard.edu/#abs/2016cosp...41E1749S",
       "is_per": false,
       "authors": [
         "Nicolas Labrosse"
@@ -1388,7 +1388,7 @@
       "journal": "",
       "type": "other",
       "doi": null,
-      "url": "",
+      "url": "https://conifer.rhizome.org/UoGLibrary/kelvin-news-2/20250331090225/https://kelvinnews.org/",
       "is_per": false,
       "authors": [
         "Nicolas Labrosse"
@@ -1403,7 +1403,7 @@
       "journal": "",
       "type": "journal-article",
       "doi": null,
-      "url": "",
+      "url": "https://ui.adsabs.harvard.edu/#abs/2015arXiv151203477S",
       "is_per": false,
       "authors": [
         "Nicolas Labrosse"
@@ -1428,12 +1428,12 @@
       ]
     },
     {
-      "title": "SSALMON - The Solar Simulations for the Atacama Large Millimeter Observatory Network",
+      "title": "Solar science with the Atacama Large Millimeter/submillimeter Array - A new view of our Sun",
       "year": "2015",
       "journal": "",
       "type": "journal-article",
       "doi": null,
-      "url": "",
+      "url": "https://ui.adsabs.harvard.edu/#abs/2015arXiv150406887W",
       "is_per": false,
       "authors": [
         "Nicolas Labrosse"
@@ -1458,12 +1458,12 @@
       ]
     },
     {
-      "title": "Solar science with the Atacama Large Millimeter/submillimeter Array - A new view of our Sun",
+      "title": "SSALMON - The Solar Simulations for the Atacama Large Millimeter Observatory Network",
       "year": "2015",
       "journal": "",
       "type": "journal-article",
       "doi": null,
-      "url": "",
+      "url": "https://ui.adsabs.harvard.edu/#abs/2015arXiv150205601W",
       "is_per": false,
       "authors": [
         "Nicolas Labrosse"
@@ -1478,7 +1478,7 @@
       "journal": "",
       "type": "journal-article",
       "doi": null,
-      "url": "",
+      "url": "https://ui.adsabs.harvard.edu/#abs/2015arXiv151204727L",
       "is_per": false,
       "authors": [
         "Nicolas Labrosse"
@@ -1538,7 +1538,7 @@
       "journal": "AAS/Solar Physics Division Abstracts #44",
       "type": "conference-abstract",
       "doi": null,
-      "url": "",
+      "url": "https://ui.adsabs.harvard.edu/#abs/2013SPD....4440401R",
       "is_per": false,
       "authors": [
         "Nicolas Labrosse"
@@ -1553,7 +1553,7 @@
       "journal": "",
       "type": "journal-article",
       "doi": null,
-      "url": "",
+      "url": "https://ui.adsabs.harvard.edu/#abs/2013ascl.soft06004G",
       "is_per": false,
       "authors": [
         "Nicolas Labrosse"
@@ -1568,7 +1568,7 @@
       "journal": "",
       "type": "journal-article",
       "doi": null,
-      "url": "",
+      "url": "https://ui.adsabs.harvard.edu/#abs/2013arXiv1311.1725G",
       "is_per": true,
       "authors": [
         "Nicolas Labrosse"
@@ -1598,37 +1598,7 @@
       "journal": "Memorie della Societa Astronomica Italiana - Journal of the Italian Astronomical Society",
       "type": "conference-paper",
       "doi": null,
-      "url": "",
-      "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
-    },
-    {
-      "title": "Relationship between an M6.6 solar flare and subsequent filament activations",
-      "year": "2012",
-      "journal": "Memorie della Societa Astronomica Italiana Supplementi",
-      "type": "journal-article",
-      "doi": null,
-      "url": "",
-      "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
-    },
-    {
-      "title": "Relationship between an M6.6 solar flare and subsequent filament activations.",
-      "year": "2012",
-      "journal": "",
-      "type": "journal-article",
-      "doi": null,
-      "url": "",
+      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84922272978&partnerID=MN8TOARS",
       "is_per": false,
       "authors": [
         "Nicolas Labrosse"
@@ -1643,22 +1613,7 @@
       "journal": "",
       "type": "journal-article",
       "doi": null,
-      "url": "",
-      "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
-    },
-    {
-      "title": "Solar flares in Halpha and Ly-alpha : observations vs simulations",
-      "year": "2012",
-      "journal": "Memorie della Societa Astronomica Italiana Supplementi",
-      "type": "journal-article",
-      "doi": null,
-      "url": "",
+      "url": "https://ui.adsabs.harvard.edu/#abs/2012MSAIS..19..117R",
       "is_per": false,
       "authors": [
         "Nicolas Labrosse"
@@ -1673,7 +1628,7 @@
       "journal": "Memorie della Societa Astronomica Italiana - Journal of the Italian Astronomical Society",
       "type": "conference-paper",
       "doi": null,
-      "url": "",
+      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84922290753&partnerID=MN8TOARS",
       "is_per": false,
       "authors": [
         "Nicolas Labrosse"
@@ -1703,7 +1658,7 @@
       "journal": "",
       "type": "journal-article",
       "doi": null,
-      "url": "",
+      "url": "https://ui.adsabs.harvard.edu/#abs/2012ASPC..454..107S",
       "is_per": false,
       "authors": [
         "Nicolas Labrosse"
@@ -1778,22 +1733,7 @@
       "journal": "",
       "type": "journal-article",
       "doi": null,
-      "url": "",
-      "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
-    },
-    {
-      "title": "Integrated Ly-alpha intensity emission in ribbon flares",
-      "year": "2010",
-      "journal": "Memorie della Societa Astronomica Italiana Supplementi",
-      "type": "journal-article",
-      "doi": null,
-      "url": "",
+      "url": "https://ui.adsabs.harvard.edu/#abs/2010MSAIS..14..193R",
       "is_per": false,
       "authors": [
         "Nicolas Labrosse"
@@ -1853,7 +1793,7 @@
       "journal": "Memorie della Societa Astronomica Italiana - Journal of the Italian Astronomical Society",
       "type": "conference-paper",
       "doi": null,
-      "url": "",
+      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85036458501&partnerID=MN8TOARS",
       "is_per": false,
       "authors": [
         "Nicolas Labrosse"
@@ -1923,21 +1863,6 @@
       ]
     },
     {
-      "title": "HINODE, TRACE, SOHO, AND GROUND-BASED OBSERVATIONS OF A QUIESCENT PROMINENCE",
-      "year": "2008",
-      "journal": "ASTROPHYSICAL JOURNAL",
-      "type": "journal-article",
-      "doi": null,
-      "url": "",
-      "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
-    },
-    {
       "title": "Hinode, TRACE, SOHO, and Ground-based Observations of a Quiescent Prominence",
       "year": "2008",
       "journal": "",
@@ -1953,9 +1878,9 @@
       ]
     },
     {
-      "title": "Investigation of Lyman <alpha> Emission in a Solar Flare",
+      "title": "HINODE, TRACE, SOHO, AND GROUND-BASED OBSERVATIONS OF A QUIESCENT PROMINENCE",
       "year": "2008",
-      "journal": "12th European Solar Physics Meeting, Freiburg, Germany, held September, 8-12, 2008. Online at <A href=\"http://espm.kis.uni-freiburg.de/\">http://espm.kis.uni-freiburg.de/</A>, p.2.64",
+      "journal": "ASTROPHYSICAL JOURNAL",
       "type": "journal-article",
       "doi": null,
       "url": "",
@@ -1973,7 +1898,7 @@
       "journal": "",
       "type": "journal-article",
       "doi": null,
-      "url": "",
+      "url": "https://ui.adsabs.harvard.edu/#abs/2008ESPM...12.2.64R",
       "is_per": false,
       "authors": [
         "Nicolas Labrosse"
@@ -1988,22 +1913,7 @@
       "journal": "",
       "type": "journal-article",
       "doi": null,
-      "url": "",
-      "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
-    },
-    {
-      "title": "Solar Prominence Diagnostic with Hinode/EIS",
-      "year": "2008",
-      "journal": "12th European Solar Physics Meeting, Freiburg, Germany, held September, 8-12, 2008. Online at <A href=\"http://espm.kis.uni-freiburg.de/\">http://espm.kis.uni-freiburg.de/</A>, p.2.21",
-      "type": "journal-article",
-      "doi": null,
-      "url": "",
+      "url": "https://ui.adsabs.harvard.edu/#abs/2008ESPM...12.2.21L",
       "is_per": false,
       "authors": [
         "Nicolas Labrosse"
@@ -2018,22 +1928,7 @@
       "journal": "",
       "type": "journal-article",
       "doi": null,
-      "url": "",
-      "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
-    },
-    {
-      "title": "The Lyman-alpha Line in Active and Eruptive Solar Prominences",
-      "year": "2008",
-      "journal": "12th European Solar Physics Meeting, Freiburg, Germany, held September, 8-12, 2008. Online at <A href=\"http://espm.kis.uni-freiburg.de/\">http://espm.kis.uni-freiburg.de/</A>, p.3.17",
-      "type": "journal-article",
-      "doi": null,
-      "url": "",
+      "url": "https://ui.adsabs.harvard.edu/#abs/2008ESPM...12.3.17L",
       "is_per": false,
       "authors": [
         "Nicolas Labrosse"
@@ -2058,12 +1953,12 @@
       ]
     },
     {
-      "title": "OVI and H-2 lines in sunspots",
+      "title": "On VI and H<SUB>2</SUB> Lines in Sunspots",
       "year": "2007",
-      "journal": "Physics of Chromospheric Plasmas",
-      "type": "book-chapter",
+      "journal": "",
+      "type": "journal-article",
       "doi": null,
-      "url": "",
+      "url": "https://ui.adsabs.harvard.edu/#abs/2007ASPC..368..247L",
       "is_per": false,
       "authors": [
         "Nicolas Labrosse"
@@ -2073,10 +1968,10 @@
       ]
     },
     {
-      "title": "On VI and H<SUB>2</SUB> Lines in Sunspots",
+      "title": "OVI and H-2 lines in sunspots",
       "year": "2007",
-      "journal": "",
-      "type": "journal-article",
+      "journal": "Physics of Chromospheric Plasmas",
+      "type": "book-chapter",
       "doi": null,
       "url": "",
       "is_per": false,
@@ -2093,22 +1988,7 @@
       "journal": "",
       "type": "journal-article",
       "doi": null,
-      "url": "",
-      "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
-    },
-    {
-      "title": "Spectral diagnostics of active prominences",
-      "year": "2007",
-      "journal": "Physics of Chromospheric Plasmas",
-      "type": "book-chapter",
-      "doi": null,
-      "url": "",
+      "url": "https://ui.adsabs.harvard.edu/#abs/2007ASPC..368..337L",
       "is_per": false,
       "authors": [
         "Nicolas Labrosse"
@@ -2153,7 +2033,7 @@
       "journal": "",
       "type": "journal-article",
       "doi": null,
-      "url": "",
+      "url": "https://ui.adsabs.harvard.edu/#abs/2006sf2a.conf..549L",
       "is_per": false,
       "authors": [
         "Nicolas Labrosse"
@@ -2168,7 +2048,7 @@
       "journal": "",
       "type": "journal-article",
       "doi": null,
-      "url": "",
+      "url": "https://ui.adsabs.harvard.edu/#abs/2006IAUJD...3E..47L",
       "is_per": false,
       "authors": [
         "Nicolas Labrosse"
@@ -2183,7 +2063,7 @@
       "journal": "",
       "type": "journal-article",
       "doi": null,
-      "url": "",
+      "url": "https://ui.adsabs.harvard.edu/#abs/2006ESASP.617E.134L",
       "is_per": false,
       "authors": [
         "Nicolas Labrosse"
@@ -2198,37 +2078,7 @@
       "journal": "",
       "type": "journal-article",
       "doi": null,
-      "url": "",
-      "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
-    },
-    {
-      "title": "The Lyman α and Lyman β lines in solar coronal streamers",
-      "year": "2006",
-      "journal": "European Space Agency, (Special Publication) ESA SP",
-      "type": "conference-paper",
-      "doi": null,
-      "url": "",
-      "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
-    },
-    {
-      "title": "The helium spectrum in moving solar prominences",
-      "year": "2006",
-      "journal": "European Space Agency, (Special Publication) ESA SP",
-      "type": "conference-paper",
-      "doi": null,
-      "url": "",
+      "url": "https://ui.adsabs.harvard.edu/#abs/2006ESASP.617E..93L",
       "is_per": false,
       "authors": [
         "Nicolas Labrosse"
@@ -2273,37 +2123,7 @@
       "journal": "",
       "type": "journal-article",
       "doi": null,
-      "url": "",
-      "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
-    },
-    {
-      "title": "Line profiles and intensity ratios in prominence models with a prominence to corona interface",
-      "year": "2002",
-      "journal": "SOLAR VARIABILITY: FROM CORE TO OUTER FRONTIERS, VOLS 1 & 2",
-      "type": "book-chapter",
-      "doi": null,
-      "url": "",
-      "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
-    },
-    {
-      "title": "Line profiles and intensity ratios in prominence models with a prominence to corona interface",
-      "year": "2002",
-      "journal": "European Space Agency, (Special Publication) ESA SP",
-      "type": "conference-paper",
-      "doi": null,
-      "url": "",
+      "url": "https://ui.adsabs.harvard.edu/#abs/2002ESASP.506..451L",
       "is_per": false,
       "authors": [
         "Nicolas Labrosse"
@@ -2318,37 +2138,7 @@
       "journal": "",
       "type": "journal-article",
       "doi": null,
-      "url": "",
-      "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
-    },
-    {
-      "title": "NLTE diagnostics of solar prominences using hydrogen and helium lines",
-      "year": "2002",
-      "journal": "Nuovo Cimento della Societa Italiana di Fisica C",
-      "type": "conference-paper",
-      "doi": null,
-      "url": "",
-      "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
-    },
-    {
-      "title": "NLTE diagnostics of solar prominences using hydrogen and helium lines",
-      "year": "2002",
-      "journal": "NUOVO CIMENTO DELLA SOCIETA ITALIANA DI FISICA C-GEOPHYSICS AND SPACE PHYSICS",
-      "type": "journal-article",
-      "doi": null,
-      "url": "",
+      "url": "https://ui.adsabs.harvard.edu/#abs/2002NCimC..25..817L",
       "is_per": false,
       "authors": [
         "Nicolas Labrosse"
@@ -2363,37 +2153,7 @@
       "journal": "",
       "type": "journal-article",
       "doi": null,
-      "url": "",
-      "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
-    },
-    {
-      "title": "Prediction of line intensity ratios in solar prominences",
-      "year": "2002",
-      "journal": "SOLMAG 2002: PROCEEDINGS OF THE MAGNETIC COUPLING OF THE SOLAR ATMOSPHERE EUROCONFERENCE AND IAU COLLOQUIUM 188",
-      "type": "book-chapter",
-      "doi": null,
-      "url": "",
-      "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
-    },
-    {
-      "title": "Prediction of line intensity ratios in solar prominences",
-      "year": "2002",
-      "journal": "European Space Agency, (Special Publication) ESA SP",
-      "type": "conference-paper",
-      "doi": null,
-      "url": "",
+      "url": "https://ui.adsabs.harvard.edu/#abs/2002ESASP.505..421G",
       "is_per": false,
       "authors": [
         "Nicolas Labrosse"
@@ -2408,37 +2168,7 @@
       "journal": "",
       "type": "journal-article",
       "doi": null,
-      "url": "",
-      "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
-    },
-    {
-      "title": "Radiative transfer effects on hydrogen (and helium) in the solar atmosphere",
-      "year": "2002",
-      "journal": "SOLAR VARIABILITY: FROM CORE TO OUTER FRONTIERS, VOLS 1 & 2",
-      "type": "book-chapter",
-      "doi": null,
-      "url": "",
-      "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
-    },
-    {
-      "title": "Radiative transfer effects on hydrogen (and helium) in the solar atmosphere",
-      "year": "2002",
-      "journal": "European Space Agency, (Special Publication) ESA SP",
-      "type": "conference-paper",
-      "doi": null,
-      "url": "",
+      "url": "https://ui.adsabs.harvard.edu/#abs/2002ESASP.506...13L",
       "is_per": false,
       "authors": [
         "Nicolas Labrosse"
@@ -2513,37 +2243,7 @@
       "journal": "",
       "type": "journal-article",
       "doi": null,
-      "url": "",
-      "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
-    },
-    {
-      "title": "Modelling of helium spectrum in solar prominences",
-      "year": "1999",
-      "journal": "9TH EUROPEAN MEETING ON SOLAR PHYSICS: MAGNETIC FIELDS AND SOLAR PROCESSES, VOLS 1 AND 2",
-      "type": "book-chapter",
-      "doi": null,
-      "url": "",
-      "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
-    },
-    {
-      "title": "Modelling of helium spectrum in solar prominences",
-      "year": "1999",
-      "journal": "8TH SOHO WORKSHOP: PLASMA DYNAMICS AND DIAGNOSTICS IN THE SOLAR TRANSITION  REGION AND CORONA, PROCEEDINGS",
-      "type": "book-chapter",
-      "doi": null,
-      "url": "",
+      "url": "https://ui.adsabs.harvard.edu/#abs/1999ESASP.446..399L",
       "is_per": false,
       "authors": [
         "Nicolas Labrosse"
