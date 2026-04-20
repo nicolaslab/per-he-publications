@@ -1,74 +1,44 @@
 ---
-title: "Network Authors"
-subtitle: "Members contributing to this publication list"
+title: "Authors"
 ---
 
-```{r}
-#| label: setup
-#| include: false
+```{ojs}
+//| echo: false
 
-library(jsonlite)
-library(dplyr)
-library(tidyr)
-library(glue)
-library(DT)
+data = await FileAttachment("_data/publications.json").json()
+pubs = data.publications
+
+// Build a summary table: one row per author
+authorMap = {
+  const m = new Map()
+  for (const pub of pubs) {
+    const authors = pub.authors || []
+    const orcids  = pub.orcids  || []
+    authors.forEach((name, i) => {
+      if (!m.has(name)) {
+        m.set(name, { name, orcid: orcids[i] || "", count: 0, per_count: 0 })
+      }
+      m.get(name).count++
+      if (pub.is_per) m.get(name).per_count++
+    })
+  }
+  return Array.from(m.values()).sort((a, b) => b.count - a.count)
+}
+
+md`**${authorMap.length} authors** contributing **${pubs.length} publications** in total.`
+
+Inputs.table(authorMap, {
+  columns: ["name", "orcid", "count", "per_count"],
+  header: {
+    name:      "Name",
+    orcid:     "ORCID",
+    count:     "Total publications",
+    per_count: "PER publications"
+  },
+  format: {
+    orcid: id => id
+      ? htl.html`<a href="https://orcid.org/${id}" target="_blank">${id}</a>`
+      : ""
+  }
+})
 ```
-
-```{r}
-#| label: load-data
-#| include: false
-
-# Read the JSON file - use relative path from project root
-pub_data <- fromJSON(here::here("_data", "publications.json"))
-
-authors <- pub_data$authors |>
-  as_tibble() |>
-  mutate(
-    full_name = if_else(
-      !is.na(display_name) & display_name != "",
-      display_name,
-      paste(given_name, family_name) |> trimws()
-    ),
-    orcid_link = glue('<a href="https://orcid.org/{orcid_id}" target="_blank">{orcid_id}</a>'),
-    school_display = replace_na(school, "—")
-  ) |>
-  arrange(family_name, given_name)
-```
-
-## Network Members
-
-This publication list draws from **`r nrow(authors)`** ORCID profiles. Click on any ORCID iD to view their full profile.
-
-```{r}
-#| label: author-table
-#| echo: false
-
-authors |>
-  select(
-    Name = full_name,
-    School = school_display,
-    `ORCID iD` = orcid_link
-  ) |>
-  datatable(
-    escape = FALSE,
-    filter = "top",
-    options = list(
-      pageLength = 50,
-      order = list(list(0, "asc")),
-      dom = "frtip"
-    ),
-    rownames = FALSE
-  )
-```
-
-## Adding New Authors
-
-To add a new author to this network publication list:
-
-1. Ensure they have an [ORCID](https://orcid.org) profile with their publications listed
-2. Add their ORCID iD to the `orcid_ids` vector in `R/fetch_orcid_publications.R`
-3. The publication list will update automatically on the next scheduled run
-
----
-
-*Data sourced from ORCID. Last updated: `r pub_data$last_updated`*
