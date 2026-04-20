@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "All Publications",
+    "section": "",
+    "text": "data = await FileAttachment(\"_data/publications.json\").json()\npubs = data.publications\n\nviewof search = Inputs.text({\n  label: \"Search\",\n  placeholder: \"Title, author, journal...\",\n  width: 400\n})\n\nviewof yearFilter = Inputs.select(\n  [\"All years\", ...new Set(pubs.map(p =&gt; p.year).filter(Boolean).sort().reverse())],\n  { label: \"Year\" }\n)\n\nviewof perOnly = Inputs.toggle({ label: \"Physics Education Research only\", value: false })\n\nfiltered = pubs.filter(p =&gt; {\n  const q = search.toLowerCase()\n  const matchSearch = !q ||\n    (p.title  || \"\").toLowerCase().includes(q) ||\n    (p.authors || []).join(\" \").toLowerCase().includes(q) ||\n    (p.journal || \"\").toLowerCase().includes(q)\n  const matchYear = yearFilter === \"All years\" || p.year === yearFilter\n  const matchPer  = !perOnly || p.is_per\n  return matchSearch && matchYear && matchPer\n})\n\nmd`**Showing ${filtered.length} of ${pubs.length} publications** — last updated ${data.last_updated}`\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInputs.table(filtered, {\n  columns: [\"year\", \"title\", \"authors\", \"journal\"],\n  header: {\n    year:    \"Year\",\n    title:   \"Title\",\n    authors: \"Authors\",\n    journal: \"Journal\"\n  },\n  format: {\n    title: (t, i) =&gt; {\n      const pub = filtered[i]\n      return pub.url ? htl.html`&lt;a href=\"${pub.url}\" target=\"_blank\"&gt;${t}&lt;/a&gt;` : t\n    },\n    authors: a =&gt; (a || []).join(\", \")\n  },\n  rows: 20\n})"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "This website automatically aggregates publications from members of the UK & Ireland Physics Higher Education Research (PER-HE) community. Rather than manually maintaining a list that quickly becomes outdated, we use ORCID profiles to keep the publication list current."
+  },
+  {
+    "objectID": "about.html#overview",
+    "href": "about.html#overview",
+    "title": "About",
+    "section": "",
+    "text": "This website automatically aggregates publications from members of the UK & Ireland Physics Higher Education Research (PER-HE) community. Rather than manually maintaining a list that quickly becomes outdated, we use ORCID profiles to keep the publication list current."
+  },
+  {
+    "objectID": "about.html#how-it-works",
+    "href": "about.html#how-it-works",
+    "title": "About",
+    "section": "How it works",
+    "text": "How it works\n\nAuthor list: Researchers in the community share their ORCID identifier, which is added to a CSV file in this repository.\nAutomated fetching: A weekly GitHub Actions workflow runs a Python script that queries the ORCID public API for each author’s publications.\nDeduplication: Papers appearing on multiple authors’ profiles (collaborations) are merged into a single entry using their DOI.\nPER classification: Papers are automatically tagged as Physics Education Research based on the journal name and title keywords.\nWebsite generation: Quarto renders the data into this searchable, browsable website, deployed automatically to GitHub Pages."
+  },
+  {
+    "objectID": "about.html#limitations",
+    "href": "about.html#limitations",
+    "title": "About",
+    "section": "Limitations",
+    "text": "Limitations\n\nOnly works added to an author’s ORCID profile will appear here.\nMetadata quality depends on how entries were added to ORCID.\nThere is up to a 7-day delay between an ORCID update and this site updating."
+  },
+  {
+    "objectID": "about.html#getting-listed",
+    "href": "about.html#getting-listed",
+    "title": "About",
+    "section": "Getting listed",
+    "text": "Getting listed\nIf you are a member of the UK & Ireland PER community and would like your publications included, please contact us via per-he.org with your ORCID identifier."
+  },
+  {
+    "objectID": "about.html#source-code",
+    "href": "about.html#source-code",
+    "title": "About",
+    "section": "Source code",
+    "text": "Source code\nThe source code for this site is available on GitHub. It is written in Python and Quarto, and runs entirely on free GitHub infrastructure.\n\nData sourced from ORCID"
+  },
+  {
+    "objectID": "authors.html",
+    "href": "authors.html",
+    "title": "Authors",
+    "section": "",
+    "text": "data = await FileAttachment(\"_data/publications.json\").json()\npubs = data.publications\n\n// Build a summary table: one row per author\nauthorMap = {\n  const m = new Map()\n  for (const pub of pubs) {\n    const authors = pub.authors || []\n    const orcids  = pub.orcids  || []\n    authors.forEach((name, i) =&gt; {\n      if (!m.has(name)) {\n        m.set(name, { name, orcid: orcids[i] || \"\", count: 0, per_count: 0 })\n      }\n      m.get(name).count++\n      if (pub.is_per) m.get(name).per_count++\n    })\n  }\n  return Array.from(m.values()).sort((a, b) =&gt; b.count - a.count)\n}\n\nmd`**${authorMap.length} authors** contributing **${pubs.length} publications** in total.`\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInputs.table(authorMap, {\n  columns: [\"name\", \"orcid\", \"count\", \"per_count\"],\n  header: {\n    name:      \"Name\",\n    orcid:     \"ORCID\",\n    count:     \"Total publications\",\n    per_count: \"PER publications\"\n  },\n  format: {\n    orcid: id =&gt; id\n      ? htl.html`&lt;a href=\"https://orcid.org/${id}\" target=\"_blank\"&gt;${id}&lt;/a&gt;`\n      : \"\"\n  }\n})"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "PER-HE Publications",
+    "section": "",
+    "text": "This site automatically lists publications from members of the UK & Ireland Physics Higher Education Research community.\nPublications are fetched weekly from researchers’ ORCID profiles and updated automatically. Papers are tagged as Physics Education Research (PER) based on the journal they appear in or keywords in the title.\n👉 Browse all publications\n👉 See all contributing authors\n\nTo have your publications listed here, please send your ORCID identifier to the site maintainer, or visit per-he.org for more information."
+  }
+]

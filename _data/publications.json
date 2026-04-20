@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-04-20",
-  "total": 155,
+  "total": 170,
   "publications": [
     {
       "title": "Analysis of Lyman &#946; and Lyman &#947; lines in a pre-eruptive and eruptive prominence with solar orbiter SPICE observations",
@@ -33,6 +33,21 @@
       ]
     },
     {
+      "title": "How to design the perfect lecture",
+      "year": "2026",
+      "journal": "Europhysics Letters",
+      "type": "journal-article",
+      "doi": "10.1209/0295-5075/ae2047",
+      "url": "https://doi.org/10.1209/0295-5075/ae2047",
+      "is_per": false,
+      "authors": [
+        "Anna Wood"
+      ],
+      "orcids": [
+        "0000-0003-3123-4021"
+      ]
+    },
+    {
       "title": "Non-LTE analysis of pre-eruptive prominence plasma parameters’ effects on the Lyman β and Lyman γ lines with Solar Orbiter SPICE observations",
       "year": "2026",
       "journal": "Monthly Notices of the Royal Astronomical Society",
@@ -60,6 +75,21 @@
       ],
       "orcids": [
         "0000-0002-4638-157X"
+      ]
+    },
+    {
+      "title": "STEMM Teachers’ Conceptions of Teaching Large Classes",
+      "year": "2026",
+      "journal": "",
+      "type": "preprint",
+      "doi": "10.31234/osf.io/e25c6_v1",
+      "url": "https://doi.org/10.31234/osf.io/e25c6_v1",
+      "is_per": false,
+      "authors": [
+        "Anna Wood"
+      ],
+      "orcids": [
+        "0000-0003-3123-4021"
       ]
     },
     {
@@ -108,6 +138,36 @@
       ]
     },
     {
+      "title": "STEM Teachers’ Conceptions of Teaching Large Classes",
+      "year": "2025",
+      "journal": "",
+      "type": "preprint",
+      "doi": "10.31234/osf.io/t2b7c_v1",
+      "url": "https://doi.org/10.31234/osf.io/t2b7c_v1",
+      "is_per": false,
+      "authors": [
+        "Anna Wood"
+      ],
+      "orcids": [
+        "0000-0003-3123-4021"
+      ]
+    },
+    {
+      "title": "“It’s Like a Nice Atmosphere”—Understanding Physics Students’ Experiences of a Flipped Classroom Through the Lens of Transactional Distance Theory",
+      "year": "2025",
+      "journal": "Education Sciences",
+      "type": "journal-article",
+      "doi": "10.3390/educsci15070921",
+      "url": "https://doi.org/10.3390/educsci15070921",
+      "is_per": true,
+      "authors": [
+        "Anna Wood"
+      ],
+      "orcids": [
+        "0000-0003-3123-4021"
+      ]
+    },
+    {
       "title": "Magnetic Reconnection between a Solar Jet and a Filament Channel",
       "year": "2024",
       "journal": "Arxiv",
@@ -150,6 +210,21 @@
       ],
       "orcids": [
         "0000-0002-4638-157X"
+      ]
+    },
+    {
+      "title": "Using data about classroom practices to stimulate significant conversations and aid reflection",
+      "year": "2024",
+      "journal": "International Journal for Academic Development",
+      "type": "journal-article",
+      "doi": "10.1080/1360144x.2022.2103817",
+      "url": "https://doi.org/10.1080/1360144x.2022.2103817",
+      "is_per": false,
+      "authors": [
+        "Anna Wood"
+      ],
+      "orcids": [
+        "0000-0003-3123-4021"
       ]
     },
     {
@@ -318,6 +393,21 @@
       ]
     },
     {
+      "title": "Designing and evaluating an online course to support transition to university mathematics",
+      "year": "2022",
+      "journal": "International Journal of Mathematical Education in Science and Technology",
+      "type": "journal-article",
+      "doi": "10.1080/0020739x.2021.1962554",
+      "url": "https://doi.org/10.1080/0020739x.2021.1962554",
+      "is_per": false,
+      "authors": [
+        "Anna Wood"
+      ],
+      "orcids": [
+        "0000-0003-3123-4021"
+      ]
+    },
+    {
       "title": "First high resolution interferometric observation of a solar prominence with ALMA",
       "year": "2022",
       "journal": "Monthly Notices of the Royal Astronomical Society: Letters",
@@ -423,6 +513,36 @@
       ]
     },
     {
+      "title": "Can lecture capture contribute to the development of a community of inquiry in online learning?",
+      "year": "2021",
+      "journal": "Distance Education",
+      "type": "journal-article",
+      "doi": "10.1080/01587919.2020.1869521",
+      "url": "https://doi.org/10.1080/01587919.2020.1869521",
+      "is_per": false,
+      "authors": [
+        "Anna Wood"
+      ],
+      "orcids": [
+        "0000-0003-3123-4021"
+      ]
+    },
+    {
+      "title": "Lecture capture as an element of the digital resource landscape - a qualitative study of flipped and non–flipped classrooms",
+      "year": "2021",
+      "journal": "Technology, Pedagogy and Education",
+      "type": "journal-article",
+      "doi": "10.1080/1475939x.2021.1917449",
+      "url": "https://doi.org/10.1080/1475939x.2021.1917449",
+      "is_per": true,
+      "authors": [
+        "Anna Wood"
+      ],
+      "orcids": [
+        "0000-0003-3123-4021"
+      ]
+    },
+    {
       "title": "Solar prominence diagnostics from non-LTE modelling of Mg II h&k line profiles",
       "year": "2021",
       "journal": "Arxiv",
@@ -480,6 +600,36 @@
       ],
       "orcids": [
         "0000-0002-4638-157X"
+      ]
+    },
+    {
+      "title": "Using data about classroom practices to stimulate significant conversations and aid reflection",
+      "year": "2021",
+      "journal": "",
+      "type": "preprint",
+      "doi": "10.31234/osf.io/q3hz4",
+      "url": "https://doi.org/10.31234/osf.io/q3hz4",
+      "is_per": false,
+      "authors": [
+        "Anna Wood"
+      ],
+      "orcids": [
+        "0000-0003-3123-4021"
+      ]
+    },
+    {
+      "title": "Lecture Capture in Online Learning: A Community of Inquiry Perspective",
+      "year": "2020",
+      "journal": "",
+      "type": "preprint",
+      "doi": "10.31235/osf.io/wy9da",
+      "url": "https://doi.org/10.31235/osf.io/wy9da",
+      "is_per": false,
+      "authors": [
+        "Anna Wood"
+      ],
+      "orcids": [
+        "0000-0003-3123-4021"
       ]
     },
     {
@@ -648,6 +798,21 @@
       ]
     },
     {
+      "title": "Lecture capture as an element of the digital resource landscape - a qualitative study of flipped and non-flipped classrooms",
+      "year": "2018",
+      "journal": "",
+      "type": "preprint",
+      "doi": "10.31234/osf.io/824hv",
+      "url": "https://doi.org/10.31234/osf.io/824hv",
+      "is_per": true,
+      "authors": [
+        "Anna Wood"
+      ],
+      "orcids": [
+        "0000-0003-3123-4021"
+      ]
+    },
+    {
       "title": "Modeling of the Hydrogen Lyman Lines in Solar Flares",
       "year": "2018",
       "journal": "The Astrophysical Journal",
@@ -750,6 +915,21 @@
       ],
       "orcids": [
         "0000-0002-4638-157X"
+      ]
+    },
+    {
+      "title": "Teacher-student discourse in active learning lectures: case studies from undergraduate physics",
+      "year": "2018",
+      "journal": "Teaching in Higher Education",
+      "type": "journal-article",
+      "doi": "10.1080/13562517.2017.1421630",
+      "url": "https://doi.org/10.1080/13562517.2017.1421630",
+      "is_per": true,
+      "authors": [
+        "Anna Wood"
+      ],
+      "orcids": [
+        "0000-0003-3123-4021"
       ]
     },
     {
@@ -1023,6 +1203,36 @@
       ]
     },
     {
+      "title": "Can dual processing theory explain physics students’ performance on the Force Concept Inventory?",
+      "year": "2016",
+      "journal": "",
+      "type": "journal-article",
+      "doi": "10.1103/physrevphyseducres.12.023101",
+      "url": "https://doi.org/10.1103/physrevphyseducres.12.023101",
+      "is_per": false,
+      "authors": [
+        "Anna Wood"
+      ],
+      "orcids": [
+        "0000-0003-3123-4021"
+      ]
+    },
+    {
+      "title": "Characterizing interactive engagement activities in a flipped introductory physics class",
+      "year": "2016",
+      "journal": "",
+      "type": "journal-article",
+      "doi": "10.1103/physrevphyseducres.12.010140",
+      "url": "https://doi.org/10.1103/physrevphyseducres.12.010140",
+      "is_per": false,
+      "authors": [
+        "Anna Wood"
+      ],
+      "orcids": [
+        "0000-0003-3123-4021"
+      ]
+    },
+    {
       "title": "Doppler speeds of the hydrogen Lyman lines in solar flares from EVE",
       "year": "2016",
       "journal": "",
@@ -1275,6 +1485,21 @@
       ],
       "orcids": [
         "0000-0002-4638-157X"
+      ]
+    },
+    {
+      "title": "Analyzing learning during Peer Instruction dialogues: A resource activation framework",
+      "year": "2014",
+      "journal": "",
+      "type": "journal-article",
+      "doi": "10.1103/physrevstper.10.020107",
+      "url": "https://doi.org/10.1103/physrevstper.10.020107",
+      "is_per": true,
+      "authors": [
+        "Anna Wood"
+      ],
+      "orcids": [
+        "0000-0003-3123-4021"
       ]
     },
     {
