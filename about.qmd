@@ -41,6 +41,14 @@ The source code for this site is available on
 It is written in Python and Quarto, and runs entirely on free GitHub
 infrastructure.
 
+## Acknowledgements
+
+This site was inspired by the
+[MVLS Learning, Teaching and Scholarship Network publications page](https://mvls-lts.github.io/outputs/),
+which demonstrated this approach for a different research community.
+We are grateful to its authors for making their
+[source code](https://github.com/mvls-lts/outputs) openly available.
+
 ---
 
 *Data sourced from [ORCID](https://orcid.org)*
