@@ -2,8 +2,9 @@
 fetch_publications.py
 
 Reads a list of researchers from orcid_ids.csv, fetches their publications
-from the ORCID public API, deduplicates by DOI and title, classifies physics
-education papers, and saves everything to _data/publications.json.
+from the ORCID public API, deduplicates by DOI and title, fetches full author
+lists from CrossRef, classifies physics education papers, and saves everything
+to _data/publications.json for the website.
 """
 
 import requests
@@ -15,12 +16,15 @@ import html
 import re
 from datetime import datetime
 
-# ── ORCID API settings ────────────────────────────────────────────────────────
+# ── API settings ──────────────────────────────────────────────────────────────
 
-ORCID_API = "https://pub.orcid.org/v3.0"
-HEADERS   = {"Accept": "application/json"}
+ORCID_API    = "https://pub.orcid.org/v3.0"
+CROSSREF_API = "https://api.crossref.org/works"
+HEADERS      = {"Accept": "application/json",
+                "User-Agent": "PER-HE-Publications/1.0 (https://per-he.org; mailto:per-he@per-he.org)"}
 
 # ── Physics Education Research journal list ───────────────────────────────────
+# Update this list in the repo directly — no need to edit this script
 
 # Papers published in these journals are automatically tagged as PER
 
@@ -73,7 +77,7 @@ PER_KEYWORDS = [
     "writing skills", 
 ]
 
-# ── Helper functions ──────────────────────────────────────────────────────────
+# ── Text helpers ──────────────────────────────────────────────────────────────
 
 def clean_text(s):
     """Decode HTML entities and strip whitespace."""
@@ -81,10 +85,7 @@ def clean_text(s):
 
 
 def normalise_title(title):
-    """
-    Produce a simplified version of a title for duplicate detection.
-    Lowercases, removes punctuation and extra spaces.
-    """
+    """Simplified title for duplicate detection — lowercase, no punctuation."""
     t = clean_text(title).lower()
     t = re.sub(r"[^a-z0-9 ]", " ", t)
     t = re.sub(r"\s+", " ", t).strip()
@@ -103,6 +104,39 @@ def clean_doi(doi_str):
     return doi or None
 
 
+def format_author_name(author):
+    """
+    Turn a CrossRef author object into a readable name string.
+    CrossRef gives {'given': 'Nicolas', 'family': 'Labrosse'} or just {'name': 'Some Org'}
+    """
+    if "family" in author:
+        given  = author.get("given", "").strip()
+        family = author.get("family", "").strip()
+        if given:
+            # Abbreviate given names to initials: "Nicolas" → "N."
+            initials = " ".join(f"{n[0]}." for n in given.split() if n)
+            return f"{family}, {initials}"
+        return family
+    return author.get("name", "Unknown").strip()
+
+
+def format_author_list(authors):
+    """
+    Format a list of author name strings using et al. after 3 names.
+    Returns a display string and a full string (for searching).
+    """
+    if not authors:
+        return "", ""
+    full    = "; ".join(authors)
+    if len(authors) <= 3:
+        display = "; ".join(authors)
+    else:
+        display = "; ".join(authors[:3]) + " et al."
+    return display, full
+
+
+# ── ORCID fetching ────────────────────────────────────────────────────────────
+
 def get_doi(work_summary):
     """Pull the DOI out of a work summary, if there is one."""
     ids = (work_summary.get("external-ids") or {}).get("external-id") or []
@@ -113,30 +147,21 @@ def get_doi(work_summary):
 
 
 def get_url(work_summary):
-    """
-    Get the best available URL for a work.
-    Prefers DOI link, falls back to any URL stored in ORCID.
-    """
+    """Get the best available URL for a work (DOI link preferred)."""
     doi = get_doi(work_summary)
     if doi:
         return f"https://doi.org/{doi}"
-
-    # Try the url field stored directly on the work
     url_field = work_summary.get("url")
     if url_field:
         val = (url_field.get("value") or "").strip()
         if val:
             return val
-
-    # Try external IDs for other link types (handle, uri, etc.)
     ids = (work_summary.get("external-ids") or {}).get("external-id") or []
     for item in ids:
-        id_type = (item or {}).get("external-id-type", "")
-        id_url  = (item or {}).get("external-id-url") or {}
-        link    = (id_url.get("value") or "").strip()
+        id_url = (item or {}).get("external-id-url") or {}
+        link   = (id_url.get("value") or "").strip()
         if link:
             return link
-
     return ""
 
 
@@ -151,8 +176,6 @@ def is_per_paper(title, journal):
             return True
     return False
 
-
-# ── Data loading ──────────────────────────────────────────────────────────────
 
 def load_researchers(filepath="orcid_ids.csv"):
     """Read the list of researchers from the CSV file."""
@@ -189,8 +212,8 @@ def parse_work_group(group, author_name, author_orcid):
     s = summaries[0]
 
     title   = clean_text((s.get("title",  {})
-                            .get("title", {})
-                            .get("value", "Untitled")))
+                           .get("title",  {})
+                           .get("value", "Untitled")))
     journal = clean_text((s.get("journal-title") or {}).get("value", ""))
     w_type  = s.get("type", "")
     doi     = get_doi(s)
@@ -202,17 +225,79 @@ def parse_work_group(group, author_name, author_orcid):
         year = pub_date["year"].get("value")
 
     return {
-        "title":   title,
-        "year":    year,
-        "journal": journal,
-        "type":    w_type,
-        "doi":     doi,
-        "url":     url,
-        "is_per":  is_per_paper(title, journal),
-        "authors": [author_name],
-        "orcids":  [author_orcid],
-        "_title_key": normalise_title(title),  # used for dedup, removed later
+        "title":        title,
+        "year":         year,
+        "journal":      journal,
+        "type":         w_type,
+        "doi":          doi,
+        "url":          url,
+        "is_per":       is_per_paper(title, journal),
+        "authors":      [author_name],       # ORCID-known authors only (temporary)
+        "authors_full": "",                  # filled in by CrossRef lookup
+        "authors_display": author_name,      # display string, filled in later
+        "orcids":       [author_orcid],
+        "_title_key":   normalise_title(title),
     }
+
+
+# ── CrossRef author enrichment ────────────────────────────────────────────────
+
+def fetch_authors_from_crossref(doi):
+    """
+    Look up a DOI on CrossRef and return (display_string, full_string).
+    Returns (None, None) if the lookup fails or no authors are found.
+    """
+    url = f"{CROSSREF_API}/{doi}"
+    try:
+        r = requests.get(url, headers=HEADERS, timeout=20)
+        if r.status_code == 404:
+            return None, None
+        r.raise_for_status()
+        data    = r.json().get("message", {})
+        cr_authors = data.get("author", [])
+        if not cr_authors:
+            return None, None
+        names = [format_author_name(a) for a in cr_authors]
+        return format_author_list(names)
+    except requests.RequestException:
+        return None, None
+
+
+def enrich_with_crossref(all_pubs):
+    """
+    For every publication that has a DOI, fetch the full author list
+    from CrossRef and update the authors_display and authors_full fields.
+    Works without a DOI keep the ORCID-derived author list.
+    """
+    total  = sum(1 for p in all_pubs if p.get("doi"))
+    done   = 0
+    print(f"\nFetching full author lists from CrossRef for {total} DOI-linked papers...")
+
+    for pub in all_pubs:
+        doi = pub.get("doi")
+        if not doi:
+            # No DOI: use whatever ORCID gave us
+            display, full = format_author_list(pub["authors"])
+            pub["authors_display"] = display
+            pub["authors_full"]    = full
+            continue
+
+        display, full = fetch_authors_from_crossref(doi)
+        if display:
+            pub["authors_display"] = display
+            pub["authors_full"]    = full
+        else:
+            # CrossRef lookup failed: fall back to ORCID authors
+            display, full = format_author_list(pub["authors"])
+            pub["authors_display"] = display
+            pub["authors_full"]    = full
+
+        done += 1
+        if done % 20 == 0:
+            print(f"  {done}/{total} done...")
+        time.sleep(0.2)   # polite rate limiting for CrossRef
+
+    return all_pubs
 
 
 # ── Main ──────────────────────────────────────────────────────────────────────
@@ -220,14 +305,14 @@ def parse_work_group(group, author_name, author_orcid):
 def main():
     researchers = load_researchers()
 
-    by_doi      = {}   # normalised DOI  → publication
-    by_title    = {}   # normalised title → publication (for works with no DOI)
-    no_key      = []   # works with neither DOI nor title (very rare)
+    by_doi   = {}   # normalised DOI   → publication
+    by_title = {}   # normalised title → publication (no DOI)
+    no_key   = []   # neither (very rare)
 
     for person in researchers:
         name  = person["name"]
         orcid = person["orcid"]
-        print(f"Fetching works for {name} ({orcid}) ...")
+        print(f"\nFetching works for {name} ({orcid}) ...")
 
         groups = fetch_works(orcid)
         print(f"  Found {len(groups)} work groups.")
@@ -241,8 +326,7 @@ def main():
             title_key = pub["_title_key"]
 
             if doi and doi in by_doi:
-                # Same DOI seen before — merge authors, prefer the version
-                # that has a URL
+                # Already seen this DOI — just merge the ORCID author credit
                 existing = by_doi[doi]
                 if name not in existing["authors"]:
                     existing["authors"].append(name)
@@ -252,11 +336,12 @@ def main():
                     existing["url"] = pub["url"]
 
             elif doi:
-                # Check if we've already seen this title without a DOI
                 if title_key in by_title:
-                    # Upgrade the existing title-keyed entry to a DOI-keyed one
+                    # Upgrade a title-matched entry to a DOI-keyed one
                     existing = by_title.pop(title_key)
                     existing["doi"] = doi
+                    if name not in existing["authors"]:
+                        existing["authors"].append(name)
                     if not existing["url"] and pub["url"]:
                         existing["url"] = pub["url"]
                     by_doi[doi] = existing
@@ -268,24 +353,27 @@ def main():
                 existing = by_title[title_key]
                 if name not in existing["authors"]:
                     existing["authors"].append(name)
-                if orcid not in existing["orcids"]:
-                    existing["orcids"].append(orcid)
                 if not existing["url"] and pub["url"]:
                     existing["url"] = pub["url"]
 
             elif title_key:
                 by_title[title_key] = pub
-
             else:
                 no_key.append(pub)
 
-        time.sleep(0.5)
+        time.sleep(0.5)  # polite pause between ORCID requests
 
     all_pubs = list(by_doi.values()) + list(by_title.values()) + no_key
+    print(f"\nTotal unique publications after deduplication: {len(all_pubs)}")
 
-    # Remove the internal dedup key before saving
+    # Enrich with full author lists from CrossRef
+    all_pubs = enrich_with_crossref(all_pubs)
+
+    # Clean up internal fields before saving
     for p in all_pubs:
         p.pop("_title_key", None)
+        p.pop("authors",    None)   # ORCID-only list no longer needed
+        p.pop("orcids",     None)
 
     # Sort: most recent first, then alphabetically by title
     all_pubs.sort(
