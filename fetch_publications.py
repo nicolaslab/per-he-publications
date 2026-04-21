@@ -23,59 +23,23 @@ CROSSREF_API = "https://api.crossref.org/works"
 HEADERS      = {"Accept": "application/json",
                 "User-Agent": "PER-HE-Publications/1.0 (https://per-he.org; mailto:per-he@per-he.org)"}
 
-# ── Physics Education Research journal list ───────────────────────────────────
-# Update this list in the repo directly — no need to edit this script
+# ── Physics Education Research classification lists ───────────────────────────
+# Edit per_journals.txt and per_keywords.txt to add new entries.
+# No need to touch this script.
 
-# Papers published in these journals are automatically tagged as PER
+def load_classification_lists():
+    """Read PER journals and keywords from plain-text files."""
+    def read_lines(filepath):
+        with open(filepath, encoding="utf-8") as f:
+            return {line.strip().lower() for line in f if line.strip()}
 
-PER_JOURNALS = {
-    "active learning in higher education",
-    "american journal of physics",
-    "cbe life sciences education",
-    "european journal of physics",
-    "Europhysics Letters",
-    "higher education",
-    "innovations in education and teaching international",
-    "International Journal for Academic Development",
-    "international journal of science education",
-    "journal of college science teaching",
-    "Journal of Perspectives in Applied Academic Practice",
-    "journal of research in science teaching",
-    "Journal of Science Education and Technology",
-    "latin american journal of physics education",
-    "physical review physics education research",
-    "physical review special topics - physics education research",
-    "physics education",
-    "science education",
-    "studies in higher education",
-    "teaching in higher education",
-}
+    journals = read_lines("per_journals.txt")
+    keywords = read_lines("per_keywords.txt")
+    print(f"Loaded {len(journals)} PER journals and {len(keywords)} PER keywords.")
+    return journals, keywords
 
-# Papers with these words in the title are also tagged as PER
-PER_KEYWORDS = [
-    "active learning",
-    "conceptual understanding",
-    "evidence-based teaching",
-    "flipped classroom",
-    "higher education",
-    "inquiry-based",
-    "lecture",
-    "peer instruction",
-    "physics curriculum",
-    "physics education",
-    "physics learning",
-    "physics pedagogy",
-    "physics teaching",
-    "postgraduate",
-    "science communication",
-    "science education",
-    "stem education",
-    "students",
-    "student engagement", 
-    "student understanding",
-    "undergraduate physics",
-    "writing skills", 
-]
+
+PER_JOURNALS, PER_KEYWORDS = load_classification_lists()
 
 # ── Text helpers ──────────────────────────────────────────────────────────────
 
