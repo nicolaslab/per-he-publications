@@ -742,7 +742,7 @@
     {
       "title": "Hα Doppler shifts in a tornado in the solar corona",
       "year": "2017",
-      "journal": "",
+      "journal": "Astronomy &amp; Astrophysics",
       "type": "journal-article",
       "doi": "10.1051/0004-6361/201628771",
       "url": "https://doi.org/10.1051/0004-6361/201628771",
@@ -863,7 +863,7 @@
     {
       "title": "Can dual processing theory explain physics students’ performance on the Force Concept Inventory?",
       "year": "2016",
-      "journal": "",
+      "journal": "Physical Review Physics Education Research",
       "type": "journal-article",
       "doi": "10.1103/physrevphyseducres.12.023101",
       "url": "https://doi.org/10.1103/physrevphyseducres.12.023101",
@@ -874,18 +874,18 @@
     {
       "title": "Characterizing interactive engagement activities in a flipped introductory physics class",
       "year": "2016",
-      "journal": "",
+      "journal": "Physical Review Physics Education Research",
       "type": "journal-article",
       "doi": "10.1103/physrevphyseducres.12.010140",
       "url": "https://doi.org/10.1103/physrevphyseducres.12.010140",
-      "is_per": false,
+      "is_per": true,
       "authors_full": "Wood, A. K.; Galloway, R. K.; Donnelly, R.; Hardy, J.",
       "authors_display": "Wood, A. K.; Galloway, R. K.; Donnelly, R. et al."
     },
     {
       "title": "Doppler speeds of the hydrogen Lyman lines in solar flares from EVE",
       "year": "2016",
-      "journal": "",
+      "journal": "Astronomy &amp; Astrophysics",
       "type": "journal-article",
       "doi": "10.1051/0004-6361/201628390",
       "url": "https://doi.org/10.1051/0004-6361/201628390",
@@ -951,7 +951,7 @@
     {
       "title": "Radiative transfer in cylindrical threads with incident radiation. VII. Multi-thread models",
       "year": "2016",
-      "journal": "",
+      "journal": "Astronomy &amp; Astrophysics",
       "type": "journal-article",
       "doi": "10.1051/0004-6361/201526897",
       "url": "https://doi.org/10.1051/0004-6361/201526897",
@@ -962,7 +962,7 @@
     {
       "title": "A solar tornado observed by EIS. Plasma diagnostics",
       "year": "2015",
-      "journal": "",
+      "journal": "Astronomy &amp; Astrophysics",
       "type": "journal-article",
       "doi": "10.1051/0004-6361/201425586",
       "url": "https://doi.org/10.1051/0004-6361/201425586",
@@ -973,7 +973,7 @@
     {
       "title": "Derivation of the Major Properties of Prominences Using NLTE Modelling",
       "year": "2015",
-      "journal": "",
+      "journal": "Astrophysics and Space Science Library",
       "type": "journal-article",
       "doi": "10.1007/978-3-319-10416-4_6",
       "url": "https://doi.org/10.1007/978-3-319-10416-4_6",
@@ -984,7 +984,7 @@
     {
       "title": "Determining energy balance in the flaring chromosphere from oxygen V line ratios",
       "year": "2015",
-      "journal": "",
+      "journal": "Astronomy &amp; Astrophysics",
       "type": "journal-article",
       "doi": "10.1051/0004-6361/201425348",
       "url": "https://doi.org/10.1051/0004-6361/201425348",
@@ -1017,7 +1017,7 @@
     {
       "title": "Polarimetric measurements in prominences and \"tornadoe\" observed by THEMIS",
       "year": "2015",
-      "journal": "",
+      "journal": "Proceedings of the International Astronomical Union",
       "type": "journal-article",
       "doi": "10.1017/s1743921315004895",
       "url": "https://doi.org/10.1017/s1743921315004895",
@@ -1028,7 +1028,7 @@
     {
       "title": "Solar Science with the Atacama Large Millimeter/Submillimeter Array—A New View of Our Sun",
       "year": "2015",
-      "journal": "",
+      "journal": "Space Science Reviews",
       "type": "journal-article",
       "doi": "10.1007/s11214-015-0229-9",
       "url": "https://doi.org/10.1007/s11214-015-0229-9",
@@ -1061,7 +1061,7 @@
     {
       "title": "Analyzing learning during Peer Instruction dialogues: A resource activation framework",
       "year": "2014",
-      "journal": "",
+      "journal": "Physical Review Special Topics - Physics Education Research",
       "type": "journal-article",
       "doi": "10.1103/physrevstper.10.020107",
       "url": "https://doi.org/10.1103/physrevstper.10.020107",
@@ -1083,7 +1083,7 @@
     {
       "title": "Plasma properties in eruptive prominences",
       "year": "2014",
-      "journal": "",
+      "journal": "Proceedings of the International Astronomical Union",
       "type": "journal-article",
       "doi": "10.1017/s1743921313010776",
       "url": "https://doi.org/10.1017/s1743921313010776",
@@ -1094,7 +1094,7 @@
     {
       "title": "Prominences in SDO/EVE spectra: contributions from large solar structures",
       "year": "2014",
-      "journal": "",
+      "journal": "Proceedings of the International Astronomical Union",
       "type": "journal-article",
       "doi": "10.1017/s1743921313011459",
       "url": "https://doi.org/10.1017/s1743921313011459",
@@ -1248,7 +1248,7 @@
     {
       "title": "The role of filament activation in a solar eruption",
       "year": "2012",
-      "journal": "",
+      "journal": "Astronomy &amp; Astrophysics",
       "type": "journal-article",
       "doi": "10.1051/0004-6361/201116895",
       "url": "https://doi.org/10.1051/0004-6361/201116895",
@@ -1314,7 +1314,7 @@
     {
       "title": "Solar flares: observations vs simulations",
       "year": "2011",
-      "journal": "",
+      "journal": "Proceedings of the International Astronomical Union",
       "type": "journal-article",
       "doi": "10.1017/s1743921311006880",
       "url": "https://doi.org/10.1017/s1743921311006880",
@@ -1391,7 +1391,7 @@
     {
       "title": "Formation of Helium Lines in Solar Prominences",
       "year": "2009",
-      "journal": "",
+      "journal": "AIP Conference Proceedings",
       "type": "journal-article",
       "doi": "10.1063/1.3250084",
       "url": "https://doi.org/10.1063/1.3250084",
@@ -1435,7 +1435,7 @@
     {
       "title": "Diagnostics of active and eruptive prominences through hydrogen and helium lines modelling",
       "year": "2008",
-      "journal": "",
+      "journal": "Annales Geophysicae",
       "type": "journal-article",
       "doi": "10.5194/angeo-26-2961-2008",
       "url": "https://doi.org/10.5194/angeo-26-2961-2008",
@@ -1446,7 +1446,7 @@
     {
       "title": "Hinode, TRACE, SOHO, and Ground-based Observations of a Quiescent Prominence",
       "year": "2008",
-      "journal": "",
+      "journal": "The Astrophysical Journal",
       "type": "journal-article",
       "doi": "10.1086/591018",
       "url": "https://doi.org/10.1086/591018",
@@ -1644,7 +1644,7 @@
     {
       "title": "Non-LTE Radiative Transfer in Model Prominences. I. Integrated Intensities of He I Triplet Lines",
       "year": "2004",
-      "journal": "",
+      "journal": "The Astrophysical Journal",
       "type": "journal-article",
       "doi": "10.1086/425168",
       "url": "https://doi.org/10.1086/425168",
@@ -1721,7 +1721,7 @@
     {
       "title": "Formation of helium spectrum in solar quiescent prominences",
       "year": "2001",
-      "journal": "",
+      "journal": "Astronomy &amp; Astrophysics",
       "type": "journal-article",
       "doi": "10.1051/0004-6361:20011395",
       "url": "https://doi.org/10.1051/0004-6361:20011395",
