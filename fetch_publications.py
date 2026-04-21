@@ -299,15 +299,61 @@ def enrich_with_crossref(all_pubs):
 
     return all_pubs
 
+def extract_family_names(authors_list):
+    """
+    Extract a set of normalised family names from a list of author name strings.
+    Works for both 'Labrosse, N.' and 'Nicolas Labrosse' formats.
+    """
+    family_names = set()
+    for name in (authors_list or []):
+        name = name.strip()
+        if not name:
+            continue
+        # Handle "Family, Given" format
+        if "," in name:
+            family = name.split(",")[0].strip()
+        else:
+            # Handle "Given Family" format — take the last word
+            family = name.split()[-1].strip()
+        family_names.add(re.sub(r"[^a-z]", "", family.lower()))
+    return family_names
+
+
+def years_compatible(year_a, year_b, tolerance=1):
+    """Return True if two year strings are within `tolerance` years of each other."""
+    try:
+        return abs(int(year_a) - int(year_b)) <= tolerance
+    except (TypeError, ValueError):
+        return True   # if year is missing, don't rule out the match
+
+
+def is_likely_duplicate(pub_a, pub_b):
+    """
+    Given two publications whose normalised titles already match,
+    confirm they are the same paper by checking year and shared authors.
+    Returns True if they are almost certainly the same work.
+    """
+    # Check 1: year must be compatible (within 1 year)
+    if not years_compatible(pub_a.get("year"), pub_b.get("year"), tolerance=1):
+        return False
+
+    # Check 2: at least one author family name must be shared
+    names_a = extract_family_names(pub_a.get("authors", []))
+    names_b = extract_family_names(pub_b.get("authors", []))
+    if names_a and names_b and names_a.isdisjoint(names_b):
+        return False
+
+    return True
 
 # ── Main ──────────────────────────────────────────────────────────────────────
 
 def main():
     researchers = load_researchers()
 
-    by_doi   = {}   # normalised DOI   → publication
-    by_title = {}   # normalised title → publication (no DOI)
-    no_key   = []   # neither (very rare)
+    by_doi       = {}   # normalised DOI   → publication
+    by_title     = {}   # normalised title → publication (no DOI)
+    title_to_doi = {}   # normalised title → DOI (reverse index)
+    no_key       = []   # neither (very rare)
 
     for person in researchers:
         name  = person["name"]
@@ -326,7 +372,7 @@ def main():
             title_key = pub["_title_key"]
 
             if doi and doi in by_doi:
-                # Already seen this DOI — just merge the ORCID author credit
+                # Exact DOI match — definitely the same paper
                 existing = by_doi[doi]
                 if name not in existing["authors"]:
                     existing["authors"].append(name)
@@ -336,32 +382,61 @@ def main():
                     existing["url"] = pub["url"]
 
             elif doi:
+                # New DOI — but check if a no-DOI version already exists
                 if title_key in by_title:
-                    # Upgrade a title-matched entry to a DOI-keyed one
-                    existing = by_title.pop(title_key)
-                    existing["doi"] = doi
+                    existing = by_title[title_key]
+                    if is_likely_duplicate(existing, pub):
+                        # Confirmed duplicate: upgrade the no-DOI entry
+                        by_title.pop(title_key)
+                        existing["doi"] = doi
+                        if name not in existing["authors"]:
+                            existing["authors"].append(name)
+                        if not existing["url"] and pub["url"]:
+                            existing["url"] = pub["url"]
+                        by_doi[doi] = existing
+                        print(f"    Merged (title+year+author match): "{pub['title'][:60]}..."")
+                    else:
+                        # Title matched but year/author check failed — treat as separate
+                        by_doi[doi] = pub
+                else:
+                    by_doi[doi] = pub
+                if title_key:
+                    title_to_doi[title_key] = doi
+
+            elif title_key and title_key in title_to_doi:
+                # No DOI, but title matches a DOI-keyed entry
+                existing = by_doi[title_to_doi[title_key]]
+                if is_likely_duplicate(existing, pub):
+                    if name not in existing["authors"]:
+                        existing["authors"].append(name)
+                    if orcid not in existing["orcids"]:
+                        existing["orcids"].append(orcid)
+                    if not existing["url"] and pub["url"]:
+                        existing["url"] = pub["url"]
+                    print(f"    Merged (title+year+author match): "{pub['title'][:60]}..."")
+                else:
+                    # Looks different enough — keep as separate entry
+                    no_key.append(pub)
+
+            elif title_key and title_key in by_title:
+                # No DOI on either version
+                existing = by_title[title_key]
+                if is_likely_duplicate(existing, pub):
                     if name not in existing["authors"]:
                         existing["authors"].append(name)
                     if not existing["url"] and pub["url"]:
                         existing["url"] = pub["url"]
-                    by_doi[doi] = existing
+                    print(f"    Merged (title+year+author match): "{pub['title'][:60]}..."")
                 else:
-                    by_doi[doi] = pub
-
-            elif title_key and title_key in by_title:
-                # Same title, no DOI — merge authors
-                existing = by_title[title_key]
-                if name not in existing["authors"]:
-                    existing["authors"].append(name)
-                if not existing["url"] and pub["url"]:
-                    existing["url"] = pub["url"]
+                    no_key.append(pub)
 
             elif title_key:
                 by_title[title_key] = pub
+
             else:
                 no_key.append(pub)
 
-        time.sleep(0.5)  # polite pause between ORCID requests
+        time.sleep(0.5)
 
     all_pubs = list(by_doi.values()) + list(by_title.values()) + no_key
     print(f"\nTotal unique publications after deduplication: {len(all_pubs)}")
@@ -372,7 +447,7 @@ def main():
     # Clean up internal fields before saving
     for p in all_pubs:
         p.pop("_title_key", None)
-        p.pop("authors",    None)   # ORCID-only list no longer needed
+        p.pop("authors",    None)
         p.pop("orcids",     None)
 
     # Sort: most recent first, then alphabetically by title
