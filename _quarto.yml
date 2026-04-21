@@ -13,6 +13,8 @@ website:
         text: All Publications
       - href: authors.qmd
         text: Authors
+      - href: journals.qmd
+        text: PER Journals
       - href: about.qmd
         text: About
     right:
