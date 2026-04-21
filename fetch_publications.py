@@ -408,12 +408,50 @@ def main():
     # Enrich with full author lists from CrossRef
     all_pubs = enrich_with_crossref(all_pubs)
 
-    # Clean up internal fields before saving
+# ── Build authors summary ──────────────────────────────────────────────
+    # Count publications per researcher using the orcid_ids.csv list
+    researcher_index = {r["orcid"]: r for r in researchers}
+    author_stats = {r["orcid"]: {"name":        r["name"],
+                                  "orcid":       r["orcid"],
+                                  "institution": r["institution"],
+                                  "pub_count":   0,
+                                  "per_count":   0}
+                    for r in researchers}
+
+    for p in all_pubs:
+        for orcid_id in (p.get("orcids") or []):
+            if orcid_id in author_stats:
+                author_stats[orcid_id]["pub_count"] += 1
+                if p.get("is_per"):
+                    author_stats[orcid_id]["per_count"] += 1
+
+    authors_output = sorted(author_stats.values(),
+                            key=lambda a: a["name"].split()[-1].lower())
+
+    with open("_data/authors.json", "w", encoding="utf-8") as f:
+        json.dump(authors_output, f, indent=2, ensure_ascii=False)
+    print(f"Saved {len(authors_output)} authors to _data/authors.json")
+
+    # ── Build PER journals summary ─────────────────────────────────────────
+    from collections import Counter
+    journal_counts = Counter()
+    for p in all_pubs:
+        if p.get("is_per") and p.get("journal"):
+            journal_counts[p["journal"].strip()] += 1
+
+    journals_output = [{"journal": j, "count": c}
+                       for j, c in journal_counts.most_common()]
+
+    with open("_data/per_journals_found.json", "w", encoding="utf-8") as f:
+        json.dump(journals_output, f, indent=2, ensure_ascii=False)
+    print(f"Saved {len(journals_output)} PER journals to _data/per_journals_found.json")
+
+    # ── Clean up internal fields before saving publications ────────────────
     for p in all_pubs:
         p.pop("_title_key", None)
         p.pop("authors",    None)
         p.pop("orcids",     None)
-
+      
     # Sort: most recent first, then alphabetically by title
     all_pubs.sort(
         key=lambda p: (-(int(p["year"]) if p["year"] else 0), p["title"].lower())
