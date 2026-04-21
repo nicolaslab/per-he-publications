@@ -5,40 +5,33 @@ title: "Authors"
 ```{ojs}
 //| echo: false
 
-data = await FileAttachment("_data/publications.json").json()
-pubs = data.publications
+authors = await FileAttachment("_data/authors.json").json()
 
-// Build a summary table: one row per author
-authorMap = {
-  const m = new Map()
-  for (const pub of pubs) {
-    const authors = pub.authors || []
-    const orcids  = pub.orcids  || []
-    authors.forEach((name, i) => {
-      if (!m.has(name)) {
-        m.set(name, { name, orcid: orcids[i] || "", count: 0, per_count: 0 })
-      }
-      m.get(name).count++
-      if (pub.is_per) m.get(name).per_count++
-    })
-  }
-  return Array.from(m.values()).sort((a, b) => b.count - a.count)
-}
+md`**${authors.length} researchers** from the UK & Ireland PER community are currently listed.`
 
-md`**${authorMap.length} authors** contributing **${pubs.length} publications** in total.`
-
-Inputs.table(authorMap, {
-  columns: ["name", "orcid", "count", "per_count"],
-  header: {
-    name:      "Name",
-    orcid:     "ORCID",
-    count:     "Total publications",
-    per_count: "PER publications"
-  },
-  format: {
-    orcid: id => id
-      ? htl.html`<a href="https://orcid.org/${id}" target="_blank">${id}</a>`
-      : ""
-  }
-})
+htl.html`<table style="width:100%; border-collapse:collapse; font-size:0.9rem;">
+  <thead>
+    <tr style="border-bottom:2px solid #ccc; text-align:left;">
+      <th style="padding:8px 12px;">Name</th>
+      <th style="padding:8px 12px;">Institution</th>
+      <th style="padding:8px 12px;">ORCID</th>
+      <th style="padding:8px 12px; text-align:center;">Total publications</th>
+      <th style="padding:8px 12px; text-align:center;">PER publications</th>
+    </tr>
+  </thead>
+  <tbody>
+    ${authors.map((a, i) => htl.html`<tr style="border-bottom:1px solid #eee; background:${i % 2 === 0 ? '#fff' : '#f9f9f9'};">
+      <td style="padding:8px 12px; font-weight:500;">${a.name}</td>
+      <td style="padding:8px 12px; color:#444;">${a.institution || ""}</td>
+      <td style="padding:8px 12px;">
+        ${a.orcid
+          ? htl.html`<a href="https://orcid.org/${a.orcid}" target="_blank"
+              style="color:#a6ce39; font-family:monospace;">${a.orcid}</a>`
+          : ""}
+      </td>
+      <td style="padding:8px 12px; text-align:center;">${a.pub_count}</td>
+      <td style="padding:8px 12px; text-align:center;">${a.per_count}</td>
+    </tr>`)}
+  </tbody>
+</table>`
 ```
