@@ -160,7 +160,7 @@ The website pages use **Observable JS**, which runs in the browser and requires 
 
 ## Acknowledgements
 
-This site was inspired by the [MVLS Learning, Teaching and Scholarship Network publications page](https://mvls-lts.github.io/outputs/), which demonstrated this approach for a different research community. We are grateful to its authors for making their [source code](https://github.com/mvls-lts/outputs) openly available.
+This site was inspired by the University of Glasgow's [MVLS Learning, Teaching and Scholarship Network publications page](https://mvls-lts.github.io/outputs/), which demonstrated this approach for a different research community. We are grateful to its authors for making their [source code](https://github.com/mvls-lts/outputs) openly available.
 
 ---
 
