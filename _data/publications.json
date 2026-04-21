@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-20",
-  "total": 150,
+  "last_updated": "2026-04-21",
+  "total": 167,
   "publications": [
     {
       "title": "Analysis of Lyman β and Lyman γ lines in a pre-eruptive and eruptive prominence with Solar Orbiter SPICE observations",
@@ -10,12 +10,8 @@
       "doi": "10.1093/mnras/stag104",
       "url": "https://doi.org/10.1093/mnras/stag104",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Zhang, Y.; Labrosse, N.; Parenti, S.; Kucera, T. A.",
+      "authors_display": "Zhang, Y.; Labrosse, N.; Parenti, S. et al."
     },
     {
       "title": "Analysis of Lyman β and Lyman γ lines in a pre-eruptive and eruptive prominence with solar orbiter SPICE observations",
@@ -25,12 +21,8 @@
       "doi": null,
       "url": "https://eprints.gla.ac.uk/376792/",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "How to design the perfect lecture",
@@ -40,12 +32,8 @@
       "doi": "10.1209/0295-5075/ae2047",
       "url": "https://doi.org/10.1209/0295-5075/ae2047",
       "is_per": true,
-      "authors": [
-        "Anna Wood"
-      ],
-      "orcids": [
-        "0000-0003-3123-4021"
-      ]
+      "authors_full": "Wood, A. K.",
+      "authors_display": "Wood, A. K."
     },
     {
       "title": "Non-LTE analysis of pre-eruptive prominence plasma parameters’ effects on the Lyman β and Lyman γ lines with Solar Orbiter SPICE observations",
@@ -55,12 +43,8 @@
       "doi": "10.1093/mnras/stag222",
       "url": "https://doi.org/10.1093/mnras/stag222",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Zhang, Y.; Labrosse, N.; Parenti, S.; Kucera, T. A.",
+      "authors_display": "Zhang, Y.; Labrosse, N.; Parenti, S. et al."
     },
     {
       "title": "Non-LTE analysis of pre-eruptive prominence plasma parameters’ effects on the Lyman β and Lyman γ lines with solar orbiter SPICE observations",
@@ -70,12 +54,8 @@
       "doi": null,
       "url": "https://eprints.gla.ac.uk/378573/",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "STEMM Teachers’ Conceptions of Teaching Large Classes",
@@ -85,12 +65,8 @@
       "doi": "10.31234/osf.io/e25c6_v1",
       "url": "https://doi.org/10.31234/osf.io/e25c6_v1",
       "is_per": false,
-      "authors": [
-        "Anna Wood"
-      ],
-      "orcids": [
-        "0000-0003-3123-4021"
-      ]
+      "authors_full": "Wood, A.; Galloway, R.; Rhind, S.; McQueen, H.; Kinnear, G.; Hounsell, D.",
+      "authors_display": "Wood, A.; Galloway, R.; Rhind, S. et al."
     },
     {
       "title": "What needs to change to make evidence-based teaching the norm? [blog post]",
@@ -100,12 +76,8 @@
       "doi": null,
       "url": "https://wonkhe.com/blogs/what-needs-to-change-to-make-evidence-based-teaching-the-norm/",
       "is_per": true,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "Magnetic Reconnection between a Solar Jet and a Filament Channel",
@@ -115,12 +87,8 @@
       "doi": "10.3847/1538-4357/ada28e",
       "url": "https://doi.org/10.3847/1538-4357/ada28e",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Karki, G.; Schmieder, B.; Devi, P.; Chandra, R.; Labrosse, N.; Joshi, R.; Gelly, B.",
+      "authors_display": "Karki, G.; Schmieder, B.; Devi, P. et al."
     },
     {
       "title": "Mixed-Methods Study of First-Year Physics Students: Soft Barriers to Coding",
@@ -130,12 +98,8 @@
       "doi": "10.1007/s10956-025-10198-0",
       "url": "https://doi.org/10.1007/s10956-025-10198-0",
       "is_per": true,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Mears, M.; Dash, L.; Galloway, R.; Karpenko, C.; Labrosse, N.; Mason, V.; Quinn, M.",
+      "authors_display": "Mears, M.; Dash, L.; Galloway, R. et al."
     },
     {
       "title": "STEM Teachers’ Conceptions of Teaching Large Classes",
@@ -145,12 +109,8 @@
       "doi": "10.31234/osf.io/t2b7c_v1",
       "url": "https://doi.org/10.31234/osf.io/t2b7c_v1",
       "is_per": false,
-      "authors": [
-        "Anna Wood"
-      ],
-      "orcids": [
-        "0000-0003-3123-4021"
-      ]
+      "authors_full": "Wood, A.; Galloway, R.; Rhind, S.; McQueen, H.; Kinnear, G.",
+      "authors_display": "Wood, A.; Galloway, R.; Rhind, S. et al."
     },
     {
       "title": "“It’s Like a Nice Atmosphere”—Understanding Physics Students’ Experiences of a Flipped Classroom Through the Lens of Transactional Distance Theory",
@@ -160,12 +120,8 @@
       "doi": "10.3390/educsci15070921",
       "url": "https://doi.org/10.3390/educsci15070921",
       "is_per": true,
-      "authors": [
-        "Anna Wood"
-      ],
-      "orcids": [
-        "0000-0003-3123-4021"
-      ]
+      "authors_full": "Wood, A. K.",
+      "authors_display": "Wood, A. K."
     },
     {
       "title": "Magnetic Reconnection between a Solar Jet and a Filament Channel",
@@ -175,12 +131,8 @@
       "doi": "10.48550/arxiv.2412.09206",
       "url": "https://doi.org/10.48550/arxiv.2412.09206",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "Solar prominence diagnostics and their associated estimated errors from 1D NLTE Mg ii h&k modelling",
@@ -190,12 +142,8 @@
       "doi": "10.48550/arxiv.2405.06492",
       "url": "https://doi.org/10.48550/arxiv.2405.06492",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "Solar prominence diagnostics and their associated estimated errors from 1D NLTE Mg II h&k modelling",
@@ -205,12 +153,8 @@
       "doi": "10.1051/0004-6361/202348589",
       "url": "https://doi.org/10.1051/0004-6361/202348589",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Peat, A. W.; Labrosse, N.; Barczynski, K.; Schmieder, B.",
+      "authors_display": "Peat, A. W.; Labrosse, N.; Barczynski, K. et al."
     },
     {
       "title": "Using data about classroom practices to stimulate significant conversations and aid reflection",
@@ -220,12 +164,8 @@
       "doi": "10.1080/1360144x.2022.2103817",
       "url": "https://doi.org/10.1080/1360144x.2022.2103817",
       "is_per": false,
-      "authors": [
-        "Anna Wood"
-      ],
-      "orcids": [
-        "0000-0003-3123-4021"
-      ]
+      "authors_full": "Wood, A. K.; Christie, H.; MacKay, J. R. D.; Kinnear, G.",
+      "authors_display": "Wood, A. K.; Christie, H.; MacKay, J. R. D. et al."
     },
     {
       "title": "Behaviour of molecular hydrogen emission in three solar flares",
@@ -235,12 +175,8 @@
       "doi": "10.1093/mnras/stad2853",
       "url": "https://doi.org/10.1093/mnras/stad2853",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Mulay, S. M.; Fletcher, L.; Hudson, H.; Labrosse, N.",
+      "authors_display": "Mulay, S. M.; Fletcher, L.; Hudson, H. et al."
     },
     {
       "title": "Behaviour of molecular hydrogen emission in three solar flares",
@@ -250,12 +186,8 @@
       "doi": "10.48550/arxiv.2309.07799",
       "url": "https://doi.org/10.48550/arxiv.2309.07799",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "Engaging taught postgraduate students with science communication",
@@ -265,12 +197,8 @@
       "doi": "10.56433/jpaap.v11i2.430",
       "url": "https://doi.org/10.56433/jpaap.v11i2.430",
       "is_per": true,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Labrosse, N.; Bownes, J. M.",
+      "authors_display": "Labrosse, N.; Bownes, J. M."
     },
     {
       "title": "Large classes in STEM education-potential and challenges",
@@ -280,12 +208,8 @@
       "doi": "10.1088/978-0-7503-5231-4ch1",
       "url": "https://doi.org/10.1088/978-0-7503-5231-4ch1",
       "is_per": true,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Wood, A. K.; Labrosse, N.",
+      "authors_display": "Wood, A. K.; Labrosse, N."
     },
     {
       "title": "Mg ii h&k fine structure prominence modelling and the consequences for observations",
@@ -295,12 +219,8 @@
       "doi": "10.48550/arxiv.2310.08249",
       "url": "https://doi.org/10.48550/arxiv.2310.08249",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "Mg II h&k fine structure prominence modelling and the consequences for observations",
@@ -310,12 +230,8 @@
       "doi": "10.1051/0004-6361/202347246",
       "url": "https://doi.org/10.1051/0004-6361/202347246",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Peat, A. W.; Labrosse, N.; Gouttebroze, P.",
+      "authors_display": "Peat, A. W.; Labrosse, N.; Gouttebroze, P."
     },
     {
       "title": "On the Physical Nature of the so-Called Prominence Tornadoes",
@@ -325,12 +241,8 @@
       "doi": "10.1007/s11214-023-00976-w",
       "url": "https://doi.org/10.1007/s11214-023-00976-w",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Gunár, S.; Labrosse, N.; Luna, M.; Schmieder, B.; Heinzel, P.; Kucera, T. A.; Levens, P. J.; López Ariste, A.; Mackay, D. H.; Zapiór, M.",
+      "authors_display": "Gunár, S.; Labrosse, N.; Luna, M. et al."
     },
     {
       "title": "Two-horn quiescent prominence observed in Hα and Mg ii h&k lines with THEMIS and IRIS",
@@ -340,12 +252,8 @@
       "doi": "10.48550/arxiv.2309.13776",
       "url": "https://doi.org/10.48550/arxiv.2309.13776",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "Two-horn quiescent prominence observed in Hα and Mg II hk lines with THEMIS and IRIS",
@@ -355,12 +263,8 @@
       "doi": "10.1051/0004-6361/202345970",
       "url": "https://doi.org/10.1051/0004-6361/202345970",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Barczynski, K.; Schmieder, B.; Gelly, B.; Peat, A. W.; Labrosse, N.",
+      "authors_display": "Barczynski, K.; Schmieder, B.; Gelly, B. et al."
     },
     {
       "title": "ALMA as a Prominence Thermometer: First Observations",
@@ -370,12 +274,8 @@
       "doi": "10.3847/2041-8213/ac588f",
       "url": "https://doi.org/10.3847/2041-8213/ac588f",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Heinzel, P.; Berlicki, A.; Bárta, M.; Rudawy, P.; Gunár, S.; Labrosse, N.; Radziszewski, K.",
+      "authors_display": "Heinzel, P.; Berlicki, A.; Bárta, M. et al."
     },
     {
       "title": "ALMA as a prominence thermometer: First observations",
@@ -385,12 +285,8 @@
       "doi": "10.48550/arxiv.2202.12761",
       "url": "https://doi.org/10.48550/arxiv.2202.12761",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "Designing and evaluating an online course to support transition to university mathematics",
@@ -400,12 +296,8 @@
       "doi": "10.1080/0020739x.2021.1962554",
       "url": "https://doi.org/10.1080/0020739x.2021.1962554",
       "is_per": false,
-      "authors": [
-        "Anna Wood"
-      ],
-      "orcids": [
-        "0000-0003-3123-4021"
-      ]
+      "authors_full": "Kinnear, G.; Wood, A. K.; Gratwick, R.",
+      "authors_display": "Kinnear, G.; Wood, A. K.; Gratwick, R."
     },
     {
       "title": "First high resolution interferometric observation of a solar prominence with ALMA",
@@ -415,12 +307,8 @@
       "doi": "10.1093/mnrasl/slac021",
       "url": "https://doi.org/10.1093/mnrasl/slac021",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Labrosse, N.; Rodger, A. S.; Radziszewski, K.; Rudawy, P.; Antolin, P.; Fletcher, L.; Levens, P. J.; Peat, A. W.; Schmieder, B.; Simões, P. J. A.",
+      "authors_display": "Labrosse, N.; Rodger, A. S.; Radziszewski, K. et al."
     },
     {
       "title": "First high resolution interferometric observation of a solar prominence with ALMA",
@@ -430,12 +318,8 @@
       "doi": "10.48550/arxiv.2202.12434",
       "url": "https://doi.org/10.48550/arxiv.2202.12434",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "HiRISE - High-Resolution Imaging and Spectroscopy Explorer - Ultrahigh resolution, interferometric and external occulting coronagraphic science",
@@ -445,12 +329,8 @@
       "doi": "10.1007/s10686-022-09831-2",
       "url": "https://doi.org/10.1007/s10686-022-09831-2",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Erdélyi, R.; Damé, L.; Fludra, A.; Mathioudakis, M.; Amari, T.; Belucz, B.; Berrilli, F.; Bogachev, S.; Bolsée, D.; Bothmer, V.; Brun, S.; Dewitte, S.; de Wit, T. D.; Faurobert, M.; Gizon, L.; Gyenge, N.; Korsós, M. B.; Labrosse, N.; Matthews, S.; Meftah, M.; Morgan, H.; Pallé, P.; Rochus, P.; Rozanov, E.; Schmieder, B.; Tsinganos, K.; Verwichte, E.; Zharkov, S.; Zuccarello, F.; Wimmer-Schweingruber, R.",
+      "authors_display": "Erdélyi, R.; Damé, L.; Fludra, A. et al."
     },
     {
       "title": "Prominence observations with ALMA",
@@ -460,12 +340,8 @@
       "doi": "10.3389/fspas.2022.983707",
       "url": "https://doi.org/10.3389/fspas.2022.983707",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Heinzel, P.; Bárta, M.; Gunár, S.; Labrosse, N.; Vial, J.",
+      "authors_display": "Heinzel, P.; Bárta, M.; Gunár, S. et al."
     },
     {
       "title": "Reforming how we evaluate students",
@@ -475,12 +351,8 @@
       "doi": "10.1088/2058-7058/35/11/20",
       "url": "https://doi.org/10.1088/2058-7058/35/11/20",
       "is_per": true,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Labrosse, N.",
+      "authors_display": "Labrosse, N."
     },
     {
       "title": "The European Solar Telescope",
@@ -490,12 +362,8 @@
       "doi": "10.1051/0004-6361/202243867",
       "url": "https://doi.org/10.1051/0004-6361/202243867",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Quintero Noda, C.; Schlichenmaier, R.; Bellot Rubio, L. R.; Löfdahl, M. G.; Khomenko, E.; Jurčák, J.; Leenaarts, J.; Kuckein, C.; González Manrique, S. J.; Gunár, S.; Nelson, C. J.; de la Cruz Rodríguez, J.; Tziotziou, K.; Tsiropoula, G.; Aulanier, G.; Aboudarham, J.; Allegri, D.; Alsina Ballester, E.; Amans, J. P.; Asensio Ramos, A.; Bailén, F. J.; Balaguer, M.; Baldini, V.; Balthasar, H.; Barata, T.; Barczynski, K.; Barreto Cabrera, M.; Baur, A.; Béchet, C.; Beck, C.; Belío-Asín, M.; Bello-González, N.; Belluzzi, L.; Bentley, R. D.; Berdyugina, S. V.; Berghmans, D.; Berlicki, A.; Berrilli, F.; Berkefeld, T.; Bettonvil, F.; Bianda, M.; Bienes Pérez, J.; Bonaque-González, S.; Brajša, R.; Bommier, V.; Bourdin, P.; Burgos Martín, J.; Calchetti, D.; Calcines, A.; Calvo Tovar, J.; Campbell, R. J.; Carballo-Martín, Y.; Carbone, V.; Carlin, E. S.; Carlsson, M.; Castro López, J.; Cavaller, L.; Cavallini, F.; Cauzzi, G.; Cecconi, M.; Chulani, H. M.; Cirami, R.; Consolini, G.; Coretti, I.; Cosentino, R.; Cózar-Castellano, J.; Dalmasse, K.; Danilovic, S.; De Juan Ovelar, M.; Del Moro, D.; del Pino Alemán, T.; del Toro Iniesta, J. C.; Denker, C.; Dhara, S. K.; Di Marcantonio, P.; Díaz Baso, C. J.; Diercke, A.; Dineva, E.; Díaz-García, J. J.; Doerr, H.; Doyle, G.; Erdelyi, R.; Ermolli, I.; Escobar Rodríguez, A.; Esteban Pozuelo, S.; Faurobert, M.; Felipe, T.; Feller, A.; Feijoo Amoedo, N.; Femenía Castellá, B.; Fernandes, J.; Ferro Rodríguez, I.; Figueroa, I.; Fletcher, L.; Franco Ordovas, A.; Gafeira, R.; Gardenghi, R.; Gelly, B.; Giorgi, F.; Gisler, D.; Giovannelli, L.; González, F.; González, J. B.; González-Cava, J. M.; González García, M.; Gömöry, P.; Gracia, F.; Grauf, B.; Greco, V.; Grivel, C.; Guerreiro, N.; Guglielmino, S. L.; Hammerschlag, R.; Hanslmeier, A.; Hansteen, V.; Heinzel, P.; Hernández-Delgado, A.; Hernández Suárez, E.; Hidalgo, S. L.; Hill, F.; Hizberger, J.; Hofmeister, S.; Jägers, A.; Janett, G.; Jarolim, R.; Jess, D.; Jiménez Mejías, D.; Jolissaint, L.; Kamlah, R.; Kapitán, J.; Kašparová, J.; Keller, C. U.; Kentischer, T.; Kiselman, D.; Kleint, L.; Klvana, M.; Kontogiannis, I.; Krishnappa, N.; Kučera, A.; Labrosse, N.; Lagg, A.; Landi Degl’Innocenti, E.; Langlois, M.; Lafon, M.; Laforgue, D.; Le Men, C.; Lepori, B.; Lepreti, F.; Lindberg, B.; Lilje, P. B.; López Ariste, A.; López Fernández, V. A.; López Jiménez, A. C.; López López, R.; Manso Sainz, R.; Marassi, A.; Marco de la Rosa, J.; Marino, J.; Marrero, J.; Martín, A.; Martín Gálvez, A.; Martín Hernando, Y.; Masciadri, E.; Martínez González, M.; Matta-Gómez, A.; Mato, A.; Mathioudakis, M.; Matthews, S.; Mein, P.; Merlos García, F.; Moity, J.; Montilla, I.; Molinaro, M.; Molodij, G.; Montoya, L. M.; Munari, M.; Murabito, M.; Núñez Cagigal, M.; Oliviero, M.; Orozco Suárez, D.; Ortiz, A.; Padilla-Hernández, C.; Paéz Mañá, E.; Paletou, F.; Pancorbo, J.; Pastor Cañedo, A.; Pastor Yabar, A.; Peat, A. W.; Pedichini, F.; Peixinho, N.; Peñate, J.; Pérez de Taoro, A.; Peter, H.; Petrovay, K.; Piazzesi, R.; Pietropaolo, E.; Pleier, O.; Poedts, S.; Pötzi, W.; Podladchikova, T.; Prieto, G.; Quintero Nehrkorn, J.; Ramelli, R.; Ramos Sapena, Y.; Rasilla, J. L.; Reardon, K.; Rebolo, R.; Regalado Olivares, S.; Reyes García-Talavera, M.; Riethmüller, T. L.; Rimmele, T.; Rodríguez Delgado, H.; Rodríguez González, N.; Rodríguez-Losada, J. A.; Rodríguez Ramos, L. F.; Romano, P.; Roth, M.; Rouppe van der Voort, L.; Rudawy, P.; Ruiz de Galarreta, C.; Rybák, J.; Salvade, A.; Sánchez-Capuchino, J.; Sánchez Rodríguez, M. L.; Sangiorgi, M.; Sayède, F.; Scharmer, G.; Scheiffelen, T.; Schmidt, W.; Schmieder, B.; Scirè, C.; Scuderi, S.; Siegel, B.; Sigwarth, M.; Simões, P. J. A.; Snik, F.; Sliepen, G.; Sobotka, M.; Socas-Navarro, H.; Sola La Serna, P.; Solanki, S. K.; Soler Trujillo, M.; Soltau, D.; Sordini, A.; Sosa Méndez, A.; Stangalini, M.; Steiner, O.; Stenflo, J. O.; Štěpán, J.; Strassmeier, K. G.; Sudar, D.; Suematsu, Y.; Sütterlin, P.; Tallon, M.; Temmer, M.; Tenegi, F.; Tritschler, A.; Trujillo Bueno, J.; Turchi, A.; Utz, D.; van Harten, G.; van Noort, M.; van Werkhoven, T.; Vansintjan, R.; Vaz Cedillo, J. J.; Vega Reyes, N.; Verma, M.; Veronig, A. M.; Viavattene, G.; Vitas, N.; Vögler, A.; von der Lühe, O.; Volkmer, R.; Waldmann, T. A.; Walton, D.; Wisniewska, A.; Zeman, J.; Zeuner, F.; Zhang, L. Q.; Zuccarello, F.; Collados, M.",
+      "authors_display": "Quintero Noda, C.; Schlichenmaier, R.; Bellot Rubio, L. R. et al."
     },
     {
       "title": "The European Solar Telescope",
@@ -505,12 +373,8 @@
       "doi": "10.48550/arxiv.2207.10905",
       "url": "https://doi.org/10.48550/arxiv.2207.10905",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "Can lecture capture contribute to the development of a community of inquiry in online learning?",
@@ -520,12 +384,8 @@
       "doi": "10.1080/01587919.2020.1869521",
       "url": "https://doi.org/10.1080/01587919.2020.1869521",
       "is_per": true,
-      "authors": [
-        "Anna Wood"
-      ],
-      "orcids": [
-        "0000-0003-3123-4021"
-      ]
+      "authors_full": "Wood, A. K.; Symons, K.; Falisse, J.; Gray, H.; Mkony, A.",
+      "authors_display": "Wood, A. K.; Symons, K.; Falisse, J. et al."
     },
     {
       "title": "Lecture capture as an element of the digital resource landscape - a qualitative study of flipped and non–flipped classrooms",
@@ -535,12 +395,8 @@
       "doi": "10.1080/1475939x.2021.1917449",
       "url": "https://doi.org/10.1080/1475939x.2021.1917449",
       "is_per": true,
-      "authors": [
-        "Anna Wood"
-      ],
-      "orcids": [
-        "0000-0003-3123-4021"
-      ]
+      "authors_full": "Wood, A. K.; Bailey, T. N.; Galloway, R. K.; Hardy, J. A.; Sangwin, C. J.; Docherty, P. J.",
+      "authors_display": "Wood, A. K.; Bailey, T. N.; Galloway, R. K. et al."
     },
     {
       "title": "Solar prominence diagnostics from non-LTE modelling of Mg II h&k line profiles",
@@ -550,12 +406,8 @@
       "doi": "10.48550/arxiv.2106.10351",
       "url": "https://doi.org/10.48550/arxiv.2106.10351",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "Solar prominence diagnostics from non-LTE modelling of Mg II h&k line profiles",
@@ -565,12 +417,8 @@
       "doi": "10.1051/0004-6361/202140907",
       "url": "https://doi.org/10.1051/0004-6361/202140907",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Peat, A. W.; Labrosse, N.; Schmieder, B.; Barczynski, K.",
+      "authors_display": "Peat, A. W.; Labrosse, N.; Schmieder, B. et al."
     },
     {
       "title": "Spectro-imagery of an active tornado-like prominence: Formation and evolution",
@@ -580,12 +428,8 @@
       "doi": "10.1051/0004-6361/202140976",
       "url": "https://doi.org/10.1051/0004-6361/202140976",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Barczynski, K.; Schmieder, B.; Peat, A. W.; Labrosse, N.; Mein, P.; Mein, N.",
+      "authors_display": "Barczynski, K.; Schmieder, B.; Peat, A. W. et al."
     },
     {
       "title": "Spectro-imagery of an active tornado-like prominence: Formation and evolution",
@@ -595,12 +439,8 @@
       "doi": "10.48550/arxiv.2106.04259",
       "url": "https://doi.org/10.48550/arxiv.2106.04259",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "Using data about classroom practices to stimulate significant conversations and aid reflection",
@@ -610,12 +450,8 @@
       "doi": "10.31234/osf.io/q3hz4",
       "url": "https://doi.org/10.31234/osf.io/q3hz4",
       "is_per": false,
-      "authors": [
-        "Anna Wood"
-      ],
-      "orcids": [
-        "0000-0003-3123-4021"
-      ]
+      "authors_full": "Wood, A.; Christie, H.; MacKay, J. R. D.; Kinnear, G.",
+      "authors_display": "Wood, A.; Christie, H.; MacKay, J. R. D. et al."
     },
     {
       "title": "Lecture Capture in Online Learning: A Community of Inquiry Perspective",
@@ -625,12 +461,8 @@
       "doi": "10.31235/osf.io/wy9da",
       "url": "https://doi.org/10.31235/osf.io/wy9da",
       "is_per": true,
-      "authors": [
-        "Anna Wood"
-      ],
-      "orcids": [
-        "0000-0003-3123-4021"
-      ]
+      "authors_full": "Wood, A.; Symons, K.; Falisse, J.; Gray, H.; Mkony, A.",
+      "authors_display": "Wood, A.; Symons, K.; Falisse, J. et al."
     },
     {
       "title": "On the Possibility of Detecting Helium D3 Line Polarization with Metis",
@@ -640,12 +472,8 @@
       "doi": "10.3847/1538-4357/aba437",
       "url": "https://doi.org/10.3847/1538-4357/aba437",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Heinzel, P.; Štěpán, J.; Bemporad, A.; Fineschi, S.; Jejčič, S.; Labrosse, N.; Susino, R.",
+      "authors_display": "Heinzel, P.; Štěpán, J.; Bemporad, A. et al."
     },
     {
       "title": "Supporting the next generation",
@@ -655,12 +483,8 @@
       "doi": "10.1088/2058-7058/33/11/21",
       "url": "https://doi.org/10.1088/2058-7058/33/11/21",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Labrosse, N.",
+      "authors_display": "Labrosse, N."
     },
     {
       "title": "The Solar Orbiter Science Activity Plan: Translating solar and heliospheric physics questions into action",
@@ -670,12 +494,8 @@
       "doi": "10.1051/0004-6361/202038445",
       "url": "https://doi.org/10.1051/0004-6361/202038445",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Zouganelis, I.; De Groof, A.; Walsh, A. P.; Williams, D. R.; Müller, D.; St Cyr, O. C.; Auchère, F.; Berghmans, D.; Fludra, A.; Horbury, T. S.; Howard, R. A.; Krucker, S.; Maksimovic, M.; Owen, C. J.; Rodríguez-Pacheco, J.; Romoli, M.; Solanki, S. K.; Watson, C.; Sanchez, L.; Lefort, J.; Osuna, P.; Gilbert, H. R.; Nieves-Chinchilla, T.; Abbo, L.; Alexandrova, O.; Anastasiadis, A.; Andretta, V.; Antonucci, E.; Appourchaux, T.; Aran, A.; Arge, C. N.; Aulanier, G.; Baker, D.; Bale, S. D.; Battaglia, M.; Bellot Rubio, L.; Bemporad, A.; Berthomier, M.; Bocchialini, K.; Bonnin, X.; Brun, A. S.; Bruno, R.; Buchlin, E.; Büchner, J.; Bucik, R.; Carcaboso, F.; Carr, R.; Carrasco-Blázquez, I.; Cecconi, B.; Cernuda Cangas, I.; Chen, C. H. K.; Chitta, L. P.; Chust, T.; Dalmasse, K.; D’Amicis, R.; Da Deppo, V.; De Marco, R.; Dolei, S.; Dolla, L.; Dudok de Wit, T.; van Driel-Gesztelyi, L.; Eastwood, J. P.; Espinosa Lara, F.; Etesi, L.; Fedorov, A.; Félix-Redondo, F.; Fineschi, S.; Fleck, B.; Fontaine, D.; Fox, N. J.; Gandorfer, A.; Génot, V.; Georgoulis, M. K.; Gissot, S.; Giunta, A.; Gizon, L.; Gómez-Herrero, R.; Gontikakis, C.; Graham, G.; Green, L.; Grundy, T.; Haberreiter, M.; Harra, L. K.; Hassler, D. M.; Hirzberger, J.; Ho, G. C.; Hurford, G.; Innes, D.; Issautier, K.; James, A. W.; Janitzek, N.; Janvier, M.; Jeffrey, N.; Jenkins, J.; Khotyaintsev, Y.; Klein, K.; Kontar, E. P.; Kontogiannis, I.; Krafft, C.; Krasnoselskikh, V.; Kretzschmar, M.; Labrosse, N.; Lagg, A.; Landini, F.; Lavraud, B.; Leon, I.; Lepri, S. T.; Lewis, G. R.; Liewer, P.; Linker, J.; Livi, S.; Long, D. M.; Louarn, P.; Malandraki, O.; Maloney, S.; Martinez-Pillet, V.; Martinovic, M.; Masson, A.; Matthews, S.; Matteini, L.; Meyer-Vernet, N.; Moraitis, K.; Morton, R. J.; Musset, S.; Nicolaou, G.; Nindos, A.; O’Brien, H.; Orozco Suarez, D.; Owens, M.; Pancrazzi, M.; Papaioannou, A.; Parenti, S.; Pariat, E.; Patsourakos, S.; Perrone, D.; Peter, H.; Pinto, R. F.; Plainaki, C.; Plettemeier, D.; Plunkett, S. P.; Raines, J. M.; Raouafi, N.; Reid, H.; Retino, A.; Rezeau, L.; Rochus, P.; Rodriguez, L.; Rodriguez-Garcia, L.; Roth, M.; Rouillard, A. P.; Sahraoui, F.; Sasso, C.; Schou, J.; Schühle, U.; Sorriso-Valvo, L.; Soucek, J.; Spadaro, D.; Stangalini, M.; Stansby, D.; Steller, M.; Strugarek, A.; Štverák, Š.; Susino, R.; Telloni, D.; Terasa, C.; Teriaca, L.; Toledo-Redondo, S.; del Toro Iniesta, J. C.; Tsiropoula, G.; Tsounis, A.; Tziotziou, K.; Valentini, F.; Vaivads, A.; Vecchio, A.; Velli, M.; Verbeeck, C.; Verdini, A.; Verscharen, D.; Vilmer, N.; Vourlidas, A.; Wicks, R.; Wimmer-Schweingruber, R. F.; Wiegelmann, T.; Young, P. R.; Zhukov, A. N.",
+      "authors_display": "Zouganelis, I.; De Groof, A.; Walsh, A. P. et al."
     },
     {
       "title": "The solar orbiter science activity plan: Translating solar and heliospheric physics questions into action",
@@ -685,12 +505,8 @@
       "doi": "10.48550/arxiv.2009.10772",
       "url": "https://doi.org/10.48550/arxiv.2009.10772",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "Exploration of long-period oscillations in an H α prominence",
@@ -700,12 +516,8 @@
       "doi": "10.1051/0004-6361/201833614",
       "url": "https://doi.org/10.1051/0004-6361/201833614",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Zapiór, M.; Schmieder, B.; Mein, P.; Mein, N.; Labrosse, N.; Luna, M.",
+      "authors_display": "Zapiór, M.; Schmieder, B.; Mein, P. et al."
     },
     {
       "title": "Exploration of long-period oscillations in an Hα prominence",
@@ -715,12 +527,8 @@
       "doi": "10.48550/arxiv.1903.00230",
       "url": "https://doi.org/10.48550/arxiv.1903.00230",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "First Spectral Analysis of a Solar Plasma Eruption Using ALMA",
@@ -730,12 +538,8 @@
       "doi": "10.3847/1538-4357/aafdfb",
       "url": "https://doi.org/10.3847/1538-4357/aafdfb",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Rodger, A. S.; Labrosse, N.; Wedemeyer, S.; Szydlarski, M.; Simões, P. J. A.; Fletcher, L.",
+      "authors_display": "Rodger, A. S.; Labrosse, N.; Wedemeyer, S. et al."
     },
     {
       "title": "First spectral analysis of a solar plasma eruption using ALMA",
@@ -745,12 +549,8 @@
       "doi": "10.48550/arxiv.1902.01319",
       "url": "https://doi.org/10.48550/arxiv.1902.01319",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "Modelling of Mg ii lines in solar prominences",
@@ -760,12 +560,8 @@
       "doi": "10.48550/arxiv.1902.00086",
       "url": "https://doi.org/10.48550/arxiv.1902.00086",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "Modelling of Mg II lines in solar prominences",
@@ -775,12 +571,8 @@
       "doi": "10.1051/0004-6361/201833132",
       "url": "https://doi.org/10.1051/0004-6361/201833132",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Levens, P. J.; Labrosse, N.",
+      "authors_display": "Levens, P. J.; Labrosse, N."
     },
     {
       "title": "Spectral gradient of the thermal millimetre continuum as a diagnostic for optical thickness in the solar atmosphere (Corrigendum)",
@@ -790,12 +582,8 @@
       "doi": "10.1051/0004-6361/201833848e",
       "url": "https://doi.org/10.1051/0004-6361/201833848e",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Rodger, A. S.; Labrosse, N.",
+      "authors_display": "Rodger, A. S.; Labrosse, N."
     },
     {
       "title": "Lecture capture as an element of the digital resource landscape - a qualitative study of flipped and non-flipped classrooms",
@@ -805,12 +593,8 @@
       "doi": "10.31234/osf.io/824hv",
       "url": "https://doi.org/10.31234/osf.io/824hv",
       "is_per": true,
-      "authors": [
-        "Anna Wood"
-      ],
-      "orcids": [
-        "0000-0003-3123-4021"
-      ]
+      "authors_full": "Wood, A.; Bailey, T.; Galloway, R.; Hardy, J.; Sangwin, C.; Docherty, P.",
+      "authors_display": "Wood, A.; Bailey, T.; Galloway, R. et al."
     },
     {
       "title": "Modeling of the Hydrogen Lyman Lines in Solar Flares",
@@ -820,12 +604,8 @@
       "doi": "10.3847/1538-4357/aacc29",
       "url": "https://doi.org/10.3847/1538-4357/aacc29",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Brown, S. A.; Fletcher, L.; Kerr, G. S.; Labrosse, N.; Kowalski, A. F.; Rodríguez, J. D. L. C.",
+      "authors_display": "Brown, S. A.; Fletcher, L.; Kerr, G. S. et al."
     },
     {
       "title": "Modelling of the hydrogen Lyman lines in solar flares",
@@ -835,12 +615,8 @@
       "doi": "10.48550/arxiv.1807.03373",
       "url": "https://doi.org/10.48550/arxiv.1807.03373",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "Observing turbulence early in a solar flare with the high time resolution of IRIS",
@@ -850,12 +626,8 @@
       "doi": null,
       "url": "",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "On the Dynamic Nature of a Quiescent Prominence Observed by IRIS and MSDP Spectrographs",
@@ -865,12 +637,8 @@
       "doi": "10.3847/1538-4357/aada08",
       "url": "https://doi.org/10.3847/1538-4357/aada08",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Ruan, G.; Schmieder, B.; Mein, P.; Mein, N.; Labrosse, N.; Gunár, S.; Chen, Y.",
+      "authors_display": "Ruan, G.; Schmieder, B.; Mein, P. et al."
     },
     {
       "title": "Prominence/Tornado plasma parameters",
@@ -880,12 +648,8 @@
       "doi": null,
       "url": "",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "Spectral gradient of the thermal millimetre continuum as a diagnostic for optical thickness in the solar atmosphere",
@@ -895,12 +659,8 @@
       "doi": "10.1051/0004-6361/201833848",
       "url": "https://doi.org/10.1051/0004-6361/201833848",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Rodger, A. S.; Labrosse, N.",
+      "authors_display": "Rodger, A. S.; Labrosse, N."
     },
     {
       "title": "Spectral gradient of the thermal millimetre continuum as a diagnostic for optical thickness in the solar atmosphere",
@@ -910,12 +670,8 @@
       "doi": "10.48550/arxiv.1808.07797",
       "url": "https://doi.org/10.48550/arxiv.1808.07797",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "Teacher-student discourse in active learning lectures: case studies from undergraduate physics",
@@ -925,12 +681,8 @@
       "doi": "10.1080/13562517.2017.1421630",
       "url": "https://doi.org/10.1080/13562517.2017.1421630",
       "is_per": true,
-      "authors": [
-        "Anna Wood"
-      ],
-      "orcids": [
-        "0000-0003-3123-4021"
-      ]
+      "authors_full": "Wood, A. K.; Galloway, R. K.; Sinclair, C.; Hardy, J.",
+      "authors_display": "Wood, A. K.; Galloway, R. K.; Sinclair, C. et al."
     },
     {
       "title": "The development of lower-atmosphere turbulence early in a solar flare",
@@ -940,12 +692,8 @@
       "doi": "10.1126/sciadv.aav2794",
       "url": "https://doi.org/10.1126/sciadv.aav2794",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Jeffrey, N. L. S.; Fletcher, L.; Labrosse, N.; Simões, P. J. A.",
+      "authors_display": "Jeffrey, N. L. S.; Fletcher, L.; Labrosse, N. et al."
     },
     {
       "title": "The development of lower-atmosphere turbulence early in a solar flare",
@@ -955,12 +703,8 @@
       "doi": "10.48550/arxiv.1812.09906",
       "url": "https://doi.org/10.48550/arxiv.1812.09906",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "The Influence of the Solar Coronal Radiation on Coronal Plasma Structures, I: Determination of the Incident Coronal Radiation",
@@ -970,12 +714,8 @@
       "doi": "10.1007/s11207-018-1255-z",
       "url": "https://doi.org/10.1007/s11207-018-1255-z",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Brown, G. M.; Labrosse, N.",
+      "authors_display": "Brown, G. M.; Labrosse, N."
     },
     {
       "title": "Visibility of Prominences using the He i D3 Line Filter on PROBA-3/ASPIICS Coronagraph Solar Physics",
@@ -985,12 +725,8 @@
       "doi": "10.48550/arxiv.1807.00155",
       "url": "https://doi.org/10.48550/arxiv.1807.00155",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "Visibility of Prominences Using the He i D<SUB>3</SUB> Line Filter on the PROBA-3/ASPIICS Coronagraph",
@@ -1000,12 +736,8 @@
       "doi": "10.1007/s11207-018-1251-3",
       "url": "https://doi.org/10.1007/s11207-018-1251-3",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Jejčič, S.; Heinzel, P.; Labrosse, N.; Zhukov, A. N.; Bemporad, A.; Fineschi, S.; Gunár, S.",
+      "authors_display": "Jejčič, S.; Heinzel, P.; Labrosse, N. et al."
     },
     {
       "title": "Comparing UV/EUV line parameters and magnetic field in a quiescent prominence with tornadoes",
@@ -1015,12 +747,8 @@
       "doi": "10.1051/0004-6361/201730808",
       "url": "https://doi.org/10.1051/0004-6361/201730808",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Levens, P. J.; Labrosse, N.; Schmieder, B.; López Ariste, A.; Fletcher, L.",
+      "authors_display": "Levens, P. J.; Labrosse, N.; Schmieder, B. et al."
     },
     {
       "title": "Comparing UV/EUV line parameters and magnetic field in a quiescent prominence with tornadoes",
@@ -1030,12 +758,8 @@
       "doi": "10.48550/arxiv.1708.04606",
       "url": "https://doi.org/10.48550/arxiv.1708.04606",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "Hα Doppler shifts in a tornado in the solar corona",
@@ -1045,12 +769,8 @@
       "doi": "10.1051/0004-6361/201628771",
       "url": "https://doi.org/10.1051/0004-6361/201628771",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Schmieder, B.; Mein, P.; Mein, N.; Levens, P. J.; Labrosse, N.; Ofman, L.",
+      "authors_display": "Schmieder, B.; Mein, P.; Mein, N. et al."
     },
     {
       "title": "Modelling of the hydrogen Lyman lines during solar flares",
@@ -1060,12 +780,8 @@
       "doi": null,
       "url": "",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "Non-Gaussian Velocity Distributions in Solar Flares from Extreme Ultraviolet Lines: A Possible Diagnostic of Ion Acceleration",
@@ -1075,12 +791,8 @@
       "doi": "10.3847/1538-4357/836/1/35",
       "url": "https://doi.org/10.3847/1538-4357/836/1/35",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Jeffrey, N. L. S.; Fletcher, L.; Labrosse, N.",
+      "authors_display": "Jeffrey, N. L. S.; Fletcher, L.; Labrosse, N."
     },
     {
       "title": "Non-Gaussian velocity distributions in solar flares from extreme ultraviolet lines: A possible diagnostic of ion acceleration",
@@ -1090,12 +802,8 @@
       "doi": "10.48550/arxiv.1701.02196",
       "url": "https://doi.org/10.48550/arxiv.1701.02196",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "Prominence and tornado dynamics observed with IRIS and THEMIS",
@@ -1105,12 +813,8 @@
       "doi": null,
       "url": "",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "Reconstruction of a helical prominence in 3D from IRIS spectra and images",
@@ -1120,12 +824,8 @@
       "doi": "10.1051/0004-6361/201730839",
       "url": "https://doi.org/10.1051/0004-6361/201730839",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Schmieder, B.; Zapiór, M.; López Ariste, A.; Levens, P.; Labrosse, N.; Gravet, R.",
+      "authors_display": "Schmieder, B.; Zapiór, M.; López Ariste, A. et al."
     },
     {
       "title": "Reconstruction of a helical prominence in 3D from IRIS spectra and images",
@@ -1135,12 +835,8 @@
       "doi": "10.48550/arxiv.1706.08078",
       "url": "https://doi.org/10.48550/arxiv.1706.08078",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "Solar Prominence Modelling and Plasma Diagnostics at ALMA Wavelengths",
@@ -1150,12 +846,8 @@
       "doi": "10.1007/s11207-017-1161-9",
       "url": "https://doi.org/10.1007/s11207-017-1161-9",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Rodger, A.; Labrosse, N.",
+      "authors_display": "Rodger, A.; Labrosse, N."
     },
     {
       "title": "Solar prominence modelling and plasma diagnostics at ALMA wavelengths",
@@ -1165,12 +857,8 @@
       "doi": "10.48550/arxiv.1704.05385",
       "url": "https://doi.org/10.48550/arxiv.1704.05385",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "Supporting Students in the Transition to Postgraduate Taught Study in STEM Subjects",
@@ -1180,12 +868,8 @@
       "doi": "10.14297/jpaap.v5i2.280",
       "url": "https://doi.org/10.14297/jpaap.v5i2.280",
       "is_per": true,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Bownes, J.; Labrosse, N.; Forrest, D.; MacTaggart, D.; Senn, H.; Fischbacher-Smith, M.; Jackson, M.; McEwan, M.; Pringle Barnes, G.; Sheridan, N.; Biletskaya, T.",
+      "authors_display": "Bownes, J.; Labrosse, N.; Forrest, D. et al."
     },
     {
       "title": "ALMA Observations of the Sun in Cycle 4 and Beyond",
@@ -1195,12 +879,8 @@
       "doi": null,
       "url": "https://ui.adsabs.harvard.edu/#abs/2016arXiv160100587W",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "Can dual processing theory explain physics students’ performance on the Force Concept Inventory?",
@@ -1210,12 +890,8 @@
       "doi": "10.1103/physrevphyseducres.12.023101",
       "url": "https://doi.org/10.1103/physrevphyseducres.12.023101",
       "is_per": true,
-      "authors": [
-        "Anna Wood"
-      ],
-      "orcids": [
-        "0000-0003-3123-4021"
-      ]
+      "authors_full": "Wood, A. K.; Galloway, R. K.; Hardy, J.",
+      "authors_display": "Wood, A. K.; Galloway, R. K.; Hardy, J."
     },
     {
       "title": "Characterizing interactive engagement activities in a flipped introductory physics class",
@@ -1225,12 +901,8 @@
       "doi": "10.1103/physrevphyseducres.12.010140",
       "url": "https://doi.org/10.1103/physrevphyseducres.12.010140",
       "is_per": false,
-      "authors": [
-        "Anna Wood"
-      ],
-      "orcids": [
-        "0000-0003-3123-4021"
-      ]
+      "authors_full": "Wood, A. K.; Galloway, R. K.; Donnelly, R.; Hardy, J.",
+      "authors_display": "Wood, A. K.; Galloway, R. K.; Donnelly, R. et al."
     },
     {
       "title": "Doppler speeds of the hydrogen Lyman lines in solar flares from EVE",
@@ -1240,12 +912,8 @@
       "doi": "10.1051/0004-6361/201628390",
       "url": "https://doi.org/10.1051/0004-6361/201628390",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Brown, S. A.; Fletcher, L.; Labrosse, N.",
+      "authors_display": "Brown, S. A.; Fletcher, L.; Labrosse, N."
     },
     {
       "title": "Evidence for kappa distributions of ions in the flaring solar atmosphere from extreme ultraviolet spectroscopy",
@@ -1255,12 +923,8 @@
       "doi": null,
       "url": "https://ui.adsabs.harvard.edu/#abs/2016AGUFMSH13D..02F",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "First evidence of non-Gaussian solar flare EUV spectral line profiles and accelerated non-thermal ion motion",
@@ -1270,12 +934,8 @@
       "doi": "10.1051/0004-6361/201527986",
       "url": "https://doi.org/10.1051/0004-6361/201527986",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Jeffrey, N. L. S.; Fletcher, L.; Labrosse, N.",
+      "authors_display": "Jeffrey, N. L. S.; Fletcher, L.; Labrosse, N."
     },
     {
       "title": "Magnetic Field and Plasma Diagnostics from Coordinated Prominence Observations",
@@ -1285,12 +945,8 @@
       "doi": null,
       "url": "https://ui.adsabs.harvard.edu/#abs/2016ASPC..504..119S",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "MAGNETIC FIELD IN ATYPICAL PROMINENCE STRUCTURES: BUBBLE, TORNADO, AND ERUPTION",
@@ -1300,12 +956,8 @@
       "doi": "10.3847/0004-637x/826/2/164",
       "url": "https://doi.org/10.3847/0004-637x/826/2/164",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Levens, P. J.; Schmieder, B.; López Ariste, A.; Labrosse, N.; Dalmasse, K.; Gelly, B.",
+      "authors_display": "Levens, P. J.; Schmieder, B.; López Ariste, A. et al."
     },
     {
       "title": "Prominence plasma and magnetic field structure - A coordinated observation with IRIS, Hinode and THEMIS",
@@ -1315,12 +967,8 @@
       "doi": null,
       "url": "https://ui.adsabs.harvard.edu/#abs/2016cosp...41E1749S",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "Radiative transfer in cylindrical threads with incident radiation. VII. Multi-thread models",
@@ -1330,12 +978,8 @@
       "doi": "10.1051/0004-6361/201526897",
       "url": "https://doi.org/10.1051/0004-6361/201526897",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Labrosse, N.; Rodger, A. S.",
+      "authors_display": "Labrosse, N.; Rodger, A. S."
     },
     {
       "title": "A solar tornado observed by EIS. Plasma diagnostics",
@@ -1345,12 +989,8 @@
       "doi": "10.1051/0004-6361/201425586",
       "url": "https://doi.org/10.1051/0004-6361/201425586",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Levens, P. J.; Labrosse, N.; Fletcher, L.; Schmieder, B.",
+      "authors_display": "Levens, P. J.; Labrosse, N.; Fletcher, L. et al."
     },
     {
       "title": "Derivation of the Major Properties of Prominences Using NLTE Modelling",
@@ -1360,12 +1000,8 @@
       "doi": "10.1007/978-3-319-10416-4_6",
       "url": "https://doi.org/10.1007/978-3-319-10416-4_6",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Labrosse, N.",
+      "authors_display": "Labrosse, N."
     },
     {
       "title": "Determining energy balance in the flaring chromosphere from oxygen V line ratios",
@@ -1375,12 +1011,8 @@
       "doi": "10.1051/0004-6361/201425348",
       "url": "https://doi.org/10.1051/0004-6361/201425348",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Graham, D. R.; Fletcher, L.; Labrosse, N.",
+      "authors_display": "Graham, D. R.; Fletcher, L.; Labrosse, N."
     },
     {
       "title": "Kelvin News",
@@ -1390,12 +1022,8 @@
       "doi": null,
       "url": "https://conifer.rhizome.org/UoGLibrary/kelvin-news-2/20250331090225/https://kelvinnews.org/",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "Observations and modelling of Helium lines in solar flares",
@@ -1405,12 +1033,8 @@
       "doi": null,
       "url": "https://ui.adsabs.harvard.edu/#abs/2015arXiv151203477S",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "Polarimetric measurements in prominences and \"tornadoe\" observed by THEMIS",
@@ -1420,12 +1044,8 @@
       "doi": "10.1017/s1743921315004895",
       "url": "https://doi.org/10.1017/s1743921315004895",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Schmieder, B.; Ariste, A. L.; Levens, P.; Labrosse, N.; Dalmasse, K.",
+      "authors_display": "Schmieder, B.; Ariste, A. L.; Levens, P. et al."
     },
     {
       "title": "Solar science with the Atacama Large Millimeter/submillimeter Array - A new view of our Sun",
@@ -1435,12 +1055,8 @@
       "doi": null,
       "url": "https://ui.adsabs.harvard.edu/#abs/2015arXiv150406887W",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "Solar Science with the Atacama Large Millimeter/Submillimeter Array—A New View of Our Sun",
@@ -1450,12 +1066,8 @@
       "doi": "10.1007/s11214-015-0229-9",
       "url": "https://doi.org/10.1007/s11214-015-0229-9",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Wedemeyer, S.; Bastian, T.; Brajša, R.; Hudson, H.; Fleishman, G.; Loukitcheva, M.; Fleck, B.; Kontar, E. P.; De Pontieu, B.; Yagoubov, P.; Tiwari, S. K.; Soler, R.; Black, J. H.; Antolin, P.; Scullion, E.; Gunár, S.; Labrosse, N.; Ludwig, H.; Benz, A. O.; White, S. M.; Hauschildt, P.; Doyle, J. G.; Nakariakov, V. M.; Ayres, T.; Heinzel, P.; Karlicky, M.; Van Doorsselaere, T.; Gary, D.; Alissandrakis, C. E.; Nindos, A.; Solanki, S. K.; Rouppe van der Voort, L.; Shimojo, M.; Kato, Y.; Zaqarashvili, T.; Perez, E.; Selhorst, C. L.; Barta, M.",
+      "authors_display": "Wedemeyer, S.; Bastian, T.; Brajša, R. et al."
     },
     {
       "title": "SSALMON - The Solar Simulations for the Atacama Large Millimeter Observatory Network",
@@ -1465,12 +1077,8 @@
       "doi": null,
       "url": "https://ui.adsabs.harvard.edu/#abs/2015arXiv150205601W",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "Structure of prominence legs: Plasma and magnetic field",
@@ -1480,12 +1088,8 @@
       "doi": null,
       "url": "https://ui.adsabs.harvard.edu/#abs/2015arXiv151204727L",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "Analyzing learning during Peer Instruction dialogues: A resource activation framework",
@@ -1495,12 +1099,19 @@
       "doi": "10.1103/physrevstper.10.020107",
       "url": "https://doi.org/10.1103/physrevstper.10.020107",
       "is_per": true,
-      "authors": [
-        "Anna Wood"
-      ],
-      "orcids": [
-        "0000-0003-3123-4021"
-      ]
+      "authors_full": "Wood, A. K.; Galloway, R. K.; Hardy, J.; Sinclair, C. M.",
+      "authors_display": "Wood, A. K.; Galloway, R. K.; Hardy, J. et al."
+    },
+    {
+      "title": "Nonequilibrium fluctuation-dissipation relations for one- and two-particle correlation functions in steady-state quantum transport",
+      "year": "2014",
+      "journal": "Journal of Chemical Physics",
+      "type": "journal-article",
+      "doi": "10.1063/1.4870637",
+      "url": "https://doi.org/10.1063/1.4870637",
+      "is_per": false,
+      "authors_full": "Ness, H.; Dash, L. K.",
+      "authors_display": "Ness, H.; Dash, L. K."
     },
     {
       "title": "Plasma properties in eruptive prominences",
@@ -1510,12 +1121,8 @@
       "doi": "10.1017/s1743921313010776",
       "url": "https://doi.org/10.1017/s1743921313010776",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Labrosse, N.",
+      "authors_display": "Labrosse, N."
     },
     {
       "title": "Prominences in SDO/EVE spectra: contributions from large solar structures",
@@ -1525,12 +1132,8 @@
       "doi": "10.1017/s1743921313011459",
       "url": "https://doi.org/10.1017/s1743921313011459",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Labrosse, N.; Hudson, H.; Kazachenko, M.",
+      "authors_display": "Labrosse, N.; Hudson, H.; Kazachenko, M."
     },
     {
       "title": "A new approach to model particle acceleration and energy transfer in solar flares",
@@ -1540,12 +1143,19 @@
       "doi": null,
       "url": "https://ui.adsabs.harvard.edu/#abs/2013SPD....4440401R",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
+    },
+    {
+      "title": "Non-equilibrium renormalised contacts for transport in nanodevices with interaction: A quasi-particle approach",
+      "year": "2013",
+      "journal": "Journal of Physics Conference Series",
+      "type": "conference-paper",
+      "doi": "10.1088/1742-6596/427/1/012011",
+      "url": "https://doi.org/10.1088/1742-6596/427/1/012011",
+      "is_per": false,
+      "authors_full": "Ness, H.; Dash, L. K.",
+      "authors_display": "Ness, H.; Dash, L. K."
     },
     {
       "title": "PROM4: 1D isothermal and isobaric modeler for solar prominences",
@@ -1555,12 +1165,8 @@
       "doi": null,
       "url": "https://ui.adsabs.harvard.edu/#abs/2013ascl.soft06004G",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "Tagging and Linking Lecture Audio Recordings: Goals and Practice",
@@ -1570,12 +1176,63 @@
       "doi": null,
       "url": "https://ui.adsabs.harvard.edu/#abs/2013arXiv1311.1725G",
       "is_per": true,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
+    },
+    {
+      "title": "Dynamical equations for time-ordered Green's functions: From the Keldysh time-loop contour to equilibrium at finite and zero temperature",
+      "year": "2012",
+      "journal": "Journal of Physics Condensed Matter",
+      "type": "journal-article",
+      "doi": "10.1088/0953-8984/24/50/505601",
+      "url": "https://doi.org/10.1088/0953-8984/24/50/505601",
+      "is_per": false,
+      "authors_full": "Ness, H.; Dash, L. K.",
+      "authors_display": "Ness, H.; Dash, L. K."
+    },
+    {
+      "title": "Functionality in single-molecule devices: Model calculations and applications of the inelastic electron tunneling signal in molecular junctions",
+      "year": "2012",
+      "journal": "Journal of Chemical Physics",
+      "type": "conference-paper",
+      "doi": "10.1063/1.3684627",
+      "url": "https://doi.org/10.1063/1.3684627",
+      "is_per": false,
+      "authors_full": "Dash, L. K.; Ness, H.; Verstraete, M. J.; Godby, R. W.",
+      "authors_display": "Dash, L. K.; Ness, H.; Verstraete, M. J. et al."
+    },
+    {
+      "title": "Many-body current formula and current conservation for non-equilibrium fully interacting nanojunctions",
+      "year": "2012",
+      "journal": "Journal of Physics A Mathematical and Theoretical",
+      "type": "journal-article",
+      "doi": "10.1088/1751-8113/45/19/195301",
+      "url": "https://doi.org/10.1088/1751-8113/45/19/195301",
+      "is_per": false,
+      "authors_full": "Ness, H.; Dash, L. K.",
+      "authors_display": "Ness, H.; Dash, L. K."
+    },
+    {
+      "title": "Nonequilibrium charge susceptibility and dynamical conductance: Identification of scattering processes in quantum transport",
+      "year": "2012",
+      "journal": "Physical Review Letters",
+      "type": "journal-article",
+      "doi": "10.1103/physrevlett.108.126401",
+      "url": "https://doi.org/10.1103/physrevlett.108.126401",
+      "is_per": false,
+      "authors_full": "Ness, H.; Dash, L. K.",
+      "authors_display": "Ness, H.; Dash, L. K."
+    },
+    {
+      "title": "Nonequilibrium transport with self-consistent renormalized contacts for a single-molecule nanodevice with electron-vibron interaction",
+      "year": "2012",
+      "journal": "Physical Review B Condensed Matter and Materials Physics",
+      "type": "journal-article",
+      "doi": "10.1103/physrevb.86.155418",
+      "url": "https://doi.org/10.1103/physrevb.86.155418",
+      "is_per": false,
+      "authors_full": "Ness, H.; Dash, L. K.",
+      "authors_display": "Ness, H.; Dash, L. K."
     },
     {
       "title": "Plasma diagnostic in eruptive prominences from SDO/AIA observations at 304 angstrom",
@@ -1585,12 +1242,8 @@
       "doi": "10.1051/0004-6361/201117801",
       "url": "https://doi.org/10.1051/0004-6361/201117801",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Labrosse, N.; McGlinchey, K.",
+      "authors_display": "Labrosse, N.; McGlinchey, K."
     },
     {
       "title": "Relationship between an M6.6 solar flare and subsequent filament activations",
@@ -1600,12 +1253,8 @@
       "doi": null,
       "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84922272978&partnerID=MN8TOARS",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "Solar flares in Halpha  and Ly-alpha : observations vs simulations.",
@@ -1615,12 +1264,8 @@
       "doi": null,
       "url": "https://ui.adsabs.harvard.edu/#abs/2012MSAIS..19..117R",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "Solar flares in Hα and Ly-α: Observations vs simulations",
@@ -1630,12 +1275,8 @@
       "doi": null,
       "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84922290753&partnerID=MN8TOARS",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "The role of filament activation in a solar eruption",
@@ -1645,12 +1286,8 @@
       "doi": "10.1051/0004-6361/201116895",
       "url": "https://doi.org/10.1051/0004-6361/201116895",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Rubio da Costa, F.; Zuccarello, F.; Fletcher, L.; Romano, P.; Labrosse, N.",
+      "authors_display": "Rubio da Costa, F.; Zuccarello, F.; Fletcher, L. et al."
     },
     {
       "title": "Velocity Vector, Ionization Degree, and Temperature of Prominence Fine Structures Observed by Hinode/SOT",
@@ -1660,12 +1297,8 @@
       "doi": null,
       "url": "https://ui.adsabs.harvard.edu/#abs/2012ASPC..454..107S",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "EUV lines observed with EIS/Hinode in a solar prominence",
@@ -1675,12 +1308,41 @@
       "doi": "10.1051/0004-6361/201015064",
       "url": "https://doi.org/10.1051/0004-6361/201015064",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Labrosse, N.; Schmieder, B.; Heinzel, P.; Watanabe, T.",
+      "authors_display": "Labrosse, N.; Schmieder, B.; Heinzel, P. et al."
+    },
+    {
+      "title": "GW approximations and vertex corrections on the Keldysh time-loop contour: Application for model systems at equilibrium",
+      "year": "2011",
+      "journal": "Physical Review B Condensed Matter and Materials Physics",
+      "type": "journal-article",
+      "doi": "10.1103/physrevb.84.195114",
+      "url": "https://doi.org/10.1103/physrevb.84.195114",
+      "is_per": false,
+      "authors_full": "Ness, H.; Dash, L. K.; Stankovski, M.; Godby, R. W.",
+      "authors_display": "Ness, H.; Dash, L. K.; Stankovski, M. et al."
+    },
+    {
+      "title": "Nonequilibrium inelastic electronic transport: Polarization effects and vertex corrections to the self-consistent Born approximation",
+      "year": "2011",
+      "journal": "Physical Review B Condensed Matter and Materials Physics",
+      "type": "journal-article",
+      "doi": "10.1103/physrevb.84.085433",
+      "url": "https://doi.org/10.1103/physrevb.84.085433",
+      "is_per": false,
+      "authors_full": "Dash, L. K.; Ness, H.; Godby, R. W.",
+      "authors_display": "Dash, L. K.; Ness, H.; Godby, R. W."
+    },
+    {
+      "title": "Nonequilibrium quantum transport in fully interacting single-molecule junctions",
+      "year": "2011",
+      "journal": "Physical Review B Condensed Matter and Materials Physics",
+      "type": "journal-article",
+      "doi": "10.1103/physrevb.84.235428",
+      "url": "https://doi.org/10.1103/physrevb.84.235428",
+      "is_per": false,
+      "authors_full": "Ness, H.; Dash, L. K.",
+      "authors_display": "Ness, H.; Dash, L. K."
     },
     {
       "title": "Solar flares: observations vs simulations",
@@ -1690,12 +1352,8 @@
       "doi": "10.1017/s1743921311006880",
       "url": "https://doi.org/10.1017/s1743921311006880",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Rubio da Costa, F.; Zuccarello, F.; Labrosse, N.; Fletcher, L.; Prosecký, T.; Kašparová, J.",
+      "authors_display": "Rubio da Costa, F.; Zuccarello, F.; Labrosse, N. et al."
     },
     {
       "title": "The EVE Doppler Sensitivity and Flare Observations",
@@ -1705,12 +1363,8 @@
       "doi": "10.1007/s11207-011-9862-y",
       "url": "https://doi.org/10.1007/s11207-011-9862-y",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Hudson, H. S.; Woods, T. N.; Chamberlin, P. C.; Fletcher, L.; Del Zanna, G.; Didkovsky, L.; Labrosse, N.; Graham, D.",
+      "authors_display": "Hudson, H. S.; Woods, T. N.; Chamberlin, P. C. et al."
     },
     {
       "title": "Automatic Detection of Limb Prominences in 304 EUV Images",
@@ -1720,12 +1374,19 @@
       "doi": "10.1007/s11207-009-9492-9",
       "url": "https://doi.org/10.1007/s11207-009-9492-9",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Labrosse, N.; Dalla, S.; Marshall, S.",
+      "authors_display": "Labrosse, N.; Dalla, S.; Marshall, S."
+    },
+    {
+      "title": "Generalization and applicability of the Landauer formula for nonequilibrium current in the presence of interactions",
+      "year": "2010",
+      "journal": "Physical Review B Condensed Matter and Materials Physics",
+      "type": "journal-article",
+      "doi": "10.1103/physrevb.82.085426",
+      "url": "https://doi.org/10.1103/physrevb.82.085426",
+      "is_per": false,
+      "authors_full": "Ness, H.; Dash, L. K.; Godby, R. W.",
+      "authors_display": "Ness, H.; Dash, L. K.; Godby, R. W."
     },
     {
       "title": "Integrated Ly-alpha  intensity emission in ribbon flares",
@@ -1735,12 +1396,19 @@
       "doi": null,
       "url": "https://ui.adsabs.harvard.edu/#abs/2010MSAIS..14..193R",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
+    },
+    {
+      "title": "Nonequilibrium electronic structure of interacting single-molecule nanojunctions: Vertex corrections and polarization effects for the electron-vibron coupling",
+      "year": "2010",
+      "journal": "Journal of Chemical Physics",
+      "type": "journal-article",
+      "doi": "10.1063/1.3339390",
+      "url": "https://doi.org/10.1063/1.3339390",
+      "is_per": false,
+      "authors_full": "Dash, L. K.; Ness, H.; Godby, R. W.",
+      "authors_display": "Dash, L. K.; Ness, H.; Godby, R. W."
     },
     {
       "title": "Physics of Solar Prominences: I-Spectral Diagnostics and Non-LTE Modelling",
@@ -1750,12 +1418,8 @@
       "doi": "10.1007/s11214-010-9630-6",
       "url": "https://doi.org/10.1007/s11214-010-9630-6",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Labrosse, N.; Heinzel, P.; Vial, J.; Kucera, T.; Parenti, S.; Gunár, S.; Schmieder, B.; Kilper, G.",
+      "authors_display": "Labrosse, N.; Heinzel, P.; Vial, J. et al."
     },
     {
       "title": "Formation of Helium Lines in Solar Prominences",
@@ -1765,12 +1429,8 @@
       "doi": "10.1063/1.3250084",
       "url": "https://doi.org/10.1063/1.3250084",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Labrosse, N.; Gouttebroze, P.; Hubeny, I.; Stone, J. M.; MacGregor, K.; Werner, K.",
+      "authors_display": "Labrosse, N.; Gouttebroze, P.; Hubeny, I. et al."
     },
     {
       "title": "Formation of Helium Lines in Solar Prominences",
@@ -1780,12 +1440,8 @@
       "doi": null,
       "url": "",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "Integrated Ly-α intensity emission in ribbon ares",
@@ -1795,12 +1451,8 @@
       "doi": null,
       "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85036458501&partnerID=MN8TOARS",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "Observations of a solar flare and filament eruption in Lyman alpha and X-rays",
@@ -1810,12 +1462,8 @@
       "doi": "10.1051/0004-6361/200912651",
       "url": "https://doi.org/10.1051/0004-6361/200912651",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "da Costa, F. R.; Fletcher, L.; Labrosse, N.; Zuccarello, F.",
+      "authors_display": "da Costa, F. R.; Fletcher, L.; Labrosse, N. et al."
     },
     {
       "title": "Radiative transfer in cylindrical threads with incident radiation VI. A hydrogen plus helium system",
@@ -1825,12 +1473,8 @@
       "doi": "10.1051/0004-6361/200811483",
       "url": "https://doi.org/10.1051/0004-6361/200811483",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Gouttebroze, P.; Labrosse, N.",
+      "authors_display": "Gouttebroze, P.; Labrosse, N."
     },
     {
       "title": "Diagnostics of active and eruptive prominences through hydrogen and helium lines modelling",
@@ -1840,12 +1484,8 @@
       "doi": "10.5194/angeo-26-2961-2008",
       "url": "https://doi.org/10.5194/angeo-26-2961-2008",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Labrosse, N.; Vial, J.; Gouttebroze, P.",
+      "authors_display": "Labrosse, N.; Vial, J.; Gouttebroze, P."
     },
     {
       "title": "Diagnostics of active and eruptive prominences through hydrogen and helium lines modelling",
@@ -1855,12 +1495,8 @@
       "doi": null,
       "url": "",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "Hinode, TRACE, SOHO, and Ground-based Observations of a Quiescent Prominence",
@@ -1870,12 +1506,8 @@
       "doi": "10.1086/591018",
       "url": "https://doi.org/10.1086/591018",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Heinzel, P.; Schmieder, B.; Fárník, F.; Schwartz, P.; Labrosse, N.; Kotrč, P.; Anzer, U.; Molodij, G.; Berlicki, A.; DeLuca, E. E.; Golub, L.; Watanabe, T.; Berger, T.",
+      "authors_display": "Heinzel, P.; Schmieder, B.; Fárník, F. et al."
     },
     {
       "title": "HINODE, TRACE, SOHO, AND GROUND-BASED OBSERVATIONS OF A QUIESCENT PROMINENCE",
@@ -1885,12 +1517,8 @@
       "doi": null,
       "url": "",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "Investigation of Lyman 〈alpha〉 Emission in a Solar Flare",
@@ -1900,12 +1528,8 @@
       "doi": null,
       "url": "https://ui.adsabs.harvard.edu/#abs/2008ESPM...12.2.64R",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "Solar Prominence Diagnostic with Hinode/EIS",
@@ -1915,12 +1539,8 @@
       "doi": null,
       "url": "https://ui.adsabs.harvard.edu/#abs/2008ESPM...12.2.21L",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "The Lyman-alpha Line in Active and Eruptive Solar Prominences",
@@ -1930,12 +1550,8 @@
       "doi": null,
       "url": "https://ui.adsabs.harvard.edu/#abs/2008ESPM...12.3.17L",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "Effect of motions in prominences on the helium resonance lines in the extreme ultraviolet",
@@ -1945,12 +1561,19 @@
       "doi": "10.1051/0004-6361:20065775",
       "url": "https://doi.org/10.1051/0004-6361:20065775",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Labrosse, N.; Gouttebroze, P.; Vial, J.",
+      "authors_display": "Labrosse, N.; Gouttebroze, P.; Vial, J."
+    },
+    {
+      "title": "Electronic excitations: Ab initio calculations of electronic spectra and application to zirconia ZrO2, titania TiO2 and cuprous oxide Cu2O",
+      "year": "2007",
+      "journal": "Computational Materials Science",
+      "type": "journal-article",
+      "doi": "10.1016/j.commatsci.2005.09.010",
+      "url": "https://doi.org/10.1016/j.commatsci.2005.09.010",
+      "is_per": false,
+      "authors_full": "Dash, L.; Bruneval, F.; Trinité, V.; Vast, N.; Reining, L.",
+      "authors_display": "Dash, L.; Bruneval, F.; Trinité, V. et al."
     },
     {
       "title": "On VI and H<SUB>2</SUB> Lines in Sunspots",
@@ -1960,12 +1583,8 @@
       "doi": null,
       "url": "https://ui.adsabs.harvard.edu/#abs/2007ASPC..368..247L",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "OVI and H-2 lines in sunspots",
@@ -1975,12 +1594,8 @@
       "doi": null,
       "url": "",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "Spectral Diagnostics of Active Prominences",
@@ -1990,12 +1605,8 @@
       "doi": null,
       "url": "https://ui.adsabs.harvard.edu/#abs/2007ASPC..368..337L",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "A global 2.5-dimensional three fluid solar wind model with alpha particles",
@@ -2005,12 +1616,8 @@
       "doi": "10.1029/2005ja011303",
       "url": "https://doi.org/10.1029/2005ja011303",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Li, B.; Li, X.; Labrosse, N.",
+      "authors_display": "Li, B.; Li, X.; Labrosse, N."
     },
     {
       "title": "On the Lyman alpha and beta lines in solar coronal streamers",
@@ -2020,12 +1627,8 @@
       "doi": "10.1051/0004-6361:20065059",
       "url": "https://doi.org/10.1051/0004-6361:20065059",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Labrosse, N.; Li, X.; Li, B.",
+      "authors_display": "Labrosse, N.; Li, X.; Li, B."
     },
     {
       "title": "Plasma diagnostic of a solar prominence from hydrogen and helium resonance lines",
@@ -2035,12 +1638,8 @@
       "doi": null,
       "url": "https://ui.adsabs.harvard.edu/#abs/2006sf2a.conf..549L",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "The Helium Spectrum in Erupting Solar Prominences",
@@ -2050,12 +1649,8 @@
       "doi": null,
       "url": "https://ui.adsabs.harvard.edu/#abs/2006IAUJD...3E..47L",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "The Helium Spectrum in Moving Solar Prominences",
@@ -2065,12 +1660,8 @@
       "doi": null,
       "url": "https://ui.adsabs.harvard.edu/#abs/2006ESASP.617E.134L",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "The Lyman α and Lyman β Lines in Solar Coronal Streamers",
@@ -2080,12 +1671,41 @@
       "doi": null,
       "url": "https://ui.adsabs.harvard.edu/#abs/2006ESASP.617E..93L",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
+    },
+    {
+      "title": "TDDFT from molecules to solids: The role of long-range interactions",
+      "year": "2005",
+      "journal": "International Journal of Quantum Chemistry",
+      "type": "journal-article",
+      "doi": "10.1002/qua.20486",
+      "url": "https://doi.org/10.1002/qua.20486",
+      "is_per": false,
+      "authors_full": "Sottile, F.; Bruneval, F.; Marinopoulos, A. G.; Dash, L. K.; Botti, S.; Olevano, V.; Vast, N.; Rubio, A.; Reining, L.",
+      "authors_display": "Sottile, F.; Bruneval, F.; Marinopoulos, A. G. et al."
+    },
+    {
+      "title": "Assessment of competing mechanisms of the abstraction of hydrogen from CH4 on Li/MgO(0 0 1)",
+      "year": "2004",
+      "journal": "Surface Science",
+      "type": "journal-article",
+      "doi": "10.1016/j.susc.2003.11.008",
+      "url": "https://doi.org/10.1016/j.susc.2003.11.008",
+      "is_per": false,
+      "authors_full": "Dash, L.; Gillan, M.",
+      "authors_display": "Dash, L.; Gillan, M."
+    },
+    {
+      "title": "Electronic structure and electron energy-loss spectroscopy of ZrO 2 zirconia",
+      "year": "2004",
+      "journal": "Physical Review B Condensed Matter and Materials Physics",
+      "type": "journal-article",
+      "doi": "10.1103/physrevb.70.245116",
+      "url": "https://doi.org/10.1103/physrevb.70.245116",
+      "is_per": false,
+      "authors_full": "Dash, L. K.; Vast, N.; Baranek, P.; Cheynet, M.; Reining, L.",
+      "authors_display": "Dash, L. K.; Vast, N.; Baranek, P. et al."
     },
     {
       "title": "Non-LTE Radiative Transfer in Model Prominences. I. Integrated Intensities of He I Triplet Lines",
@@ -2095,12 +1715,8 @@
       "doi": "10.1086/425168",
       "url": "https://doi.org/10.1086/425168",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Labrosse, N.; Gouttebroze, P.",
+      "authors_display": "Labrosse, N.; Gouttebroze, P."
     },
     {
       "title": "Non-LTE radiative transfer in model prominences. I. Integrated intensities of HeI triplet lines",
@@ -2110,12 +1726,8 @@
       "doi": null,
       "url": "",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "Line profiles and intensity ratios in prominence models with a prominence to corona interface",
@@ -2125,12 +1737,8 @@
       "doi": null,
       "url": "https://ui.adsabs.harvard.edu/#abs/2002ESASP.506..451L",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "NLTE diagnostics of solar prominences using hydrogen and helium lines",
@@ -2140,12 +1748,8 @@
       "doi": null,
       "url": "https://ui.adsabs.harvard.edu/#abs/2002NCimC..25..817L",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "Prediction of line intensity ratios in solar prominences",
@@ -2155,12 +1759,8 @@
       "doi": null,
       "url": "https://ui.adsabs.harvard.edu/#abs/2002ESASP.505..421G",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "Radiative transfer effects on hydrogen (and helium) in the solar atmosphere",
@@ -2170,12 +1770,19 @@
       "doi": null,
       "url": "https://ui.adsabs.harvard.edu/#abs/2002ESASP.506...13L",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
+    },
+    {
+      "title": "Does Luttinger liquid behaviour survive in an atomic wire on a surface?",
+      "year": "2001",
+      "journal": "Journal of Physics Condensed Matter",
+      "type": "journal-article",
+      "doi": "10.1088/0953-8984/13/22/301",
+      "url": "https://doi.org/10.1088/0953-8984/13/22/301",
+      "is_per": false,
+      "authors_full": "Dash, L. K.; Fisher, A. J.",
+      "authors_display": "Dash, L. K.; Fisher, A. J."
     },
     {
       "title": "Formation of helium spectrum in solar quiescent prominences",
@@ -2185,12 +1792,8 @@
       "doi": "10.1051/0004-6361:20011395",
       "url": "https://doi.org/10.1051/0004-6361:20011395",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Labrosse, N.; Gouttebroze, P.",
+      "authors_display": "Labrosse, N.; Gouttebroze, P."
     },
     {
       "title": "Formation of helium spectrum in solar quiescent prominences",
@@ -2200,12 +1803,8 @@
       "doi": null,
       "url": "",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "A ready-made code for the computation of prominence NLTE models",
@@ -2215,12 +1814,8 @@
       "doi": "10.1023/a:1005229231465",
       "url": "https://doi.org/10.1023/a:1005229231465",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Gouttebroze, P.; Labrosse, N.",
+      "authors_display": "Gouttebroze, P.; Labrosse, N."
     },
     {
       "title": "A ready-made code for the computation of prominence NLTE models",
@@ -2230,12 +1825,8 @@
       "doi": null,
       "url": "",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "Modelling Of Helium Spectrum In Solar Prominences",
@@ -2245,12 +1836,8 @@
       "doi": null,
       "url": "https://ui.adsabs.harvard.edu/#abs/1999ESASP.446..399L",
       "is_per": false,
-      "authors": [
-        "Nicolas Labrosse"
-      ],
-      "orcids": [
-        "0000-0002-4638-157X"
-      ]
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
     }
   ]
 }
