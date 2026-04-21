@@ -25,7 +25,7 @@ filtered = pubs.filter(p => {
   const q = search.toLowerCase()
   const matchSearch = !q ||
     (p.title  || "").toLowerCase().includes(q) ||
-    (p.authors || []).join(" ").toLowerCase().includes(q) ||
+    (p.authors_full || "").toLowerCase().includes(q) ||
     (p.journal || "").toLowerCase().includes(q)
   const matchYear = yearFilter === "All years" || p.year === yearFilter
   const matchPer  = perOnly || p.is_per
