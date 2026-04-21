@@ -52,7 +52,7 @@ htl.html`<table style="width:100%; border-collapse:collapse; font-size:0.9rem;">
           ? htl.html`<a href="${p.url}" target="_blank" style="color:#1a6496;">${p.title}</a>`
           : p.title}
       </td>
-      <td style="padding:8px 12px; color:#444;">${(p.authors || []).join(", ")}</td>
+      <td style="padding:8px 12px; color:#444;">${p.authors_display || ""}</td>
       <td style="padding:8px 12px; color:#444; font-style:italic;">${p.journal || ""}</td>
       <td style="padding:8px 12px; text-align:center;">${p.is_per ? "✓" : ""}</td>
     </tr>`)}
