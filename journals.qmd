@@ -1,0 +1,33 @@
+---
+title: "PER Journals"
+---
+
+This page lists all journals in which Physics Education Research outputs
+from this community have been published, ordered by number of publications.
+A paper is classified as PER either because it appears in a known PER journal
+(listed in [`per_journals.txt`](https://github.com/nicolaslab/per-he-publications/blob/master/per_journals.txt))
+or because its title contains a keyword from
+[`per_keywords.txt`](https://github.com/nicolaslab/per-he-publications/blob/master/per_keywords.txt).
+
+```{ojs}
+//| echo: false
+
+jdata = await FileAttachment("_data/per_journals_found.json").json()
+
+md`**${jdata.length} journals** represented in PER-classified outputs.`
+
+htl.html`<table style="width:100%; border-collapse:collapse; font-size:0.9rem;">
+  <thead>
+    <tr style="border-bottom:2px solid #ccc; text-align:left;">
+      <th style="padding:8px 12px;">Journal</th>
+      <th style="padding:8px 12px; text-align:center;">PER outputs</th>
+    </tr>
+  </thead>
+  <tbody>
+    ${jdata.map((j, i) => htl.html`<tr style="border-bottom:1px solid #eee; background:${i % 2 === 0 ? '#fff' : '#f9f9f9'};">
+      <td style="padding:8px 12px; font-style:italic;">${j.journal}</td>
+      <td style="padding:8px 12px; text-align:center;">${j.count}</td>
+    </tr>`)}
+  </tbody>
+</table>`
+```
