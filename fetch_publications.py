@@ -394,7 +394,7 @@ def main():
                         if not existing["url"] and pub["url"]:
                             existing["url"] = pub["url"]
                         by_doi[doi] = existing
-                        print(f"    Merged (title+year+author match): "{pub['title'][:60]}..."")
+                        print(f"    Merged (title+year+author match): '{pub['title'][:60]}...'")
                     else:
                         # Title matched but year/author check failed — treat as separate
                         by_doi[doi] = pub
@@ -413,7 +413,7 @@ def main():
                         existing["orcids"].append(orcid)
                     if not existing["url"] and pub["url"]:
                         existing["url"] = pub["url"]
-                    print(f"    Merged (title+year+author match): "{pub['title'][:60]}..."")
+                    print(f"    Merged (title+year+author match): '{pub['title'][:60]}...'")
                 else:
                     # Looks different enough — keep as separate entry
                     no_key.append(pub)
@@ -426,7 +426,7 @@ def main():
                         existing["authors"].append(name)
                     if not existing["url"] and pub["url"]:
                         existing["url"] = pub["url"]
-                    print(f"    Merged (title+year+author match): "{pub['title'][:60]}..."")
+                    print(f"    Merged (title+year+author match): '{pub['title'][:60]}...'")
                 else:
                     no_key.append(pub)
 
