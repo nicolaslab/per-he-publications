@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>About – PER-HE Publications</title>
+<title>PER Journals – PER-HE Publications</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -22,6 +22,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -70,6 +105,8 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script type="module" src="site_libs/quarto-ojs/quarto-ojs-runtime.js"></script>
+<link href="site_libs/quarto-ojs/quarto-ojs.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="styles.css">
@@ -105,11 +142,11 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Authors</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./journals.html"> 
+    <a class="nav-link active" href="./journals.html" aria-current="page"> 
 <span class="menu-text">PER Journals</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page"> 
+    <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -130,26 +167,15 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
-  <li><a href="#how-it-works" id="toc-how-it-works" class="nav-link" data-scroll-target="#how-it-works">How it works</a></li>
-  <li><a href="#limitations" id="toc-limitations" class="nav-link" data-scroll-target="#limitations">Limitations</a></li>
-  <li><a href="#getting-listed" id="toc-getting-listed" class="nav-link" data-scroll-target="#getting-listed">Getting listed</a></li>
-  <li><a href="#source-code" id="toc-source-code" class="nav-link" data-scroll-target="#source-code">Source code</a></li>
-  <li><a href="#acknowledgements" id="toc-acknowledgements" class="nav-link" data-scroll-target="#acknowledgements">Acknowledgements</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About</h1>
+<h1 class="title">PER Journals</h1>
 </div>
 
 
@@ -166,46 +192,62 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="overview" class="level2">
-<h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>This website automatically aggregates publications from members of the <a href="https://per-he.org">UK &amp; Ireland Physics Higher Education Research (PER-HE) community</a>. Rather than manually maintaining a list that quickly becomes outdated, we use <a href="https://orcid.org">ORCID</a> profiles to keep the publication list current.</p>
-</section>
-<section id="how-it-works" class="level2">
-<h2 class="anchored" data-anchor-id="how-it-works">How it works</h2>
-<ol type="1">
-<li><strong>Author list</strong>: Researchers in the community share their ORCID identifier, which is added to a CSV file in this repository.</li>
-<li><strong>Automated fetching</strong>: A weekly GitHub Actions workflow runs a Python script that queries the ORCID public API for each author’s publications.</li>
-<li><strong>Deduplication</strong>: Papers appearing on multiple authors’ profiles (collaborations) are merged into a single entry using their DOI.</li>
-<li><strong>PER classification</strong>: Papers are automatically tagged as Physics Education Research based on the journal name and title keywords.</li>
-<li><strong>Website generation</strong>: Quarto renders the data into this searchable, browsable website, deployed automatically to GitHub Pages.</li>
-</ol>
-</section>
-<section id="limitations" class="level2">
-<h2 class="anchored" data-anchor-id="limitations">Limitations</h2>
-<ul>
-<li>Only works added to an author’s ORCID profile will appear here.</li>
-<li>Metadata quality depends on how entries were added to ORCID.</li>
-<li>There is up to a 7-day delay between an ORCID update and this site updating.</li>
-</ul>
-</section>
-<section id="getting-listed" class="level2">
-<h2 class="anchored" data-anchor-id="getting-listed">Getting listed</h2>
-<p>If you are a member of the UK &amp; Ireland PER community and would like your publications included, please contact us via <a href="https://per-he.org">per-he.org</a> with your ORCID identifier.</p>
-</section>
-<section id="source-code" class="level2">
-<h2 class="anchored" data-anchor-id="source-code">Source code</h2>
-<p>The source code for this site is available on <a href="https://github.com/nicolaslab/per-he-publications">GitHub</a>. It is written in Python and Quarto, and runs entirely on free GitHub infrastructure.</p>
-</section>
-<section id="acknowledgements" class="level2">
-<h2 class="anchored" data-anchor-id="acknowledgements">Acknowledgements</h2>
-<p>This site was inspired by the <a href="https://mvls-lts.github.io/outputs/">MVLS Learning, Teaching and Scholarship Network publications page</a>, which demonstrated this approach for a different research community. We are grateful to its authors for making their <a href="https://github.com/mvls-lts/outputs">source code</a> openly available.</p>
-<hr>
-<p><em>Data sourced from <a href="https://orcid.org">ORCID</a></em></p>
+<p>This page lists all journals in which Physics Education Research outputs from this community have been published, ordered by number of publications. A paper is classified as PER either because it appears in a known PER journal (listed in <a href="https://github.com/nicolaslab/per-he-publications/blob/master/per_journals.txt"><code>per_journals.txt</code></a>) or because its title contains a keyword from <a href="https://github.com/nicolaslab/per-he-publications/blob/master/per_keywords.txt"><code>per_keywords.txt</code></a>.</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb1" data-startfrom="15" data-source-offset="-1"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 14;"><span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>jdata <span class="op">=</span> <span class="cf">await</span> <span class="fu">FileAttachment</span>(<span class="st">"_data/per_journals_found.json"</span>)<span class="op">.</span><span class="fu">json</span>()</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="fu">md</span><span class="vs">`**</span><span class="sc">${</span>jdata<span class="op">.</span><span class="at">length</span><span class="sc">}</span><span class="vs"> journals** represented in PER-classified outputs.`</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-1" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-2" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb2" data-startfrom="19" data-source-offset="-144"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 18;"><span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>htl<span class="op">.</span><span class="fu">html</span><span class="vs">`&lt;table style="width:100%; border-collapse:collapse; font-size:0.9rem;"&gt;</span></span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;thead&gt;</span></span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;tr style="border-bottom:2px solid #ccc; text-align:left;"&gt;</span></span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a><span class="vs">      &lt;th style="padding:8px 12px;"&gt;Journal&lt;/th&gt;</span></span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a><span class="vs">      &lt;th style="padding:8px 12px; text-align:center;"&gt;PER outputs&lt;/th&gt;</span></span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;/tr&gt;</span></span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;/thead&gt;</span></span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;tbody&gt;</span></span>
+<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a><span class="vs">    </span><span class="sc">${</span>jdata<span class="op">.</span><span class="fu">map</span>((j<span class="op">,</span> i) <span class="kw">=&gt;</span> htl<span class="op">.</span><span class="fu">html</span><span class="vs">`&lt;tr style="border-bottom:1px solid #eee; background:</span><span class="sc">${</span>i <span class="op">%</span> <span class="dv">2</span> <span class="op">===</span> <span class="dv">0</span> <span class="op">?</span> <span class="st">'#fff'</span> <span class="op">:</span> <span class="st">'#f9f9f9'</span><span class="sc">}</span><span class="vs">;"&gt;</span></span>
+<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a><span class="vs">      &lt;td style="padding:8px 12px; font-style:italic;"&gt;</span><span class="sc">${</span>j<span class="op">.</span><span class="at">journal</span><span class="sc">}</span><span class="vs">&lt;/td&gt;</span></span>
+<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a><span class="vs">      &lt;td style="padding:8px 12px; text-align:center;"&gt;</span><span class="sc">${</span>j<span class="op">.</span><span class="at">count</span><span class="sc">}</span><span class="vs">&lt;/td&gt;</span></span>
+<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;/tr&gt;`</span>)<span class="sc">}</span></span>
+<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;/tbody&gt;</span></span>
+<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a><span class="vs">&lt;/table&gt;`</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-3" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+</div>
 
 
-</section>
 
 </main> <!-- /main -->
+<script type="ojs-module-contents">
+eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6IlxuamRhdGEgPSBhd2FpdCBGaWxlQXR0YWNobWVudChcIl9kYXRhL3Blcl9qb3VybmFsc19mb3VuZC5qc29uXCIpLmpzb24oKVxuXG5tZGAqKiR7amRhdGEubGVuZ3RofSBqb3VybmFscyoqIHJlcHJlc2VudGVkIGluIFBFUi1jbGFzc2lmaWVkIG91dHB1dHMuYFxuXG5odGwuaHRtbGA8dGFibGUgc3R5bGU9XCJ3aWR0aDoxMDAlOyBib3JkZXItY29sbGFwc2U6Y29sbGFwc2U7IGZvbnQtc2l6ZTowLjlyZW07XCI+XG4gIDx0aGVhZD5cbiAgICA8dHIgc3R5bGU9XCJib3JkZXItYm90dG9tOjJweCBzb2xpZCAjY2NjOyB0ZXh0LWFsaWduOmxlZnQ7XCI+XG4gICAgICA8dGggc3R5bGU9XCJwYWRkaW5nOjhweCAxMnB4O1wiPkpvdXJuYWw8L3RoPlxuICAgICAgPHRoIHN0eWxlPVwicGFkZGluZzo4cHggMTJweDsgdGV4dC1hbGlnbjpjZW50ZXI7XCI+UEVSIG91dHB1dHM8L3RoPlxuICAgIDwvdHI+XG4gIDwvdGhlYWQ+XG4gIDx0Ym9keT5cbiAgICAke2pkYXRhLm1hcCgoaiwgaSkgPT4gaHRsLmh0bWxgPHRyIHN0eWxlPVwiYm9yZGVyLWJvdHRvbToxcHggc29saWQgI2VlZTsgYmFja2dyb3VuZDoke2kgJSAyID09PSAwID8gJyNmZmYnIDogJyNmOWY5ZjknfTtcIj5cbiAgICAgIDx0ZCBzdHlsZT1cInBhZGRpbmc6OHB4IDEycHg7IGZvbnQtc3R5bGU6aXRhbGljO1wiPiR7ai5qb3VybmFsfTwvdGQ+XG4gICAgICA8dGQgc3R5bGU9XCJwYWRkaW5nOjhweCAxMnB4OyB0ZXh0LWFsaWduOmNlbnRlcjtcIj4ke2ouY291bnR9PC90ZD5cbiAgICA8L3RyPmApfVxuICA8L3Rib2R5PlxuPC90YWJsZT5gXG4ifV19
+</script>
+<script type="module">
+if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }
+window._ojs.paths.runtimeToDoc = "../..";
+window._ojs.paths.runtimeToRoot = "../..";
+window._ojs.paths.docToRoot = "";
+window._ojs.selfContained = false;
+window._ojs.runtime.interpretFromScriptTags();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

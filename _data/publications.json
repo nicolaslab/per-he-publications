@@ -141,7 +141,7 @@
       "type": "journal-article",
       "doi": "10.1080/1360144x.2022.2103817",
       "url": "https://doi.org/10.1080/1360144x.2022.2103817",
-      "is_per": false,
+      "is_per": true,
       "authors_full": "Wood, A. K.; Christie, H.; MacKay, J. R. D.; Kinnear, G.",
       "authors_display": "Wood, A. K.; Christie, H.; MacKay, J. R. D. et al."
     },

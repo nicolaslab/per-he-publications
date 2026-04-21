@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Louise Dash",
+    "orcid": "0009-0005-8254-3598",
+    "institution": "University College London",
+    "pub_count": 18,
+    "per_count": 1
+  },
+  {
+    "name": "Nicolas Labrosse",
+    "orcid": "0000-0002-4638-157X",
+    "institution": "University of Glasgow",
+    "pub_count": 127,
+    "per_count": 7
+  },
+  {
+    "name": "Anna Wood",
+    "orcid": "0000-0003-3123-4021",
+    "institution": "University of Edinburgh",
+    "pub_count": 15,
+    "per_count": 10
+  }
+]
