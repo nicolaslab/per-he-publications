@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-04-21",
-  "total": 167,
+  "total": 159,
   "publications": [
     {
       "title": "Analysis of Lyman β and Lyman γ lines in a pre-eruptive and eruptive prominence with Solar Orbiter SPICE observations",
@@ -12,17 +12,6 @@
       "is_per": false,
       "authors_full": "Zhang, Y.; Labrosse, N.; Parenti, S.; Kucera, T. A.",
       "authors_display": "Zhang, Y.; Labrosse, N.; Parenti, S. et al."
-    },
-    {
-      "title": "Analysis of Lyman β and Lyman γ lines in a pre-eruptive and eruptive prominence with solar orbiter SPICE observations",
-      "year": "2026",
-      "journal": "Monthly Notices of the Royal Astronomical Society",
-      "type": "journal-article",
-      "doi": null,
-      "url": "https://eprints.gla.ac.uk/376792/",
-      "is_per": false,
-      "authors_full": "Nicolas Labrosse",
-      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "How to design the perfect lecture",
@@ -45,17 +34,6 @@
       "is_per": false,
       "authors_full": "Zhang, Y.; Labrosse, N.; Parenti, S.; Kucera, T. A.",
       "authors_display": "Zhang, Y.; Labrosse, N.; Parenti, S. et al."
-    },
-    {
-      "title": "Non-LTE analysis of pre-eruptive prominence plasma parameters’ effects on the Lyman β and Lyman γ lines with solar orbiter SPICE observations",
-      "year": "2026",
-      "journal": "Monthly Notices of the Royal Astronomical Society",
-      "type": "journal-article",
-      "doi": null,
-      "url": "https://eprints.gla.ac.uk/378573/",
-      "is_per": false,
-      "authors_full": "Nicolas Labrosse",
-      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "STEMM Teachers’ Conceptions of Teaching Large Classes",
@@ -1048,17 +1026,6 @@
       "authors_display": "Schmieder, B.; Ariste, A. L.; Levens, P. et al."
     },
     {
-      "title": "Solar science with the Atacama Large Millimeter/submillimeter Array - A new view of our Sun",
-      "year": "2015",
-      "journal": "",
-      "type": "journal-article",
-      "doi": null,
-      "url": "https://ui.adsabs.harvard.edu/#abs/2015arXiv150406887W",
-      "is_per": false,
-      "authors_full": "Nicolas Labrosse",
-      "authors_display": "Nicolas Labrosse"
-    },
-    {
       "title": "Solar Science with the Atacama Large Millimeter/Submillimeter Array—A New View of Our Sun",
       "year": "2015",
       "journal": "",
@@ -1433,17 +1400,6 @@
       "authors_display": "Labrosse, N.; Gouttebroze, P.; Hubeny, I. et al."
     },
     {
-      "title": "Formation of Helium Lines in Solar Prominences",
-      "year": "2009",
-      "journal": "Recent Directions in Astrophysical Quantitative Spectroscopy and Radiation Hydrodynamics",
-      "type": "book-chapter",
-      "doi": null,
-      "url": "",
-      "is_per": false,
-      "authors_full": "Nicolas Labrosse",
-      "authors_display": "Nicolas Labrosse"
-    },
-    {
       "title": "Integrated Ly-α intensity emission in ribbon ares",
       "year": "2009",
       "journal": "Memorie della Societa Astronomica Italiana - Journal of the Italian Astronomical Society",
@@ -1488,17 +1444,6 @@
       "authors_display": "Labrosse, N.; Vial, J.; Gouttebroze, P."
     },
     {
-      "title": "Diagnostics of active and eruptive prominences through hydrogen and helium lines modelling",
-      "year": "2008",
-      "journal": "ANNALES GEOPHYSICAE",
-      "type": "journal-article",
-      "doi": null,
-      "url": "",
-      "is_per": false,
-      "authors_full": "Nicolas Labrosse",
-      "authors_display": "Nicolas Labrosse"
-    },
-    {
       "title": "Hinode, TRACE, SOHO, and Ground-based Observations of a Quiescent Prominence",
       "year": "2008",
       "journal": "",
@@ -1508,17 +1453,6 @@
       "is_per": false,
       "authors_full": "Heinzel, P.; Schmieder, B.; Fárník, F.; Schwartz, P.; Labrosse, N.; Kotrč, P.; Anzer, U.; Molodij, G.; Berlicki, A.; DeLuca, E. E.; Golub, L.; Watanabe, T.; Berger, T.",
       "authors_display": "Heinzel, P.; Schmieder, B.; Fárník, F. et al."
-    },
-    {
-      "title": "HINODE, TRACE, SOHO, AND GROUND-BASED OBSERVATIONS OF A QUIESCENT PROMINENCE",
-      "year": "2008",
-      "journal": "ASTROPHYSICAL JOURNAL",
-      "type": "journal-article",
-      "doi": null,
-      "url": "",
-      "is_per": false,
-      "authors_full": "Nicolas Labrosse",
-      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "Investigation of Lyman 〈alpha〉 Emission in a Solar Flare",
@@ -1796,17 +1730,6 @@
       "authors_display": "Labrosse, N.; Gouttebroze, P."
     },
     {
-      "title": "Formation of helium spectrum in solar quiescent prominences",
-      "year": "2001",
-      "journal": "ASTRONOMY & ASTROPHYSICS",
-      "type": "journal-article",
-      "doi": null,
-      "url": "",
-      "is_per": false,
-      "authors_full": "Nicolas Labrosse",
-      "authors_display": "Nicolas Labrosse"
-    },
-    {
       "title": "A ready-made code for the computation of prominence NLTE models",
       "year": "2000",
       "journal": "Solar Physics",
@@ -1816,17 +1739,6 @@
       "is_per": false,
       "authors_full": "Gouttebroze, P.; Labrosse, N.",
       "authors_display": "Gouttebroze, P.; Labrosse, N."
-    },
-    {
-      "title": "A ready-made code for the computation of prominence NLTE models",
-      "year": "2000",
-      "journal": "SOLAR PHYSICS",
-      "type": "journal-article",
-      "doi": null,
-      "url": "",
-      "is_per": false,
-      "authors_full": "Nicolas Labrosse",
-      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "Modelling Of Helium Spectrum In Solar Prominences",
