@@ -208,61 +208,72 @@ def parse_work_group(group, author_name, author_orcid):
 
 def fetch_authors_from_crossref(doi):
     """
-    Look up a DOI on CrossRef and return (display_string, full_string).
-    Returns (None, None) if the lookup fails or no authors are found.
+    Look up a DOI on CrossRef and return (display_string, full_string, journal).
+    Returns (None, None, None) if the lookup fails or no authors are found.
     """
     url = f"{CROSSREF_API}/{doi}"
     try:
         r = requests.get(url, headers=HEADERS, timeout=20)
         if r.status_code == 404:
-            return None, None
+            return None, None, None
         r.raise_for_status()
-        data    = r.json().get("message", {})
+        data       = r.json().get("message", {})
         cr_authors = data.get("author", [])
-        if not cr_authors:
-            return None, None
-        names = [format_author_name(a) for a in cr_authors]
-        return format_author_list(names)
-    except requests.RequestException:
-        return None, None
 
+        # Journal name is stored as a list in container-title
+        container  = data.get("container-title") or []
+        journal    = container[0].strip() if container else None
+
+        if not cr_authors:
+            return None, None, journal
+
+        names = [format_author_name(a) for a in cr_authors]
+        display, full = format_author_list(names)
+        return display, full, journal
+
+    except requests.RequestException:
+        return None, None, None
 
 def enrich_with_crossref(all_pubs):
     """
-    For every publication that has a DOI, fetch the full author list
-    from CrossRef and update the authors_display and authors_full fields.
-    Works without a DOI keep the ORCID-derived author list.
+    For every publication that has a DOI, fetch the full author list and
+    journal name from CrossRef, filling in any gaps left by ORCID.
     """
-    total  = sum(1 for p in all_pubs if p.get("doi"))
-    done   = 0
+    total = sum(1 for p in all_pubs if p.get("doi"))
+    done  = 0
     print(f"\nFetching full author lists from CrossRef for {total} DOI-linked papers...")
 
     for pub in all_pubs:
         doi = pub.get("doi")
         if not doi:
-            # No DOI: use whatever ORCID gave us
             display, full = format_author_list(pub["authors"])
             pub["authors_display"] = display
             pub["authors_full"]    = full
             continue
 
-        display, full = fetch_authors_from_crossref(doi)
+        display, full, journal = fetch_authors_from_crossref(doi)
+
         if display:
             pub["authors_display"] = display
             pub["authors_full"]    = full
         else:
-            # CrossRef lookup failed: fall back to ORCID authors
             display, full = format_author_list(pub["authors"])
             pub["authors_display"] = display
             pub["authors_full"]    = full
 
+        # Fill in missing journal name from CrossRef
+        if not pub.get("journal") and journal:
+            pub["journal"] = journal
+            # Re-evaluate PER classification now that we have the journal name
+            pub["is_per"] = is_per_paper(pub["title"], journal)
+
         done += 1
         if done % 20 == 0:
             print(f"  {done}/{total} done...")
-        time.sleep(0.2)   # polite rate limiting for CrossRef
+        time.sleep(0.2)
 
     return all_pubs
-
+  
 def extract_family_names(authors_list):
     """
     Extract a set of normalised family names from a list of author name strings.
