@@ -1,27 +1,21 @@
-# Quarto
+# Python
+__pycache__/
+*.py[cod]
+.env
+
+# Quarto build output
 /.quarto/
-/_site/
-/docs/
+docs/
 
-# R
-.Rproj.user
+# R leftovers (no longer used)
+*.rds
+*.rda
+*.RData
 .Rhistory
-.RData
-.Ruserdata
-*.Rproj
 
-# System files
+# macOS
 .DS_Store
-Thumbs.db
 
-# IDE
+# Editor folders
 .vscode/
 .idea/
-
-# Temporary files
-*.tmp
-*.bak
-.httr-oauth
-.quarto
-
-**/*.quarto_ipynb
