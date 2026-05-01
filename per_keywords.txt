@@ -1,10 +1,12 @@
+academic performance
 active learning
 conceptual understanding
-evidence-based teaching
+educational research
+evidence*based teaching
 flipped classroom
 higher education
-inquiry-based
-lecture
+inquiry*based
+lecture*
 peer instruction
 physics curriculum
 physics education
@@ -14,8 +16,9 @@ physics teaching
 postgraduate
 science communication
 science education
-stem education
-students
+stem* education
+stem* teacher*
+student*
 student engagement
 student understanding
 undergraduate physics
