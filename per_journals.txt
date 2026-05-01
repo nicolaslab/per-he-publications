@@ -17,9 +17,9 @@ journal of research in science teaching
 Journal of Science Education and Technology
 latin american journal of physics education
 physical review physics education research
-physical review special topics-physics education research
-physical review special topics - physics education research
+physical review special topics*-*physics education research
 physics education
+* Physics Education Research Conference
 Physics Education Research Conference Proceedings
 science education
 studies in higher education
