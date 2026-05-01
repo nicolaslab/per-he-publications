@@ -296,8 +296,9 @@ def enrich_with_crossref(all_pubs):
         # Fill in missing journal name from CrossRef
         if not pub.get("journal") and journal:
             pub["journal"] = journal
-            # Re-evaluate PER classification now that we have the journal name
-            pub["is_per"] = is_per_paper(pub["title"], journal)
+
+        # Always re-evaluate PER classification with the best available metadata
+        pub["is_per"] = is_per_paper(pub["title"], pub.get("journal", ""))
 
         done += 1
         if done % 20 == 0:
