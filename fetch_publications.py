@@ -156,17 +156,29 @@ def load_researchers(filepath="orcid_ids.csv"):
     return researchers
 
 
-def fetch_works(orcid_id):
-    """Ask the ORCID API for all works belonging to one researcher."""
+def fetch_works(orcid_id, max_retries=3, retry_delay=10):
+    """Ask the ORCID API for all works, with retry logic for empty responses."""
     url = f"{ORCID_API}/{orcid_id}/works"
-    try:
-        r = requests.get(url, headers=HEADERS, timeout=30)
-        r.raise_for_status()
-        return r.json().get("group", [])
-    except requests.RequestException as e:
-        print(f"  Warning: could not fetch works for {orcid_id}: {e}")
-        return []
-
+    for attempt in range(1, max_retries + 1):
+        try:
+            r = requests.get(url, headers=HEADERS, timeout=30)
+            r.raise_for_status()
+            groups = r.json().get("group", [])
+            if groups:
+                return groups
+            # Got a valid response but empty — may be rate limiting
+            if attempt < max_retries:
+                print(f"  Empty response on attempt {attempt}, retrying in {retry_delay}s...")
+                time.sleep(retry_delay)
+            else:
+                print(f"  Warning: {max_retries} attempts all returned 0 works for {orcid_id}.")
+                print(f"  This may be rate limiting — try re-running the workflow shortly.")
+                return []
+        except requests.RequestException as e:
+            print(f"  Warning: could not fetch works for {orcid_id} (attempt {attempt}): {e}")
+            if attempt < max_retries:
+                time.sleep(retry_delay)
+    return []
 
 def parse_work_group(group, author_name, author_orcid):
     """Extract the useful fields from one ORCID work group."""
@@ -411,7 +423,7 @@ def main():
             else:
                 no_key.append(pub)
 
-        time.sleep(0.5)
+        time.sleep(1)
 
     all_pubs = list(by_doi.values()) + list(by_title.values()) + no_key
     print(f"\nTotal unique publications after deduplication: {len(all_pubs)}")
