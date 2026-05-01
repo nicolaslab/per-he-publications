@@ -229,7 +229,7 @@
       "type": "journal-article",
       "doi": "10.1080/0309877x.2023.2188178",
       "url": "https://doi.org/10.1080/0309877x.2023.2188178",
-      "is_per": false,
+      "is_per": true,
       "authors_full": "Fox, M. F. J.; Kandiko Howson, C.; Kingsbury, M.",
       "authors_display": "Fox, M. F. J.; Kandiko Howson, C.; Kingsbury, M."
     },
@@ -295,7 +295,7 @@
       "type": "book-chapter",
       "doi": "10.4324/9781003443735-8",
       "url": "https://doi.org/10.4324/9781003443735-8",
-      "is_per": false,
+      "is_per": true,
       "authors_full": "Kandiko Howson, C. B.; Smith, A.; Durk, J.; Fox, M. F. J.; Tymms, V.; Richards, M.",
       "authors_display": "Kandiko Howson, C. B.; Smith, A.; Durk, J. et al."
     },
@@ -361,7 +361,7 @@
       "type": "conference-paper",
       "doi": "10.1119/perc.2022.pr.fox",
       "url": "https://doi.org/10.1119/perc.2022.pr.fox",
-      "is_per": false,
+      "is_per": true,
       "authors_full": "Fox, M. F. J.; Bland, S.; Mangles, S. P. D.; McGinty, J.",
       "authors_display": "Fox, M. F. J.; Bland, S.; Mangles, S. P. D. et al."
     },
@@ -570,7 +570,7 @@
       "type": "conference-paper",
       "doi": "10.1119/perc.2020.pr.fox",
       "url": "https://doi.org/10.1119/perc.2020.pr.fox",
-      "is_per": false,
+      "is_per": true,
       "authors_full": "Fox, M. F. J.; Pollard, B.; Ríos, L.; Lewandowski, H. J.",
       "authors_display": "Fox, M. F. J.; Pollard, B.; Ríos, L. et al."
     },
@@ -581,7 +581,7 @@
       "type": "conference-paper",
       "doi": "10.1119/perc.2020.pr.pollard",
       "url": "https://doi.org/10.1119/perc.2020.pr.pollard",
-      "is_per": false,
+      "is_per": true,
       "authors_full": "Pollard, B.; Fox, M. F. J.; Ríos, L.; Lewandowski, H. J.",
       "authors_display": "Pollard, B.; Fox, M. F. J.; Ríos, L. et al."
     },
