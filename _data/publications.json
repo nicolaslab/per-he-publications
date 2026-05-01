@@ -31,7 +31,7 @@
       "type": "journal-article",
       "doi": "10.3390/educsci16030415",
       "url": "https://doi.org/10.3390/educsci16030415",
-      "is_per": false,
+      "is_per": true,
       "authors_full": "Hui, L.; Ntonia, I.; de Bruin, A. B. H.; Fox, M. F. J.; Charalambous, M.",
       "authors_display": "Hui, L.; Ntonia, I.; de Bruin, A. B. H. et al."
     },
@@ -64,7 +64,7 @@
       "type": "other",
       "doi": null,
       "url": "https://wonkhe.com/blogs/what-needs-to-change-to-make-evidence-based-teaching-the-norm/",
-      "is_per": false,
+      "is_per": true,
       "authors_full": "Nicolas Labrosse",
       "authors_display": "Nicolas Labrosse"
     },
@@ -108,7 +108,7 @@
       "type": "preprint",
       "doi": "10.31234/osf.io/t2b7c_v1",
       "url": "https://doi.org/10.31234/osf.io/t2b7c_v1",
-      "is_per": true,
+      "is_per": false,
       "authors_full": "Wood, A.; Galloway, R.; Rhind, S.; McQueen, H.; Kinnear, G.",
       "authors_display": "Wood, A.; Galloway, R.; Rhind, S. et al."
     },
@@ -350,7 +350,7 @@
       "type": "journal-article",
       "doi": "10.3390/educsci12040269",
       "url": "https://doi.org/10.3390/educsci12040269",
-      "is_per": false,
+      "is_per": true,
       "authors_full": "Aquines Gutiérrez, O.; Galloway, R. K.; Santos, A.; Martínez-Huerta, H.; González, H.",
       "authors_display": "Aquines Gutiérrez, O.; Galloway, R. K.; Santos, A. et al."
     },
@@ -449,7 +449,7 @@
       "type": "other",
       "doi": "10.1088/2058-7058/35/11/20",
       "url": "https://doi.org/10.1088/2058-7058/35/11/20",
-      "is_per": false,
+      "is_per": true,
       "authors_full": "Labrosse, N.",
       "authors_display": "Labrosse, N."
     },
@@ -493,7 +493,7 @@
       "type": "journal-article",
       "doi": "10.1080/01587919.2020.1869521",
       "url": "https://doi.org/10.1080/01587919.2020.1869521",
-      "is_per": false,
+      "is_per": true,
       "authors_full": "Wood, A. K.; Symons, K.; Falisse, J.; Gray, H.; Mkony, A.",
       "authors_display": "Wood, A. K.; Symons, K.; Falisse, J. et al."
     },
@@ -1472,7 +1472,7 @@
       "type": "journal-article",
       "doi": null,
       "url": "https://ui.adsabs.harvard.edu/#abs/2013arXiv1311.1725G",
-      "is_per": false,
+      "is_per": true,
       "authors_full": "Nicolas Labrosse",
       "authors_display": "Nicolas Labrosse"
     },
