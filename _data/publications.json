@@ -31,7 +31,7 @@
       "type": "journal-article",
       "doi": "10.3390/educsci16030415",
       "url": "https://doi.org/10.3390/educsci16030415",
-      "is_per": true,
+      "is_per": false,
       "authors_full": "Hui, L.; Ntonia, I.; de Bruin, A. B. H.; Fox, M. F. J.; Charalambous, M.",
       "authors_display": "Hui, L.; Ntonia, I.; de Bruin, A. B. H. et al."
     },
@@ -53,7 +53,7 @@
       "type": "preprint",
       "doi": "10.31234/osf.io/e25c6_v1",
       "url": "https://doi.org/10.31234/osf.io/e25c6_v1",
-      "is_per": false,
+      "is_per": true,
       "authors_full": "Wood, A.; Galloway, R.; Rhind, S.; McQueen, H.; Kinnear, G.; Hounsell, D.",
       "authors_display": "Wood, A.; Galloway, R.; Rhind, S. et al."
     },
@@ -64,7 +64,7 @@
       "type": "other",
       "doi": null,
       "url": "https://wonkhe.com/blogs/what-needs-to-change-to-make-evidence-based-teaching-the-norm/",
-      "is_per": true,
+      "is_per": false,
       "authors_full": "Nicolas Labrosse",
       "authors_display": "Nicolas Labrosse"
     },
@@ -108,7 +108,7 @@
       "type": "preprint",
       "doi": "10.31234/osf.io/t2b7c_v1",
       "url": "https://doi.org/10.31234/osf.io/t2b7c_v1",
-      "is_per": false,
+      "is_per": true,
       "authors_full": "Wood, A.; Galloway, R.; Rhind, S.; McQueen, H.; Kinnear, G.",
       "authors_display": "Wood, A.; Galloway, R.; Rhind, S. et al."
     },
@@ -240,7 +240,7 @@
       "type": "book-chapter",
       "doi": "10.1088/978-0-7503-5231-4ch1",
       "url": "https://doi.org/10.1088/978-0-7503-5231-4ch1",
-      "is_per": true,
+      "is_per": false,
       "authors_full": "Wood, A. K.; Labrosse, N.",
       "authors_display": "Wood, A. K.; Labrosse, N."
     },
@@ -350,7 +350,7 @@
       "type": "journal-article",
       "doi": "10.3390/educsci12040269",
       "url": "https://doi.org/10.3390/educsci12040269",
-      "is_per": true,
+      "is_per": false,
       "authors_full": "Aquines Gutiérrez, O.; Galloway, R. K.; Santos, A.; Martínez-Huerta, H.; González, H.",
       "authors_display": "Aquines Gutiérrez, O.; Galloway, R. K.; Santos, A. et al."
     },
@@ -416,7 +416,7 @@
       "type": "journal-article",
       "doi": "10.3390/su142215400",
       "url": "https://doi.org/10.3390/su142215400",
-      "is_per": false,
+      "is_per": true,
       "authors_full": "Aquines Gutiérrez, O.; Hernández Taylor, D. M.; Santos-Guevara, A.; Chavarría-Garza, W. X.; Martínez-Huerta, H.; Galloway, R. K.",
       "authors_display": "Aquines Gutiérrez, O.; Hernández Taylor, D. M.; Santos-Guevara, A. et al."
     },
@@ -449,7 +449,7 @@
       "type": "other",
       "doi": "10.1088/2058-7058/35/11/20",
       "url": "https://doi.org/10.1088/2058-7058/35/11/20",
-      "is_per": true,
+      "is_per": false,
       "authors_full": "Labrosse, N.",
       "authors_display": "Labrosse, N."
     },
@@ -493,7 +493,7 @@
       "type": "journal-article",
       "doi": "10.1080/01587919.2020.1869521",
       "url": "https://doi.org/10.1080/01587919.2020.1869521",
-      "is_per": true,
+      "is_per": false,
       "authors_full": "Wood, A. K.; Symons, K.; Falisse, J.; Gray, H.; Mkony, A.",
       "authors_display": "Wood, A. K.; Symons, K.; Falisse, J. et al."
     },
@@ -647,7 +647,7 @@
       "type": "journal-article",
       "doi": "10.1111/bjet.12754",
       "url": "https://doi.org/10.1111/bjet.12754",
-      "is_per": false,
+      "is_per": true,
       "authors_full": "Kay, A. E.; Hardy, J.; Galloway, R. K.",
       "authors_display": "Kay, A. E.; Hardy, J.; Galloway, R. K."
     },
@@ -922,7 +922,7 @@
       "type": "journal-article",
       "doi": "10.1080/23752696.2018.1433546",
       "url": "https://doi.org/10.1080/23752696.2018.1433546",
-      "is_per": false,
+      "is_per": true,
       "authors_full": "Sands, D.; Parker, M.; Hedgeland, H.; Jordan, S.; Galloway, R.",
       "authors_display": "Sands, D.; Parker, M.; Hedgeland, H. et al."
     },
@@ -1109,7 +1109,7 @@
       "type": "journal-article",
       "doi": "10.4018/978-1-5225-2026-9.ch010",
       "url": "https://doi.org/10.4018/978-1-5225-2026-9.ch010",
-      "is_per": false,
+      "is_per": true,
       "authors_full": "Galloway, R. K.; Hernandez-Martinez, P.",
       "authors_display": "Galloway, R. K.; Hernandez-Martinez, P."
     },
@@ -1362,7 +1362,7 @@
       "type": "journal-article",
       "doi": "10.1103/physrevstper.10.020105",
       "url": "https://doi.org/10.1103/physrevstper.10.020105",
-      "is_per": false,
+      "is_per": true,
       "authors_full": "Bates, S. P.; Galloway, R. K.; Riise, J.; Homer, D.",
       "authors_display": "Bates, S. P.; Galloway, R. K.; Riise, J. et al."
     },
@@ -1472,7 +1472,7 @@
       "type": "journal-article",
       "doi": null,
       "url": "https://ui.adsabs.harvard.edu/#abs/2013arXiv1311.1725G",
-      "is_per": true,
+      "is_per": false,
       "authors_full": "Nicolas Labrosse",
       "authors_display": "Nicolas Labrosse"
     },
@@ -1483,7 +1483,7 @@
       "type": "journal-article",
       "doi": "10.1063/1.4789671",
       "url": "https://doi.org/10.1063/1.4789671",
-      "is_per": false,
+      "is_per": true,
       "authors_full": "Galloway, R. K.; Bates, S. P.; Parker, J.; Usoskina, E.",
       "authors_display": "Galloway, R. K.; Bates, S. P.; Parker, J. et al."
     },
@@ -1494,7 +1494,7 @@
       "type": "journal-article",
       "doi": "10.1063/1.3680069",
       "url": "https://doi.org/10.1063/1.3680069",
-      "is_per": false,
+      "is_per": true,
       "authors_full": "Slaughter, K. A.; Bates, S. P.; Galloway, R. K.; Rebello, N. S.; Engelhardt, P. V.; Singh, C.",
       "authors_display": "Slaughter, K. A.; Bates, S. P.; Galloway, R. K. et al."
     },
@@ -1604,7 +1604,7 @@
       "type": "journal-article",
       "doi": "10.1063/1.3680009",
       "url": "https://doi.org/10.1063/1.3680009",
-      "is_per": false,
+      "is_per": true,
       "authors_full": "Bates, S. P.; Galloway, R. K.; McBride, K. L.; Rebello, N. S.; Engelhardt, P. V.; Singh, C.",
       "authors_display": "Bates, S. P.; Galloway, R. K.; McBride, K. L. et al."
     },
@@ -1659,7 +1659,7 @@
       "type": "journal-article",
       "doi": "10.1103/physrevstper.7.020114",
       "url": "https://doi.org/10.1103/physrevstper.7.020114",
-      "is_per": false,
+      "is_per": true,
       "authors_full": "Bates, S. P.; Galloway, R. K.; Loptson, C.; Slaughter, K. A.",
       "authors_display": "Bates, S. P.; Galloway, R. K.; Loptson, C. et al."
     },
