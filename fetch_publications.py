@@ -15,6 +15,7 @@ import os
 import html
 import re
 from datetime import datetime
+import fnmatch
 
 # ── API settings ──────────────────────────────────────────────────────────────
 
@@ -31,7 +32,7 @@ def load_classification_lists():
     """Read PER journals and keywords from plain-text files."""
     def read_lines(filepath):
         with open(filepath, encoding="utf-8") as f:
-            return {line.strip().lower() for line in f if line.strip()}
+            return [line.strip().lower() for line in f if line.strip()]
 
     journals = read_lines("per_journals.txt")
     keywords = read_lines("per_keywords.txt")
@@ -40,6 +41,7 @@ def load_classification_lists():
 
 
 PER_JOURNALS, PER_KEYWORDS = load_classification_lists()
+
 
 # ── Text helpers ──────────────────────────────────────────────────────────────
 
@@ -130,16 +132,34 @@ def get_url(work_summary):
 
 
 def is_per_paper(title, journal):
-    """Decide whether a paper looks like Physics Education Research."""
+    """
+    Decide whether a paper looks like Physics Education Research.
+    Both journal names and keywords support * and ? wildcards.
+    If no wildcard is present, journal matching is exact and
+    keyword matching checks whether the phrase appears anywhere in the title.
+    """
     title_lower   = (title   or "").lower()
     journal_lower = (journal or "").lower()
-    if journal_lower in PER_JOURNALS:
-        return True
-    for keyword in PER_KEYWORDS:
-        if keyword in title_lower:
-            return True
-    return False
 
+    for pattern in PER_JOURNALS:
+        if "*" in pattern or "?" in pattern:
+            if fnmatch.fnmatch(journal_lower, pattern):
+                return True
+        else:
+            # No wildcard: exact match
+            if journal_lower == pattern:
+                return True
+
+    for pattern in PER_KEYWORDS:
+        if "*" in pattern or "?" in pattern:
+            if fnmatch.fnmatch(title_lower, pattern):
+                return True
+        else:
+            # No wildcard: substring match (original behaviour)
+            if pattern in title_lower:
+                return True
+
+    return False
 
 def load_researchers(filepath="orcid_ids.csv"):
     """Read the list of researchers from the CSV file."""
