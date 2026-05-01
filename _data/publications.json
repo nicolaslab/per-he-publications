@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-27",
-  "total": 159,
+  "last_updated": "2026-05-01",
+  "total": 178,
   "publications": [
     {
       "title": "Analysis of Lyman β and Lyman γ lines in a pre-eruptive and eruptive prominence with Solar Orbiter SPICE observations",
@@ -23,6 +23,17 @@
       "is_per": true,
       "authors_full": "Wood, A. K.",
       "authors_display": "Wood, A. K."
+    },
+    {
+      "title": "Investigating Choice of and Perceived Efficacy of Learning Strategies Used by STEM Students",
+      "year": "2026",
+      "journal": "Education Sciences",
+      "type": "journal-article",
+      "doi": "10.3390/educsci16030415",
+      "url": "https://doi.org/10.3390/educsci16030415",
+      "is_per": true,
+      "authors_full": "Hui, L.; Ntonia, I.; de Bruin, A. B. H.; Fox, M. F. J.; Charalambous, M.",
+      "authors_display": "Hui, L.; Ntonia, I.; de Bruin, A. B. H. et al."
     },
     {
       "title": "Non-LTE analysis of pre-eruptive prominence plasma parameters’ effects on the Lyman β and Lyman γ lines with Solar Orbiter SPICE observations",
@@ -58,6 +69,17 @@
       "authors_display": "Nicolas Labrosse"
     },
     {
+      "title": "Comparing large language models for supervised analysis of students’ lab notes",
+      "year": "2025",
+      "journal": "Physical Review Physics Education Research",
+      "type": "journal-article",
+      "doi": "10.1103/physrevphyseducres.21.010128",
+      "url": "https://doi.org/10.1103/physrevphyseducres.21.010128",
+      "is_per": true,
+      "authors_full": "Fussell, R. K.; Flynn, M.; Damle, A.; Fox, M. F. J.; Holmes, N. G.",
+      "authors_display": "Fussell, R. K.; Flynn, M.; Damle, A. et al."
+    },
+    {
       "title": "Magnetic Reconnection between a Solar Jet and a Filament Channel",
       "year": "2025",
       "journal": "The Astrophysical Journal",
@@ -91,6 +113,17 @@
       "authors_display": "Wood, A.; Galloway, R.; Rhind, S. et al."
     },
     {
+      "title": "Widening participation in physics by widening choices: is a STEM-only choice of subjects at A level associated with an increased level of academic success on an undergraduate Physics degree?",
+      "year": "2025",
+      "journal": "European Journal of Physics",
+      "type": "journal-article",
+      "doi": "10.1088/1361-6404/ae0217",
+      "url": "https://doi.org/10.1088/1361-6404/ae0217",
+      "is_per": true,
+      "authors_full": "Fox, M. F. J.; Howson, C. K.; Durk, J.; Richards, M.; Smith, A.; Tymms, V.",
+      "authors_display": "Fox, M. F. J.; Howson, C. K.; Durk, J. et al."
+    },
+    {
       "title": "“It’s Like a Nice Atmosphere”—Understanding Physics Students’ Experiences of a Flipped Classroom Through the Lens of Transactional Distance Theory",
       "year": "2025",
       "journal": "Education Sciences",
@@ -100,6 +133,17 @@
       "is_per": true,
       "authors_full": "Wood, A. K.",
       "authors_display": "Wood, A. K."
+    },
+    {
+      "title": "Development of a global landscape of undergraduate physics laboratory courses",
+      "year": "2024",
+      "journal": "Physical Review Physics Education Research",
+      "type": "journal-article",
+      "doi": "10.1103/physrevphyseducres.20.020117",
+      "url": "https://doi.org/10.1103/physrevphyseducres.20.020117",
+      "is_per": true,
+      "authors_full": "Geschwind, G.; Alemani, M.; Fox, M. F. J.; Logman, P. S. W. M.; Tufino, E.; Lewandowski, H. J.",
+      "authors_display": "Geschwind, G.; Alemani, M.; Fox, M. F. J. et al."
     },
     {
       "title": "Magnetic Reconnection between a Solar Jet and a Filament Channel",
@@ -179,6 +223,17 @@
       "authors_display": "Labrosse, N.; Bownes, J. M."
     },
     {
+      "title": "Equity, diversity, and inclusion – does social justice from the top trickle down?",
+      "year": "2023",
+      "journal": "Journal of Further and Higher Education",
+      "type": "journal-article",
+      "doi": "10.1080/0309877x.2023.2188178",
+      "url": "https://doi.org/10.1080/0309877x.2023.2188178",
+      "is_per": false,
+      "authors_full": "Fox, M. F. J.; Kandiko Howson, C.; Kingsbury, M.",
+      "authors_display": "Fox, M. F. J.; Kandiko Howson, C.; Kingsbury, M."
+    },
+    {
       "title": "Large classes in STEM education-potential and challenges",
       "year": "2023",
       "journal": "Effective Teaching in Large STEM Classes",
@@ -188,6 +243,17 @@
       "is_per": true,
       "authors_full": "Wood, A. K.; Labrosse, N.",
       "authors_display": "Wood, A. K.; Labrosse, N."
+    },
+    {
+      "title": "Lend Me Your Ears: Space Weather Citizen Science Through Harnessing Sonification",
+      "year": "2023",
+      "journal": "",
+      "type": "preprint",
+      "doi": "10.5194/egusphere-egu23-13888",
+      "url": "https://doi.org/10.5194/egusphere-egu23-13888",
+      "is_per": false,
+      "authors_full": "Archer, M.; Hartinger, M.; Cottingham, M.; Shi, X.; Vidugiris, E.; Holland, A.; Harold, J.; Masongsong, E.; Hill, D.; Fox, M.; Coyle, S.; Alexander, R.; Pacini, A.; Candey, R.",
+      "authors_display": "Archer, M.; Hartinger, M.; Cottingham, M. et al."
     },
     {
       "title": "Mg ii h&k fine structure prominence modelling and the consequences for observations",
@@ -221,6 +287,17 @@
       "is_per": false,
       "authors_full": "Gunár, S.; Labrosse, N.; Luna, M.; Schmieder, B.; Heinzel, P.; Kucera, T. A.; Levens, P. J.; López Ariste, A.; Mackay, D. H.; Zapiór, M.",
       "authors_display": "Gunár, S.; Labrosse, N.; Luna, M. et al."
+    },
+    {
+      "title": "Strengthening learning communities",
+      "year": "2023",
+      "journal": "Academic Belonging in Higher Education",
+      "type": "book-chapter",
+      "doi": "10.4324/9781003443735-8",
+      "url": "https://doi.org/10.4324/9781003443735-8",
+      "is_per": false,
+      "authors_full": "Kandiko Howson, C. B.; Smith, A.; Durk, J.; Fox, M. F. J.; Tymms, V.; Richards, M.",
+      "authors_display": "Kandiko Howson, C. B.; Smith, A.; Durk, J. et al."
     },
     {
       "title": "Two-horn quiescent prominence observed in Hα and Mg ii h&k lines with THEMIS and IRIS",
@@ -278,6 +355,17 @@
       "authors_display": "Kinnear, G.; Wood, A. K.; Gratwick, R."
     },
     {
+      "title": "Expectations of how student views on experimental physics develop during an undergraduate degree",
+      "year": "2022",
+      "journal": "Physics Education Research Conference Proceedings",
+      "type": "conference-paper",
+      "doi": "10.1119/perc.2022.pr.fox",
+      "url": "https://doi.org/10.1119/perc.2022.pr.fox",
+      "is_per": false,
+      "authors_full": "Fox, M. F. J.; Bland, S.; Mangles, S. P. D.; McGinty, J.",
+      "authors_display": "Fox, M. F. J.; Bland, S.; Mangles, S. P. D. et al."
+    },
+    {
       "title": "First high resolution interferometric observation of a solar prominence with ALMA",
       "year": "2022",
       "journal": "Monthly Notices of the Royal Astronomical Society: Letters",
@@ -309,6 +397,17 @@
       "is_per": false,
       "authors_full": "Erdélyi, R.; Damé, L.; Fludra, A.; Mathioudakis, M.; Amari, T.; Belucz, B.; Berrilli, F.; Bogachev, S.; Bolsée, D.; Bothmer, V.; Brun, S.; Dewitte, S.; de Wit, T. D.; Faurobert, M.; Gizon, L.; Gyenge, N.; Korsós, M. B.; Labrosse, N.; Matthews, S.; Meftah, M.; Morgan, H.; Pallé, P.; Rochus, P.; Rozanov, E.; Schmieder, B.; Tsinganos, K.; Verwichte, E.; Zharkov, S.; Zuccarello, F.; Wimmer-Schweingruber, R.",
       "authors_display": "Erdélyi, R.; Damé, L.; Fludra, A. et al."
+    },
+    {
+      "title": "Instructor perspectives on the emergency transition to remote instruction of physics labs",
+      "year": "2022",
+      "journal": "Physical Review Physics Education Research",
+      "type": "journal-article",
+      "doi": "10.1103/physrevphyseducres.18.020129",
+      "url": "https://doi.org/10.1103/physrevphyseducres.18.020129",
+      "is_per": true,
+      "authors_full": "Werth, A.; Hoehn, J. R.; Oliver, K.; Fox, M. F. J.; Lewandowski, H. J.",
+      "authors_display": "Werth, A.; Hoehn, J. R.; Oliver, K. et al."
     },
     {
       "title": "Prominence observations with ALMA",
@@ -355,6 +454,17 @@
       "authors_display": "Nicolas Labrosse"
     },
     {
+      "title": "Undergraduate student experiences in remote lab courses during the COVID-19 pandemic",
+      "year": "2022",
+      "journal": "Physical Review Physics Education Research",
+      "type": "journal-article",
+      "doi": "10.1103/physrevphyseducres.18.020105",
+      "url": "https://doi.org/10.1103/physrevphyseducres.18.020105",
+      "is_per": true,
+      "authors_full": "Borish, V.; Werth, A.; Sulaiman, N.; Fox, M. F. J.; Hoehn, J. R.; Lewandowski, H. J.",
+      "authors_display": "Borish, V.; Werth, A.; Sulaiman, N. et al."
+    },
+    {
       "title": "Can lecture capture contribute to the development of a community of inquiry in online learning?",
       "year": "2021",
       "journal": "Distance Education",
@@ -366,6 +476,17 @@
       "authors_display": "Wood, A. K.; Symons, K.; Falisse, J. et al."
     },
     {
+      "title": "Lab instruction during the COVID-19 pandemic: Effects on student views about experimental physics in comparison with previous years",
+      "year": "2021",
+      "journal": "Physical Review Physics Education Research",
+      "type": "journal-article",
+      "doi": "10.1103/physrevphyseducres.17.010148",
+      "url": "https://doi.org/10.1103/physrevphyseducres.17.010148",
+      "is_per": true,
+      "authors_full": "Fox, M. F. J.; Hoehn, J. R.; Werth, A.; Lewandowski, H. J.",
+      "authors_display": "Fox, M. F. J.; Hoehn, J. R.; Werth, A. et al."
+    },
+    {
       "title": "Lecture capture as an element of the digital resource landscape - a qualitative study of flipped and non–flipped classrooms",
       "year": "2021",
       "journal": "Technology, Pedagogy and Education",
@@ -375,6 +496,17 @@
       "is_per": true,
       "authors_full": "Wood, A. K.; Bailey, T. N.; Galloway, R. K.; Hardy, J. A.; Sangwin, C. J.; Docherty, P. J.",
       "authors_display": "Wood, A. K.; Bailey, T. N.; Galloway, R. K. et al."
+    },
+    {
+      "title": "Remote advanced lab course: A case study analysis of open-ended projects",
+      "year": "2021",
+      "journal": "Physical Review Physics Education Research",
+      "type": "journal-article",
+      "doi": "10.1103/physrevphyseducres.17.020111",
+      "url": "https://doi.org/10.1103/physrevphyseducres.17.020111",
+      "is_per": true,
+      "authors_full": "Hoehn, J. R.; Fox, M. F. J.; Werth, A.; Borish, V.; Lewandowski, H. J.",
+      "authors_display": "Hoehn, J. R.; Fox, M. F. J.; Werth, A. et al."
     },
     {
       "title": "Solar prominence diagnostics from non-LTE modelling of Mg II h&k line profiles",
@@ -432,6 +564,28 @@
       "authors_display": "Wood, A.; Christie, H.; MacKay, J. R. D. et al."
     },
     {
+      "title": "Capturing modeling pathways using the Modeling Assessment for Physics Laboratory Experiments",
+      "year": "2020",
+      "journal": "Physics Education Research Conference Proceedings",
+      "type": "conference-paper",
+      "doi": "10.1119/perc.2020.pr.fox",
+      "url": "https://doi.org/10.1119/perc.2020.pr.fox",
+      "is_per": false,
+      "authors_full": "Fox, M. F. J.; Pollard, B.; Ríos, L.; Lewandowski, H. J.",
+      "authors_display": "Fox, M. F. J.; Pollard, B.; Ríos, L. et al."
+    },
+    {
+      "title": "Creating a coupled multiple response assessment for modeling in lab courses",
+      "year": "2020",
+      "journal": "Physics Education Research Conference Proceedings",
+      "type": "conference-paper",
+      "doi": "10.1119/perc.2020.pr.pollard",
+      "url": "https://doi.org/10.1119/perc.2020.pr.pollard",
+      "is_per": false,
+      "authors_full": "Pollard, B.; Fox, M. F. J.; Ríos, L.; Lewandowski, H. J.",
+      "authors_display": "Pollard, B.; Fox, M. F. J.; Ríos, L. et al."
+    },
+    {
       "title": "Lecture Capture in Online Learning: A Community of Inquiry Perspective",
       "year": "2020",
       "journal": "",
@@ -452,6 +606,17 @@
       "is_per": false,
       "authors_full": "Heinzel, P.; Štěpán, J.; Bemporad, A.; Fineschi, S.; Jejčič, S.; Labrosse, N.; Susino, R.",
       "authors_display": "Heinzel, P.; Štěpán, J.; Bemporad, A. et al."
+    },
+    {
+      "title": "Preparing for the quantum revolution: What is the role of higher education?",
+      "year": "2020",
+      "journal": "Physical Review Physics Education Research",
+      "type": "journal-article",
+      "doi": "10.1103/physrevphyseducres.16.020131",
+      "url": "https://doi.org/10.1103/physrevphyseducres.16.020131",
+      "is_per": true,
+      "authors_full": "Fox, M. F. J.; Zwickl, B. M.; Lewandowski, H. J.",
+      "authors_display": "Fox, M. F. J.; Zwickl, B. M.; Lewandowski, H. J."
     },
     {
       "title": "Supporting the next generation",
@@ -740,6 +905,17 @@
       "authors_display": "Nicolas Labrosse"
     },
     {
+      "title": "Experimental determination of the correlation properties of plasma turbulence using 2D BES systems",
+      "year": "2017",
+      "journal": "Plasma Physics and Controlled Fusion",
+      "type": "journal-article",
+      "doi": "10.1088/1361-6587/aa51fd",
+      "url": "https://doi.org/10.1088/1361-6587/aa51fd",
+      "is_per": false,
+      "authors_full": "Fox, M. F. J.; Field, A. R.; Wyk, F. v.; Ghim, Y.; Schekochihin, A. A.; the MAST Team",
+      "authors_display": "Fox, M. F. J.; Field, A. R.; Wyk, F. v. et al."
+    },
+    {
       "title": "Hα Doppler shifts in a tornado in the solar corona",
       "year": "2017",
       "journal": "Astronomy &amp; Astrophysics",
@@ -850,6 +1026,17 @@
       "authors_display": "Bownes, J.; Labrosse, N.; Forrest, D. et al."
     },
     {
+      "title": "Symmetry breaking in MAST plasma turbulence due to toroidal flow shear",
+      "year": "2017",
+      "journal": "Plasma Physics and Controlled Fusion",
+      "type": "journal-article",
+      "doi": "10.1088/1361-6587/aa544b",
+      "url": "https://doi.org/10.1088/1361-6587/aa544b",
+      "is_per": false,
+      "authors_full": "Fox, M. F. J.; Wyk, F. v.; Field, A. R.; Ghim, Y.; Parra, F. I.; Schekochihin, A. A.; the MAST Team",
+      "authors_display": "Fox, M. F. J.; Wyk, F. v.; Field, A. R. et al."
+    },
+    {
       "title": "ALMA Observations of the Sun in Cycle 4 and Beyond",
       "year": "2016",
       "journal": "",
@@ -881,6 +1068,17 @@
       "is_per": true,
       "authors_full": "Wood, A. K.; Galloway, R. K.; Donnelly, R.; Hardy, J.",
       "authors_display": "Wood, A. K.; Galloway, R. K.; Donnelly, R. et al."
+    },
+    {
+      "title": "Conditions for generating synthetic data to investigate characteristics of fluctuating quantities",
+      "year": "2016",
+      "journal": "Computer Physics Communications",
+      "type": "journal-article",
+      "doi": "10.1016/j.cpc.2016.04.004",
+      "url": "https://doi.org/10.1016/j.cpc.2016.04.004",
+      "is_per": false,
+      "authors_full": "Kim, J.; Fox, M.; Field, A.; Nam, Y.; Ghim, Y.",
+      "authors_display": "Kim, J.; Fox, M.; Field, A. et al."
     },
     {
       "title": "Doppler speeds of the hydrogen Lyman lines in solar flares from EVE",
@@ -1057,6 +1255,17 @@
       "is_per": false,
       "authors_full": "Nicolas Labrosse",
       "authors_display": "Nicolas Labrosse"
+    },
+    {
+      "title": "A new method for the determination of action integrals in the study of galactic dynamics",
+      "year": "2014",
+      "journal": "",
+      "type": "preprint",
+      "doi": null,
+      "url": "https://arxiv.org/abs/1407.1688",
+      "is_per": false,
+      "authors_full": "Michael Fox",
+      "authors_display": "Michael Fox"
     },
     {
       "title": "Analyzing learning during Peer Instruction dialogues: A resource activation framework",

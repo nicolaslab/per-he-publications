@@ -1,10 +1,14 @@
 [
   {
+    "journal": "Physical Review Physics Education Research",
+    "count": 9
+  },
+  {
     "journal": "Journal of Perspectives in Applied Academic Practice",
     "count": 2
   },
   {
-    "journal": "Physical Review Physics Education Research",
+    "journal": "Education Sciences",
     "count": 2
   },
   {
@@ -21,10 +25,6 @@
   },
   {
     "journal": "Europhysics Letters",
-    "count": 1
-  },
-  {
-    "journal": "Education Sciences",
     "count": 1
   },
   {
@@ -45,6 +45,10 @@
   },
   {
     "journal": "Physical Review Special Topics - Physics Education Research",
+    "count": 1
+  },
+  {
+    "journal": "European Journal of Physics",
     "count": 1
   }
 ]

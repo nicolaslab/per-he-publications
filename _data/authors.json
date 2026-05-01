@@ -7,11 +7,25 @@
     "per_count": 1
   },
   {
+    "name": "Michael Fox",
+    "orcid": "0000-0002-4425-2934",
+    "institution": "Imperial College London",
+    "pub_count": 19,
+    "per_count": 9
+  },
+  {
     "name": "Nicolas Labrosse",
     "orcid": "0000-0002-4638-157X",
     "institution": "University of Glasgow",
     "pub_count": 127,
     "per_count": 7
+  },
+  {
+    "name": "William Stafford",
+    "orcid": "0009-0009-9533-2940",
+    "institution": "University of Edinburgh",
+    "pub_count": 0,
+    "per_count": 0
   },
   {
     "name": "Anna Wood",
