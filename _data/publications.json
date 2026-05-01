@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-05-01",
-  "total": 178,
+  "total": 198,
   "publications": [
     {
       "title": "Analysis of Lyman β and Lyman γ lines in a pre-eruptive and eruptive prominence with Solar Orbiter SPICE observations",
@@ -344,6 +344,17 @@
       "authors_display": "Nicolas Labrosse"
     },
     {
+      "title": "Assisted Discovery Based Learning of the Electric Force with Scaffolding for Novice Students",
+      "year": "2022",
+      "journal": "EDUCATION SCIENCES",
+      "type": "journal-article",
+      "doi": "10.3390/educsci12040269",
+      "url": "https://doi.org/10.3390/educsci12040269",
+      "is_per": true,
+      "authors_full": "Aquines Gutiérrez, O.; Galloway, R. K.; Santos, A.; Martínez-Huerta, H.; González, H.",
+      "authors_display": "Aquines Gutiérrez, O.; Galloway, R. K.; Santos, A. et al."
+    },
+    {
       "title": "Designing and evaluating an online course to support transition to university mathematics",
       "year": "2022",
       "journal": "International Journal of Mathematical Education in Science and Technology",
@@ -397,6 +408,17 @@
       "is_per": false,
       "authors_full": "Erdélyi, R.; Damé, L.; Fludra, A.; Mathioudakis, M.; Amari, T.; Belucz, B.; Berrilli, F.; Bogachev, S.; Bolsée, D.; Bothmer, V.; Brun, S.; Dewitte, S.; de Wit, T. D.; Faurobert, M.; Gizon, L.; Gyenge, N.; Korsós, M. B.; Labrosse, N.; Matthews, S.; Meftah, M.; Morgan, H.; Pallé, P.; Rochus, P.; Rozanov, E.; Schmieder, B.; Tsinganos, K.; Verwichte, E.; Zharkov, S.; Zuccarello, F.; Wimmer-Schweingruber, R.",
       "authors_display": "Erdélyi, R.; Damé, L.; Fludra, A. et al."
+    },
+    {
+      "title": "How the Entry Profiles and Early Study Habits Are Related to First-Year Academic Performance in Engineering Programs",
+      "year": "2022",
+      "journal": "SUSTAINABILITY",
+      "type": "journal-article",
+      "doi": "10.3390/su142215400",
+      "url": "https://doi.org/10.3390/su142215400",
+      "is_per": false,
+      "authors_full": "Aquines Gutiérrez, O.; Hernández Taylor, D. M.; Santos-Guevara, A.; Chavarría-Garza, W. X.; Martínez-Huerta, H.; Galloway, R. K.",
+      "authors_display": "Aquines Gutiérrez, O.; Hernández Taylor, D. M.; Santos-Guevara, A. et al."
     },
     {
       "title": "Instructor perspectives on the emergency transition to remote instruction of physics labs",
@@ -619,6 +641,17 @@
       "authors_display": "Fox, M. F. J.; Zwickl, B. M.; Lewandowski, H. J."
     },
     {
+      "title": "Student use of PeerWise: A multi-institutional, multidisciplinary evaluation",
+      "year": "2020",
+      "journal": "BRITISH JOURNAL OF EDUCATIONAL TECHNOLOGY",
+      "type": "journal-article",
+      "doi": "10.1111/bjet.12754",
+      "url": "https://doi.org/10.1111/bjet.12754",
+      "is_per": false,
+      "authors_full": "Kay, A. E.; Hardy, J.; Galloway, R. K.",
+      "authors_display": "Kay, A. E.; Hardy, J.; Galloway, R. K."
+    },
+    {
       "title": "Supporting the next generation",
       "year": "2020",
       "journal": "Physics World",
@@ -727,6 +760,28 @@
       "is_per": false,
       "authors_full": "Rodger, A. S.; Labrosse, N.",
       "authors_display": "Rodger, A. S.; Labrosse, N."
+    },
+    {
+      "title": "How do approaches to solving open-ended problems vary within the science disciplines?",
+      "year": "2018",
+      "journal": "INTERNATIONAL JOURNAL OF SCIENCE EDUCATION",
+      "type": "journal-article",
+      "doi": "10.1080/09500693.2018.1503432",
+      "url": "https://doi.org/10.1080/09500693.2018.1503432",
+      "is_per": true,
+      "authors_full": "Randles, C.; Overton, T.; Galloway, R.; Wallace, M.",
+      "authors_display": "Randles, C.; Overton, T.; Galloway, R. et al."
+    },
+    {
+      "title": "Learning from peer feedback on student-generated multiple choice questions: Views of introductory physics students",
+      "year": "2018",
+      "journal": "PHYSICAL REVIEW PHYSICS EDUCATION RESEARCH",
+      "type": "journal-article",
+      "doi": "10.1103/physrevphyseducres.14.010119",
+      "url": "https://doi.org/10.1103/physrevphyseducres.14.010119",
+      "is_per": true,
+      "authors_full": "Kay, A. E.; Hardy, J.; Galloway, R. K.",
+      "authors_display": "Kay, A. E.; Hardy, J.; Galloway, R. K."
     },
     {
       "title": "Lecture capture as an element of the digital resource landscape - a qualitative study of flipped and non-flipped classrooms",
@@ -859,6 +914,17 @@
       "is_per": false,
       "authors_full": "Brown, G. M.; Labrosse, N.",
       "authors_display": "Brown, G. M.; Labrosse, N."
+    },
+    {
+      "title": "Using concept inventories to measure understanding",
+      "year": "2018",
+      "journal": "HIGHER EDUCATION PEDAGOGIES",
+      "type": "journal-article",
+      "doi": "10.1080/23752696.2018.1433546",
+      "url": "https://doi.org/10.1080/23752696.2018.1433546",
+      "is_per": false,
+      "authors_full": "Sands, D.; Parker, M.; Hedgeland, H.; Jordan, S.; Galloway, R.",
+      "authors_display": "Sands, D.; Parker, M.; Hedgeland, H. et al."
     },
     {
       "title": "Visibility of Prominences using the He i D3 Line Filter on PROBA-3/ASPIICS Coronagraph Solar Physics",
@@ -1035,6 +1101,17 @@
       "is_per": false,
       "authors_full": "Fox, M. F. J.; Wyk, F. v.; Field, A. R.; Ghim, Y.; Parra, F. I.; Schekochihin, A. A.; the MAST Team",
       "authors_display": "Fox, M. F. J.; Wyk, F. v.; Field, A. R. et al."
+    },
+    {
+      "title": "The Importance of the Disciplinary Perspective in Educational Research",
+      "year": "2017",
+      "journal": "HANDBOOK OF RESEARCH ON DRIVING STEM LEARNING WITH EDUCATIONAL TECHNOLOGIES",
+      "type": "journal-article",
+      "doi": "10.4018/978-1-5225-2026-9.ch010",
+      "url": "https://doi.org/10.4018/978-1-5225-2026-9.ch010",
+      "is_per": false,
+      "authors_full": "Galloway, R. K.; Hernandez-Martinez, P.",
+      "authors_display": "Galloway, R. K.; Hernandez-Martinez, P."
     },
     {
       "title": "ALMA Observations of the Sun in Cycle 4 and Beyond",
@@ -1279,6 +1356,17 @@
       "authors_display": "Wood, A. K.; Galloway, R. K.; Hardy, J. et al."
     },
     {
+      "title": "Assessing the quality of a student-generated question repository",
+      "year": "2014",
+      "journal": "PHYSICAL REVIEW SPECIAL TOPICS-PHYSICS EDUCATION RESEARCH",
+      "type": "journal-article",
+      "doi": "10.1103/physrevstper.10.020105",
+      "url": "https://doi.org/10.1103/physrevstper.10.020105",
+      "is_per": false,
+      "authors_full": "Bates, S. P.; Galloway, R. K.; Riise, J.; Homer, D.",
+      "authors_display": "Bates, S. P.; Galloway, R. K.; Riise, J. et al."
+    },
+    {
       "title": "Nonequilibrium fluctuation-dissipation relations for one- and two-particle correlation functions in steady-state quantum transport",
       "year": "2014",
       "journal": "Journal of Chemical Physics",
@@ -1310,6 +1398,28 @@
       "is_per": false,
       "authors_full": "Labrosse, N.; Hudson, H.; Kazachenko, M.",
       "authors_display": "Labrosse, N.; Hudson, H.; Kazachenko, M."
+    },
+    {
+      "title": "Scaffolding student engagement via online peer learning",
+      "year": "2014",
+      "journal": "EUROPEAN JOURNAL OF PHYSICS",
+      "type": "journal-article",
+      "doi": "10.1088/0143-0807/35/4/045002",
+      "url": "https://doi.org/10.1088/0143-0807/35/4/045002",
+      "is_per": true,
+      "authors_full": "Casey, M. M.; Bates, S. P.; Galloway, K. W.; Galloway, R. K.; Hardy, J. A.; Kay, A. E.; Kirsop, P.; McQueen, H. A.",
+      "authors_display": "Casey, M. M.; Bates, S. P.; Galloway, K. W. et al."
+    },
+    {
+      "title": "Student-Generated Content: Enhancing learning through sharing multiple-choice questions",
+      "year": "2014",
+      "journal": "INTERNATIONAL JOURNAL OF SCIENCE EDUCATION",
+      "type": "journal-article",
+      "doi": "10.1080/09500693.2014.916831",
+      "url": "https://doi.org/10.1080/09500693.2014.916831",
+      "is_per": true,
+      "authors_full": "Hardy, J.; Bates, S. P.; Casey, M. M.; Galloway, K. W.; Galloway, R. K.; Kay, A. E.; Kirsop, P.; McQueen, H. A.",
+      "authors_display": "Hardy, J.; Bates, S. P.; Casey, M. M. et al."
     },
     {
       "title": "A new approach to model particle acceleration and energy transfer in solar flares",
@@ -1345,6 +1455,17 @@
       "authors_display": "Nicolas Labrosse"
     },
     {
+      "title": "Students as Co-creators: the Development of Student Learning Networks in PeerWise",
+      "year": "2013",
+      "journal": "2013 PHYSICS EDUCATION RESEARCH CONFERENCE",
+      "type": "journal-article",
+      "doi": "10.1119/perc.2013.pr.030",
+      "url": "https://doi.org/10.1119/perc.2013.pr.030",
+      "is_per": true,
+      "authors_full": "Hardy, J.; Kay, A. E.; Galloway, R. K.",
+      "authors_display": "Hardy, J.; Kay, A. E.; Galloway, R. K."
+    },
+    {
       "title": "Tagging and Linking Lecture Audio Recordings: Goals and Practice",
       "year": "2013",
       "journal": "",
@@ -1354,6 +1475,28 @@
       "is_per": true,
       "authors_full": "Nicolas Labrosse",
       "authors_display": "Nicolas Labrosse"
+    },
+    {
+      "title": "The Effect of Research-Based Instruction in Introductory Physics on a Common Cognitive Bias",
+      "year": "2013",
+      "journal": "2012 PHYSICS EDUCATION RESEARCH CONFERENCE",
+      "type": "journal-article",
+      "doi": "10.1063/1.4789671",
+      "url": "https://doi.org/10.1063/1.4789671",
+      "is_per": false,
+      "authors_full": "Galloway, R. K.; Bates, S. P.; Parker, J.; Usoskina, E.",
+      "authors_display": "Galloway, R. K.; Bates, S. P.; Parker, J. et al."
+    },
+    {
+      "title": "A longitudinal study of the development of attitudes and beliefs towards physics",
+      "year": "2012",
+      "journal": "2011 PHYSICS EDUCATION RESEARCH CONFERENCE",
+      "type": "journal-article",
+      "doi": "10.1063/1.3680069",
+      "url": "https://doi.org/10.1063/1.3680069",
+      "is_per": false,
+      "authors_full": "Slaughter, K. A.; Bates, S. P.; Galloway, R. K.; Rebello, N. S.; Engelhardt, P. V.; Singh, C.",
+      "authors_display": "Slaughter, K. A.; Bates, S. P.; Galloway, R. K. et al."
     },
     {
       "title": "Dynamical equations for time-ordered Green's functions: From the Keldysh time-loop contour to equilibrium at finite and zero temperature",
@@ -1455,6 +1598,17 @@
       "authors_display": "Nicolas Labrosse"
     },
     {
+      "title": "Student-generated content: using PeerWise to enhance engagement and outcomes in introductory physics courses",
+      "year": "2012",
+      "journal": "2011 PHYSICS EDUCATION RESEARCH CONFERENCE",
+      "type": "journal-article",
+      "doi": "10.1063/1.3680009",
+      "url": "https://doi.org/10.1063/1.3680009",
+      "is_per": false,
+      "authors_full": "Bates, S. P.; Galloway, R. K.; McBride, K. L.; Rebello, N. S.; Engelhardt, P. V.; Singh, C.",
+      "authors_display": "Bates, S. P.; Galloway, R. K.; McBride, K. L. et al."
+    },
+    {
       "title": "The role of filament activation in a solar eruption",
       "year": "2012",
       "journal": "Astronomy &amp; Astrophysics",
@@ -1497,6 +1651,17 @@
       "is_per": false,
       "authors_full": "Ness, H.; Dash, L. K.; Stankovski, M.; Godby, R. W.",
       "authors_display": "Ness, H.; Dash, L. K.; Stankovski, M. et al."
+    },
+    {
+      "title": "How attitudes and beliefs about physics change from high school to faculty",
+      "year": "2011",
+      "journal": "PHYSICAL REVIEW SPECIAL TOPICS-PHYSICS EDUCATION RESEARCH",
+      "type": "journal-article",
+      "doi": "10.1103/physrevstper.7.020114",
+      "url": "https://doi.org/10.1103/physrevstper.7.020114",
+      "is_per": false,
+      "authors_full": "Bates, S. P.; Galloway, R. K.; Loptson, C.; Slaughter, K. A.",
+      "authors_display": "Bates, S. P.; Galloway, R. K.; Loptson, C. et al."
     },
     {
       "title": "Nonequilibrium inelastic electronic transport: Polarization effects and vertex corrections to the self-consistent Born approximation",
@@ -1598,6 +1763,17 @@
       "authors_display": "Labrosse, N.; Heinzel, P.; Vial, J. et al."
     },
     {
+      "title": "Thermalisation and hard X-ray bremsstrahlung efficiency of self-interacting solar flare fast electrons",
+      "year": "2010",
+      "journal": "ASTRONOMY & ASTROPHYSICS",
+      "type": "journal-article",
+      "doi": "10.1051/0004-6361/201014077",
+      "url": "https://doi.org/10.1051/0004-6361/201014077",
+      "is_per": false,
+      "authors_full": "Galloway, R. K.; Helander, P.; MacKinnon, A. L.; Brown, J. C.",
+      "authors_display": "Galloway, R. K.; Helander, P.; MacKinnon, A. L. et al."
+    },
+    {
       "title": "Formation of Helium Lines in Solar Prominences",
       "year": "2009",
       "journal": "AIP Conference Proceedings",
@@ -1697,6 +1873,17 @@
       "authors_display": "Nicolas Labrosse"
     },
     {
+      "title": "Cross-field diffusion of electrons and implications for coronal structure",
+      "year": "2007",
+      "journal": "SOLAR AND STELLAR PHYSICS THROUGH ECLIPSES",
+      "type": "journal-article",
+      "doi": null,
+      "url": "https://www.webofscience.com/wos/woscc/full-record/WOS:000246823600040",
+      "is_per": false,
+      "authors_full": "Ross Galloway",
+      "authors_display": "Ross Galloway"
+    },
+    {
       "title": "Effect of motions in prominences on the helium resonance lines in the extreme ultraviolet",
       "year": "2007",
       "journal": "ASTRONOMY & ASTROPHYSICS",
@@ -1763,6 +1950,17 @@
       "authors_display": "Li, B.; Li, X.; Labrosse, N."
     },
     {
+      "title": "Cross-field diffusion of electrons in tangled magnetic fields and implications for coronal fine structure",
+      "year": "2006",
+      "journal": "ASTROPHYSICAL JOURNAL",
+      "type": "journal-article",
+      "doi": "10.1086/504699",
+      "url": "https://doi.org/10.1086/504699",
+      "is_per": false,
+      "authors_full": "Galloway, R. K.; Helander, P.; MacKinnon, A. L.",
+      "authors_display": "Galloway, R. K.; Helander, P.; MacKinnon, A. L."
+    },
+    {
       "title": "On the Lyman alpha and beta lines in solar coronal streamers",
       "year": "2006",
       "journal": "ASTRONOMY & ASTROPHYSICS",
@@ -1818,6 +2016,17 @@
       "authors_display": "Nicolas Labrosse"
     },
     {
+      "title": "Fast electron slowing-down and diffusion in a high temperature coronal X-ray source",
+      "year": "2005",
+      "journal": "Arxiv",
+      "type": "journal-article",
+      "doi": "10.1051/0004-6361:20042137",
+      "url": "https://www.webofscience.com/wos/pprn/full-record/PPRN:22888130",
+      "is_per": false,
+      "authors_full": "Galloway, R. K.; MacKinnon, A. L.; Kontar, E. P.; Helander, P.",
+      "authors_display": "Galloway, R. K.; MacKinnon, A. L.; Kontar, E. P. et al."
+    },
+    {
       "title": "TDDFT from molecules to solids: The role of long-range interactions",
       "year": "2005",
       "journal": "International Journal of Quantum Chemistry",
@@ -1871,6 +2080,17 @@
       "is_per": false,
       "authors_full": "Nicolas Labrosse",
       "authors_display": "Nicolas Labrosse"
+    },
+    {
+      "title": "On multicomponent effects in stellar winds of stars at extremely low metallicity",
+      "year": "2003",
+      "journal": "Arxiv",
+      "type": "journal-article",
+      "doi": "10.1051/0004-6361:20030287",
+      "url": "https://www.webofscience.com/wos/pprn/full-record/PPRN:11299768",
+      "is_per": false,
+      "authors_full": "Krtička, J.; Owocki, S. P.; Kubát, J.; Galloway, R. K.; Brown, J. C.",
+      "authors_display": "Krtička, J.; Owocki, S. P.; Kubát, J. et al."
     },
     {
       "title": "Line profiles and intensity ratios in prominence models with a prominence to corona interface",
