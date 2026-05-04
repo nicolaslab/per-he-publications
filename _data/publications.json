@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-01",
+  "last_updated": "2026-05-04",
   "total": 198,
   "publications": [
     {
@@ -108,7 +108,7 @@
       "type": "preprint",
       "doi": "10.31234/osf.io/t2b7c_v1",
       "url": "https://doi.org/10.31234/osf.io/t2b7c_v1",
-      "is_per": false,
+      "is_per": true,
       "authors_full": "Wood, A.; Galloway, R.; Rhind, S.; McQueen, H.; Kinnear, G.",
       "authors_display": "Wood, A.; Galloway, R.; Rhind, S. et al."
     },
@@ -240,7 +240,7 @@
       "type": "book-chapter",
       "doi": "10.1088/978-0-7503-5231-4ch1",
       "url": "https://doi.org/10.1088/978-0-7503-5231-4ch1",
-      "is_per": false,
+      "is_per": true,
       "authors_full": "Wood, A. K.; Labrosse, N.",
       "authors_display": "Wood, A. K.; Labrosse, N."
     },
@@ -581,7 +581,7 @@
       "type": "preprint",
       "doi": "10.31234/osf.io/q3hz4",
       "url": "https://doi.org/10.31234/osf.io/q3hz4",
-      "is_per": false,
+      "is_per": true,
       "authors_full": "Wood, A.; Christie, H.; MacKay, J. R. D.; Kinnear, G.",
       "authors_display": "Wood, A.; Christie, H.; MacKay, J. R. D. et al."
     },
