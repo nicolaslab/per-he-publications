@@ -1,15 +1,19 @@
 [
   {
     "journal": "Physical Review Physics Education Research",
-    "count": 9
+    "count": 7
   },
   {
     "journal": "Physics Education Research Conference Proceedings",
     "count": 3
   },
   {
-    "journal": "Journal of Perspectives in Applied Academic Practice",
-    "count": 2
+    "journal": "PHYSICAL REVIEW PHYSICS EDUCATION RESEARCH",
+    "count": 3
+  },
+  {
+    "journal": "PHYSICAL REVIEW SPECIAL TOPICS-PHYSICS EDUCATION RESEARCH",
+    "count": 3
   },
   {
     "journal": "Education Sciences",
@@ -20,47 +24,27 @@
     "count": 2
   },
   {
-    "journal": "PHYSICAL REVIEW SPECIAL TOPICS-PHYSICS EDUCATION RESEARCH",
-    "count": 2
-  },
-  {
     "journal": "2011 PHYSICS EDUCATION RESEARCH CONFERENCE",
     "count": 2
   },
   {
+    "journal": "Journal of Perspectives in Applied Academic Practice",
+    "count": 2
+  },
+  {
+    "journal": "Challenges in Physics Education",
+    "count": 1
+  },
+  {
+    "journal": "INTERNATIONAL JOURNAL FOR ACADEMIC DEVELOPMENT",
+    "count": 1
+  },
+  {
+    "journal": "Enhancing Teaching and Learning in Higher Education",
+    "count": 1
+  },
+  {
     "journal": "Journal of Science Education and Technology",
-    "count": 1
-  },
-  {
-    "journal": "Effective Teaching in Large STEM Classes",
-    "count": 1
-  },
-  {
-    "journal": "Physics World",
-    "count": 1
-  },
-  {
-    "journal": "Europhysics Letters",
-    "count": 1
-  },
-  {
-    "journal": "International Journal for Academic Development",
-    "count": 1
-  },
-  {
-    "journal": "Technology, Pedagogy and Education",
-    "count": 1
-  },
-  {
-    "journal": "Distance Education",
-    "count": 1
-  },
-  {
-    "journal": "Teaching in Higher Education",
-    "count": 1
-  },
-  {
-    "journal": "Physical Review Special Topics - Physics Education Research",
     "count": 1
   },
   {
@@ -84,11 +68,19 @@
     "count": 1
   },
   {
+    "journal": "TECHNOLOGY PEDAGOGY AND EDUCATION",
+    "count": 1
+  },
+  {
     "journal": "BRITISH JOURNAL OF EDUCATIONAL TECHNOLOGY",
     "count": 1
   },
   {
-    "journal": "PHYSICAL REVIEW PHYSICS EDUCATION RESEARCH",
+    "journal": "PsyArXiv",
+    "count": 1
+  },
+  {
+    "journal": "TEACHING IN HIGHER EDUCATION",
     "count": 1
   },
   {
@@ -109,6 +101,26 @@
   },
   {
     "journal": "2012 PHYSICS EDUCATION RESEARCH CONFERENCE",
+    "count": 1
+  },
+  {
+    "journal": "Effective Teaching in Large STEM Classes",
+    "count": 1
+  },
+  {
+    "journal": "Physics World",
+    "count": 1
+  },
+  {
+    "journal": "Europhysics Letters",
+    "count": 1
+  },
+  {
+    "journal": "International Journal for Academic Development",
+    "count": 1
+  },
+  {
+    "journal": "Distance Education",
     "count": 1
   }
 ]
