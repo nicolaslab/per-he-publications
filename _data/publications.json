@@ -108,7 +108,7 @@
       "type": "journal-article",
       "doi": "10.1108/sgpe-01-2025-0005",
       "url": "https://doi.org/10.1108/sgpe-01-2025-0005",
-      "is_per": false,
+      "is_per": true,
       "authors_full": "Cramman, H.; Eerola, P.; Elliot, Z.; Shields, L.; Robson, J.; Whitton, N.",
       "authors_display": "Cramman, H.; Eerola, P.; Elliot, Z. et al."
     },
@@ -416,7 +416,7 @@
       "type": "journal-article",
       "doi": "10.1080/02635143.2021.1920905",
       "url": "https://doi.org/10.1080/02635143.2021.1920905",
-      "is_per": false,
+      "is_per": true,
       "authors_full": "Nita, L.; Mazzoli Smith, L.; Chancellor, N.; Cramman, H.",
       "authors_display": "Nita, L.; Mazzoli Smith, L.; Chancellor, N. et al."
     },
