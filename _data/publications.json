@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-05-18",
-  "total": 198,
+  "total": 224,
   "publications": [
     {
       "title": "Analysis of Lyman β and Lyman γ lines in a pre-eruptive and eruptive prominence with Solar Orbiter SPICE observations",
@@ -69,6 +69,17 @@
       "authors_display": "Nicolas Labrosse"
     },
     {
+      "title": "Broadening horizons: development of multi-site teamworking skills within interdisciplinary doctoral training",
+      "year": "2025",
+      "journal": "",
+      "type": "preprint",
+      "doi": "10.31219/osf.io/k8tbw",
+      "url": "https://doi.org/10.31219/osf.io/k8tbw",
+      "is_per": false,
+      "authors_full": "Cramman, H.; Eerola, P.; Elliot, Z.; Shields, L.; Robson, J.; Whitton, N.",
+      "authors_display": "Cramman, H.; Eerola, P.; Elliot, Z. et al."
+    },
+    {
       "title": "Comparing large language models for supervised analysis of students’ lab notes",
       "year": "2025",
       "journal": "Physical Review Physics Education Research",
@@ -78,6 +89,83 @@
       "is_per": true,
       "authors_full": "Fussell, R. K.; Flynn, M.; Damle, A.; Fox, M. F. J.; Holmes, N. G.",
       "authors_display": "Fussell, R. K.; Flynn, M.; Damle, A. et al."
+    },
+    {
+      "title": "Developing Augmented Reality (AR) Teaching Tools for Undergraduate Physics: The Virtual Optical Table",
+      "year": "2025",
+      "journal": "Challenges in Physics Education",
+      "type": "book-chapter",
+      "doi": "10.1007/978-3-031-94207-5_17",
+      "url": "https://doi.org/10.1007/978-3-031-94207-5_17",
+      "is_per": true,
+      "authors_full": "Petts, P. L.; Cramman, H.; Swift, G. P.",
+      "authors_display": "Petts, P. L.; Cramman, H.; Swift, G. P."
+    },
+    {
+      "title": "Development of multi-site teamworking skills in scientific interdisciplinary doctoral training: a case study",
+      "year": "2025",
+      "journal": "STUDIES IN GRADUATE AND POSTDOCTORAL EDUCATION",
+      "type": "journal-article",
+      "doi": "10.1108/sgpe-01-2025-0005",
+      "url": "https://doi.org/10.1108/sgpe-01-2025-0005",
+      "is_per": false,
+      "authors_full": "Cramman, H.; Eerola, P.; Elliot, Z.; Shields, L.; Robson, J.; Whitton, N.",
+      "authors_display": "Cramman, H.; Eerola, P.; Elliot, Z. et al."
+    },
+    {
+      "title": "Development of three Higher Education professional learning networks in response to COVID-19: a case study",
+      "year": "2025",
+      "journal": "INTERNATIONAL JOURNAL FOR ACADEMIC DEVELOPMENT",
+      "type": "journal-article",
+      "doi": "10.1080/1360144x.2025.2580277",
+      "url": "https://doi.org/10.1080/1360144x.2025.2580277",
+      "is_per": true,
+      "authors_full": "Cramman, H.; Burnham, J. A. J.; Campbell, C. D.; Francis, N. J.; Smith, D. P.; Spagnoli, D.; Stewart, M. I.; Turner, I. J.",
+      "authors_display": "Cramman, H.; Burnham, J. A. J.; Campbell, C. D. et al."
+    },
+    {
+      "title": "Evaluation of the National Creativity Collaboratives Pilot Programme: Full Research Report",
+      "year": "2025",
+      "journal": "",
+      "type": "report",
+      "doi": "10.62512/pubs.ed.0001",
+      "url": "https://doi.org/10.62512/pubs.ed.0001",
+      "is_per": false,
+      "authors_full": "Cramman, H.; James, S. J.; Menzies, V.; Newton, L.; Sayari, M.",
+      "authors_display": "Cramman, H.; James, S. J.; Menzies, V. et al."
+    },
+    {
+      "title": "Evaluation of the National Creativity Collaboratives Pilot Programme: Summary Report",
+      "year": "2025",
+      "journal": "",
+      "type": "report",
+      "doi": "10.62512/pubs.ed.0002",
+      "url": "https://doi.org/10.62512/pubs.ed.0002",
+      "is_per": false,
+      "authors_full": "Cramman, H.; James, S. J.; Menzies, V.; Newton, L.; Sayari, M.",
+      "authors_display": "Cramman, H.; James, S. J.; Menzies, V. et al."
+    },
+    {
+      "title": "Failure to replicate effects of parent-delivered early language intervention: Evidence from a randomised controlled trial with implications for universal language intervention",
+      "year": "2025",
+      "journal": "JCPP ADVANCES",
+      "type": "journal-article",
+      "doi": "10.1002/jcv2.70064",
+      "url": "https://doi.org/10.1002/jcv2.70064",
+      "is_per": false,
+      "authors_full": "Burgoyne, K.; Boundy, L.; Eerola, P.; Zhang, Q.; Einbeck, J.; Cramman, H.; Menzies, V.",
+      "authors_display": "Burgoyne, K.; Boundy, L.; Eerola, P. et al."
+    },
+    {
+      "title": "Lack of effect of a parent-delivered early language intervention: Evidence from a randomised controlled trial completed during COVID-19",
+      "year": "2025",
+      "journal": "JCPP ADVANCES",
+      "type": "journal-article",
+      "doi": "10.1002/jcv2.12279",
+      "url": "https://doi.org/10.1002/jcv2.12279",
+      "is_per": false,
+      "authors_full": "Burgoyne, K.; Hargreaves, S.; Akhter, N.; Cramman, H.; Eerola, P.; Einbeck, J.; Menzies, V.",
+      "authors_display": "Burgoyne, K.; Hargreaves, S.; Akhter, N. et al."
     },
     {
       "title": "Magnetic Reconnection between a Solar Jet and a Filament Channel",
@@ -155,6 +243,17 @@
       "is_per": false,
       "authors_full": "Nicolas Labrosse",
       "authors_display": "Nicolas Labrosse"
+    },
+    {
+      "title": "Post-16 students’ experience of practical science during the COVID-19 pandemic and the impact on students’ self-efficacy in practical work",
+      "year": "2024",
+      "journal": "Enhancing Teaching and Learning in Higher Education",
+      "type": "journal-article",
+      "doi": "10.62512/etlhe.14",
+      "url": "https://doi.org/10.62512/etlhe.14",
+      "is_per": true,
+      "authors_full": "Cramman, H.; Arenas, B.; Awais, R.; Balaban, C.; Cropper, C.; Dennis, F.; Finch, K.; Gray, H.; Hall, A.; Kitchen, G.; Norman, K.; O’Driscoll, L.; Petts, P.; Petri, S.; Robson, J.; Rosenburgh, A.; Shields, L.; Swift, G. P.; Vaughan, H.",
+      "authors_display": "Cramman, H.; Arenas, B.; Awais, R. et al."
     },
     {
       "title": "Solar prominence diagnostics and their associated estimated errors from 1D NLTE Mg ii h&k modelling",
@@ -289,6 +388,17 @@
       "authors_display": "Gunár, S.; Labrosse, N.; Luna, M. et al."
     },
     {
+      "title": "Post-16 students’ experience of practical science during the COVID-19 pandemic and the impact on students’ self-efficacy in practical work",
+      "year": "2023",
+      "journal": "",
+      "type": "preprint",
+      "doi": "10.35542/osf.io/gx2jh",
+      "url": "https://doi.org/10.35542/osf.io/gx2jh",
+      "is_per": true,
+      "authors_full": "Cramman, H.; Arenas, B.; Awais, R.; Balaban, C.; Cropper, C.; Dennis, F. M.; Finch, K.; Gray, H. F.; Hall, A.; Kitchen, G.; Norman, K.; O'Driscoll, L.; Petts, P.; Petri, S.; Robson, J.; Rosenburgh, A.; Shields, L.; Swift, G. P.; Vaughan, H. L.",
+      "authors_display": "Cramman, H.; Arenas, B.; Awais, R. et al."
+    },
+    {
       "title": "Strengthening learning communities",
       "year": "2023",
       "journal": "Academic Belonging in Higher Education",
@@ -298,6 +408,17 @@
       "is_per": true,
       "authors_full": "Kandiko Howson, C. B.; Smith, A.; Durk, J.; Fox, M. F. J.; Tymms, V.; Richards, M.",
       "authors_display": "Kandiko Howson, C. B.; Smith, A.; Durk, J. et al."
+    },
+    {
+      "title": "The challenge and opportunities of quantum literacy for future education and transdisciplinary problem-solving",
+      "year": "2023",
+      "journal": "RESEARCH IN SCIENCE & TECHNOLOGICAL EDUCATION",
+      "type": "journal-article",
+      "doi": "10.1080/02635143.2021.1920905",
+      "url": "https://doi.org/10.1080/02635143.2021.1920905",
+      "is_per": false,
+      "authors_full": "Nita, L.; Mazzoli Smith, L.; Chancellor, N.; Cramman, H.",
+      "authors_display": "Nita, L.; Mazzoli Smith, L.; Chancellor, N. et al."
     },
     {
       "title": "Two-horn quiescent prominence observed in Hα and Mg ii h&k lines with THEMIS and IRIS",
@@ -364,6 +485,17 @@
       "is_per": false,
       "authors_full": "Kinnear, G.; Wood, A. K.; Gratwick, R.",
       "authors_display": "Kinnear, G.; Wood, A. K.; Gratwick, R."
+    },
+    {
+      "title": "Evaluation of the National Levelling Up Widening Participation Pilot Programme",
+      "year": "2022",
+      "journal": "",
+      "type": "report",
+      "doi": "10.15128/r18910jt623",
+      "url": "https://doi.org/10.15128/r18910jt623",
+      "is_per": false,
+      "authors_full": "Helen Cramman",
+      "authors_display": "Helen Cramman"
     },
     {
       "title": "Expectations of how student views on experimental physics develop during an undergraduate degree",
@@ -443,6 +575,17 @@
       "authors_display": "Heinzel, P.; Bárta, M.; Gunár, S. et al."
     },
     {
+      "title": "Reading to learn? The co-development of mathematics and reading during primary school",
+      "year": "2022",
+      "journal": "CHILD DEVELOPMENT",
+      "type": "journal-article",
+      "doi": "10.1111/cdev.13817",
+      "url": "https://doi.org/10.1111/cdev.13817",
+      "is_per": false,
+      "authors_full": "Hübner, N.; Merrell, C.; Cramman, H.; Little, J.; Bolden, D.; Nagengast, B.",
+      "authors_display": "Hübner, N.; Merrell, C.; Cramman, H. et al."
+    },
+    {
       "title": "Reforming how we evaluate students",
       "year": "2022",
       "journal": "Physics World",
@@ -498,6 +641,17 @@
       "authors_display": "Wood, A. K.; Symons, K.; Falisse, J. et al."
     },
     {
+      "title": "Development of three Higher Education Professional Learning Networks in response to COVID-19: A case study",
+      "year": "2021",
+      "journal": "",
+      "type": "preprint",
+      "doi": "10.35542/osf.io/tjphr",
+      "url": "https://doi.org/10.35542/osf.io/tjphr",
+      "is_per": true,
+      "authors_full": "Cramman, H.; Burnham, J. A. J.; Campbell, C. D.; Francis, N. J.; Smith, D. P.; Spagnoli, D.; Stewart, M. I.; Turner, I. J.",
+      "authors_display": "Cramman, H.; Burnham, J. A. J.; Campbell, C. D. et al."
+    },
+    {
       "title": "Lab instruction during the COVID-19 pandemic: Effects on student views about experimental physics in comparison with previous years",
       "year": "2021",
       "journal": "Physical Review Physics Education Research",
@@ -509,15 +663,37 @@
       "authors_display": "Fox, M. F. J.; Hoehn, J. R.; Werth, A. et al."
     },
     {
-      "title": "Lecture capture as an element of the digital resource landscape - a qualitative study of flipped and non–flipped classrooms",
+      "title": "Lecture capture as an element of the digital resource landscape-a qualitative study of flipped and non-flipped classrooms",
       "year": "2021",
-      "journal": "Technology, Pedagogy and Education",
+      "journal": "TECHNOLOGY PEDAGOGY AND EDUCATION",
       "type": "journal-article",
       "doi": "10.1080/1475939x.2021.1917449",
       "url": "https://doi.org/10.1080/1475939x.2021.1917449",
       "is_per": true,
       "authors_full": "Wood, A. K.; Bailey, T. N.; Galloway, R. K.; Hardy, J. A.; Sangwin, C. J.; Docherty, P. J.",
       "authors_display": "Wood, A. K.; Bailey, T. N.; Galloway, R. K. et al."
+    },
+    {
+      "title": "Lessons Learned from Implementing Blended and Online Undergraduate Chemistry Laboratory Teaching during the Covid-19 Pandemic",
+      "year": "2021",
+      "journal": "ACS Symposium Series",
+      "type": "book-chapter",
+      "doi": "10.1021/bk-2021-1389.ch012",
+      "url": "https://doi.org/10.1021/bk-2021-1389.ch012",
+      "is_per": false,
+      "authors_full": "Cramman, H.; Connor, M. A. B.; Hau, C.; Robson, J.",
+      "authors_display": "Cramman, H.; Connor, M. A. B.; Hau, C. et al."
+    },
+    {
+      "title": "Reading to Learn? The Co-Development of Mathematics and Reading During Primary School",
+      "year": "2021",
+      "journal": "",
+      "type": "preprint",
+      "doi": "10.31219/osf.io/v8h29",
+      "url": "https://doi.org/10.31219/osf.io/v8h29",
+      "is_per": false,
+      "authors_full": "Hübner, N.; Merrell, C.; Cramman, H.; Little, J.; Bolden, D.; Nagengast, B.",
+      "authors_display": "Hübner, N.; Merrell, C.; Cramman, H. et al."
     },
     {
       "title": "Remote advanced lab course: A case study analysis of open-ended projects",
@@ -663,6 +839,17 @@
       "authors_display": "Labrosse, N."
     },
     {
+      "title": "The challenge and opportunities of quantum literacy for future education and transdisciplinary problem-solving",
+      "year": "2020",
+      "journal": "Arxiv",
+      "type": "journal-article",
+      "doi": null,
+      "url": "https://www.webofscience.com/wos/pprn/full-record/PPRN:11684048",
+      "is_per": false,
+      "authors_full": "Helen Cramman",
+      "authors_display": "Helen Cramman"
+    },
+    {
       "title": "The Solar Orbiter Science Activity Plan: Translating solar and heliospheric physics questions into action",
       "year": "2020",
       "journal": "Astronomy and Astrophysics",
@@ -786,8 +973,8 @@
     {
       "title": "Lecture capture as an element of the digital resource landscape - a qualitative study of flipped and non-flipped classrooms",
       "year": "2018",
-      "journal": "",
-      "type": "preprint",
+      "journal": "PsyArXiv",
+      "type": "journal-article",
       "doi": "10.31234/osf.io/824hv",
       "url": "https://doi.org/10.31234/osf.io/824hv",
       "is_per": true,
@@ -817,6 +1004,17 @@
       "authors_display": "Nicolas Labrosse"
     },
     {
+      "title": "Number identification: a unique developmental pathway in mathematics?",
+      "year": "2018",
+      "journal": "Research Papers in Education",
+      "type": "journal-article",
+      "doi": "10.1080/02671522.2018.1536890",
+      "url": "https://doi.org/10.1080/02671522.2018.1536890",
+      "is_per": false,
+      "authors_full": "Cramman, H.; Gott, S.; Little, J.; Merrell, C.; Tymms, P.; Copping, L. T.",
+      "authors_display": "Cramman, H.; Gott, S.; Little, J. et al."
+    },
+    {
       "title": "Observing turbulence early in a solar flare with the high time resolution of IRIS",
       "year": "2018",
       "journal": "42nd COSPAR Scientific Assembly",
@@ -837,6 +1035,17 @@
       "is_per": false,
       "authors_full": "Ruan, G.; Schmieder, B.; Mein, P.; Mein, N.; Labrosse, N.; Gunár, S.; Chen, Y.",
       "authors_display": "Ruan, G.; Schmieder, B.; Mein, P. et al."
+    },
+    {
+      "title": "Primary School Entry Assessment in New Zealand",
+      "year": "2018",
+      "journal": "New Zealand International Research in Early Childhood Education Journal",
+      "type": "journal-article",
+      "doi": null,
+      "url": "https://www.childforum.com/research/2018-nz-international-early-childhood-education-journal/1564-primary-school-entry-assessment-in-new-zealand.html",
+      "is_per": false,
+      "authors_full": "Helen Cramman",
+      "authors_display": "Helen Cramman"
     },
     {
       "title": "Prominence/Tornado plasma parameters",
@@ -874,7 +1083,7 @@
     {
       "title": "Teacher-student discourse in active learning lectures: case studies from undergraduate physics",
       "year": "2018",
-      "journal": "Teaching in Higher Education",
+      "journal": "TEACHING IN HIGHER EDUCATION",
       "type": "journal-article",
       "doi": "10.1080/13562517.2017.1421630",
       "url": "https://doi.org/10.1080/13562517.2017.1421630",
@@ -1125,9 +1334,9 @@
       "authors_display": "Nicolas Labrosse"
     },
     {
-      "title": "Can dual processing theory explain physics students’ performance on the Force Concept Inventory?",
+      "title": "Can dual processing theory explain physics students' performance on the Force Concept Inventory?",
       "year": "2016",
-      "journal": "Physical Review Physics Education Research",
+      "journal": "PHYSICAL REVIEW PHYSICS EDUCATION RESEARCH",
       "type": "journal-article",
       "doi": "10.1103/physrevphyseducres.12.023101",
       "url": "https://doi.org/10.1103/physrevphyseducres.12.023101",
@@ -1138,7 +1347,7 @@
     {
       "title": "Characterizing interactive engagement activities in a flipped introductory physics class",
       "year": "2016",
-      "journal": "Physical Review Physics Education Research",
+      "journal": "PHYSICAL REVIEW PHYSICS EDUCATION RESEARCH",
       "type": "journal-article",
       "doi": "10.1103/physrevphyseducres.12.010140",
       "url": "https://doi.org/10.1103/physrevphyseducres.12.010140",
@@ -1211,6 +1420,17 @@
       "is_per": false,
       "authors_full": "Levens, P. J.; Schmieder, B.; López Ariste, A.; Labrosse, N.; Dalmasse, K.; Gelly, B.",
       "authors_display": "Levens, P. J.; Schmieder, B.; López Ariste, A. et al."
+    },
+    {
+      "title": "Name writing ability not length of name is predictive of future academic attainment",
+      "year": "2016",
+      "journal": "EDUCATIONAL RESEARCH",
+      "type": "journal-article",
+      "doi": "10.1080/00131881.2016.1184948",
+      "url": "https://doi.org/10.1080/00131881.2016.1184948",
+      "is_per": false,
+      "authors_full": "Copping, L. T.; Cramman, H.; Gott, S.; Gray, H.; Tymms, P.",
+      "authors_display": "Copping, L. T.; Cramman, H.; Gott, S. et al."
     },
     {
       "title": "Prominence plasma and magnetic field structure - A coordinated observation with IRIS, Hinode and THEMIS",
@@ -1347,7 +1567,7 @@
     {
       "title": "Analyzing learning during Peer Instruction dialogues: A resource activation framework",
       "year": "2014",
-      "journal": "Physical Review Special Topics - Physics Education Research",
+      "journal": "PHYSICAL REVIEW SPECIAL TOPICS-PHYSICS EDUCATION RESEARCH",
       "type": "journal-article",
       "doi": "10.1103/physrevstper.10.020107",
       "url": "https://doi.org/10.1103/physrevstper.10.020107",
@@ -1431,6 +1651,17 @@
       "is_per": false,
       "authors_full": "Nicolas Labrosse",
       "authors_display": "Nicolas Labrosse"
+    },
+    {
+      "title": "Controlling Anisotropy of NiFe Thin Films During Deposition for Device Applications",
+      "year": "2013",
+      "journal": "SENSOR LETTERS",
+      "type": "journal-article",
+      "doi": "10.1166/sl.2013.2780",
+      "url": "https://doi.org/10.1166/sl.2013.2780",
+      "is_per": false,
+      "authors_full": "Atkinson, D.; Searle, S.; Jefferies, M.; Levy, J.; Cramman, H.",
+      "authors_display": "Atkinson, D.; Searle, S.; Jefferies, M. et al."
     },
     {
       "title": "Non-equilibrium renormalised contacts for transport in nanodevices with interaction: A quasi-particle approach",
@@ -1532,6 +1763,17 @@
       "authors_display": "Ness, H.; Dash, L. K."
     },
     {
+      "title": "Multilevel 3 Bit-per-cell Magnetic Random Access Memory Concepts and Their Associated Control Circuit Architectures",
+      "year": "2012",
+      "journal": "IEEE TRANSACTIONS ON NANOTECHNOLOGY",
+      "type": "journal-article",
+      "doi": "10.1109/tnano.2011.2149538",
+      "url": "https://doi.org/10.1109/tnano.2011.2149538",
+      "is_per": false,
+      "authors_full": "Cramman, H.; Eastwood, D. S.; King, J. A.; Atkinson, D.",
+      "authors_display": "Cramman, H.; Eastwood, D. S.; King, J. A. et al."
+    },
+    {
       "title": "Nonequilibrium charge susceptibility and dynamical conductance: Identification of scattering processes in quantum transport",
       "year": "2012",
       "journal": "Physical Review Letters",
@@ -1629,6 +1871,17 @@
       "is_per": false,
       "authors_full": "Nicolas Labrosse",
       "authors_display": "Nicolas Labrosse"
+    },
+    {
+      "title": "Chirality-dependent domain wall pinning in a multinotched planar nanowire and chirality preservation using transverse magnetic fields",
+      "year": "2011",
+      "journal": "JOURNAL OF APPLIED PHYSICS",
+      "type": "journal-article",
+      "doi": "10.1063/1.3525733",
+      "url": "https://doi.org/10.1063/1.3525733",
+      "is_per": false,
+      "authors_full": "Eastwood, D. S.; King, J. A.; Bogart, L. K.; Cramman, H.; Atkinson, D.",
+      "authors_display": "Eastwood, D. S.; King, J. A.; Bogart, L. K. et al."
     },
     {
       "title": "EUV lines observed with EIS/Hinode in a solar prominence",
@@ -1774,6 +2027,28 @@
       "authors_display": "Galloway, R. K.; Helander, P.; MacKinnon, A. L. et al."
     },
     {
+      "title": "Variable-temperature photoluminescence emission instrumentation and measurements on low yield metals",
+      "year": "2010",
+      "journal": "",
+      "type": "dissertation-thesis",
+      "doi": null,
+      "url": "http://etheses.dur.ac.uk/374/",
+      "is_per": false,
+      "authors_full": "Helen Cramman",
+      "authors_display": "Helen Cramman"
+    },
+    {
+      "title": "ChiralMEM: A novel concept for high density magnetic memory technology",
+      "year": "2009",
+      "journal": "Nanotechnology 2009: Fabrication, Particles, Characterization, MEMS, Electronics and Photonics - Technical Proceedings of the 2009 NSTI Nanotechnology Conference and Expo, NSTI-Nanotech 2009",
+      "type": "conference-paper",
+      "doi": null,
+      "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-70450193597&partnerID=MN8TOARS",
+      "is_per": false,
+      "authors_full": "Helen Cramman",
+      "authors_display": "Helen Cramman"
+    },
+    {
       "title": "Formation of Helium Lines in Solar Prominences",
       "year": "2009",
       "journal": "AIP Conference Proceedings",
@@ -1805,6 +2080,17 @@
       "is_per": false,
       "authors_full": "da Costa, F. R.; Fletcher, L.; Labrosse, N.; Zuccarello, F.",
       "authors_display": "da Costa, F. R.; Fletcher, L.; Labrosse, N. et al."
+    },
+    {
+      "title": "Photoluminescence of gold, copper and niobium as a function of temperature",
+      "year": "2009",
+      "journal": "Journal of Luminescence",
+      "type": "journal-article",
+      "doi": "10.1016/j.jlumin.2009.04.022",
+      "url": "https://doi.org/10.1016/j.jlumin.2009.04.022",
+      "is_per": false,
+      "authors_full": "Armstrong, H.; Halliday, D.; Hampshire, D. P.",
+      "authors_display": "Armstrong, H.; Halliday, D.; Hampshire, D. P."
     },
     {
       "title": "Radiative transfer in cylindrical threads with incident radiation VI. A hydrogen plus helium system",
