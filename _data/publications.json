@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-05-18",
-  "total": 224,
+  "last_updated": "2026-05-21",
+  "total": 239,
   "publications": [
     {
       "title": "Analysis of Lyman β and Lyman γ lines in a pre-eruptive and eruptive prominence with Solar Orbiter SPICE observations",
@@ -12,6 +12,17 @@
       "is_per": false,
       "authors_full": "Zhang, Y.; Labrosse, N.; Parenti, S.; Kucera, T. A.",
       "authors_display": "Zhang, Y.; Labrosse, N.; Parenti, S. et al."
+    },
+    {
+      "title": "Evaluating Practical Methods in Secondary School Physics: Speed and Acceleration",
+      "year": "2026",
+      "journal": "The Physics Educator",
+      "type": "journal-article",
+      "doi": "10.1142/s2661339526500058",
+      "url": "https://doi.org/10.1142/s2661339526500058",
+      "is_per": false,
+      "authors_full": "Moore, I.; Farmer, S.; Gray, L.",
+      "authors_display": "Moore, I.; Farmer, S.; Gray, L."
     },
     {
       "title": "How to design the perfect lecture",
@@ -190,6 +201,17 @@
       "authors_display": "Mears, M.; Dash, L.; Galloway, R. et al."
     },
     {
+      "title": "Physics Practical Procedures (Feb 2025)",
+      "year": "2025",
+      "journal": "",
+      "type": "other",
+      "doi": "10.17868/strath.00092040",
+      "url": "https://doi.org/10.17868/strath.00092040",
+      "is_per": false,
+      "authors_full": "Laura Gray; Iain Moore",
+      "authors_display": "Laura Gray; Iain Moore"
+    },
+    {
       "title": "STEM Teachers’ Conceptions of Teaching Large Classes",
       "year": "2025",
       "journal": "",
@@ -234,6 +256,17 @@
       "authors_display": "Geschwind, G.; Alemani, M.; Fox, M. F. J. et al."
     },
     {
+      "title": "Evaluating Practical Methodologies in Physics Education Survey - Anonymised data",
+      "year": "2024",
+      "journal": "",
+      "type": "data-set",
+      "doi": "10.15129/cff1897f-78c3-4d9c-83aa-2a4189840420",
+      "url": "https://doi.org/10.15129/cff1897f-78c3-4d9c-83aa-2a4189840420",
+      "is_per": true,
+      "authors_full": "Iain Moore",
+      "authors_display": "Iain Moore"
+    },
+    {
       "title": "Magnetic Reconnection between a Solar Jet and a Filament Channel",
       "year": "2024",
       "journal": "Arxiv",
@@ -254,6 +287,39 @@
       "is_per": true,
       "authors_full": "Cramman, H.; Arenas, B.; Awais, R.; Balaban, C.; Cropper, C.; Dennis, F.; Finch, K.; Gray, H.; Hall, A.; Kitchen, G.; Norman, K.; O’Driscoll, L.; Petts, P.; Petri, S.; Robson, J.; Rosenburgh, A.; Shields, L.; Swift, G. P.; Vaughan, H.",
       "authors_display": "Cramman, H.; Arenas, B.; Awais, R. et al."
+    },
+    {
+      "title": "Practical methodologies in physics workshop",
+      "year": "2024",
+      "journal": "Institute of Physics 49th Stirling Teachers' Meeting, Stirling, United Kingdom, 23/05/24",
+      "type": "conference-presentation",
+      "doi": null,
+      "url": "https://pureportal.strath.ac.uk/en/publications/1cb0c00c-7fa4-4823-9559-86c51390fa95",
+      "is_per": false,
+      "authors_full": "Laura Gray",
+      "authors_display": "Laura Gray"
+    },
+    {
+      "title": "Practical methodologies in physics workshop",
+      "year": "2024",
+      "journal": "Institute of Physics 49th Stirling Teachers' Meeting, Stirling, United Kingdom, 23/05/24",
+      "type": "conference-presentation",
+      "doi": null,
+      "url": "https://pureportal.strath.ac.uk/en/publications/1cb0c00c-7fa4-4823-9559-86c51390fa95",
+      "is_per": false,
+      "authors_full": "Iain Moore",
+      "authors_display": "Iain Moore"
+    },
+    {
+      "title": "Practical teaching in secondary level certificated physics: a view from Scotland",
+      "year": "2024",
+      "journal": "Physics Education",
+      "type": "journal-article",
+      "doi": "10.1088/1361-6552/ad82cb",
+      "url": "https://doi.org/10.1088/1361-6552/ad82cb",
+      "is_per": true,
+      "authors_full": "Gray, L.; Farmer, S.; Moore, I.",
+      "authors_display": "Gray, L.; Farmer, S.; Moore, I."
     },
     {
       "title": "Solar prominence diagnostics and their associated estimated errors from 1D NLTE Mg ii h&k modelling",
@@ -287,6 +353,28 @@
       "is_per": true,
       "authors_full": "Wood, A. K.; Christie, H.; MacKay, J. R. D.; Kinnear, G.",
       "authors_display": "Wood, A. K.; Christie, H.; MacKay, J. R. D. et al."
+    },
+    {
+      "title": "A collaborative approach to STEM outreach",
+      "year": "2023",
+      "journal": "IoP Communcators Conference 2023, London, United Kingdom, 16/11/23",
+      "type": "conference-presentation",
+      "doi": null,
+      "url": "https://pureportal.strath.ac.uk/en/publications/7bcc1714-ec41-47ec-9c04-b40457e70f13",
+      "is_per": false,
+      "authors_full": "Laura Gray",
+      "authors_display": "Laura Gray"
+    },
+    {
+      "title": "A collaborative approach to STEM outreach",
+      "year": "2023",
+      "journal": "IoP Communcators Conference 2023, London, United Kingdom, 16/11/23",
+      "type": "conference-presentation",
+      "doi": null,
+      "url": "https://pureportal.strath.ac.uk/en/publications/7bcc1714-ec41-47ec-9c04-b40457e70f13",
+      "is_per": false,
+      "authors_full": "Iain Moore",
+      "authors_display": "Iain Moore"
     },
     {
       "title": "Behaviour of molecular hydrogen emission in three solar flares",
@@ -597,6 +685,17 @@
       "authors_display": "Labrosse, N."
     },
     {
+      "title": "The effect of student voice on the perception of student agency",
+      "year": "2022",
+      "journal": "International Journal of Educational Research",
+      "type": "journal-article",
+      "doi": "10.1016/j.ijer.2022.101923",
+      "url": "https://doi.org/10.1016/j.ijer.2022.101923",
+      "is_per": true,
+      "authors_full": "Moore, I.",
+      "authors_display": "Moore, I."
+    },
+    {
       "title": "The European Solar Telescope",
       "year": "2022",
       "journal": "Astronomy and Astrophysics",
@@ -762,6 +861,17 @@
       "authors_display": "Wood, A.; Christie, H.; MacKay, J. R. D. et al."
     },
     {
+      "title": "BGE S1-S3 Science -Biology Chemistry Physics Topical Science",
+      "year": "2020",
+      "journal": "",
+      "type": "book",
+      "doi": null,
+      "url": "https://pureportal.strath.ac.uk/en/publications/0f5083b2-4a4a-485b-adc6-1bc7e5ce2d56",
+      "is_per": false,
+      "authors_full": "Iain Moore",
+      "authors_display": "Iain Moore"
+    },
+    {
       "title": "Capturing modeling pathways using the Modeling Assessment for Physics Laboratory Experiments",
       "year": "2020",
       "journal": "Physics Education Research Conference Proceedings",
@@ -914,6 +1024,17 @@
       "is_per": false,
       "authors_full": "Nicolas Labrosse",
       "authors_display": "Nicolas Labrosse"
+    },
+    {
+      "title": "Higher Physics",
+      "year": "2019",
+      "journal": "",
+      "type": "book",
+      "doi": null,
+      "url": "https://pureportal.strath.ac.uk/en/publications/f880d1aa-d3a8-4bc8-92b5-b1ac88462f7c",
+      "is_per": false,
+      "authors_full": "Iain Moore",
+      "authors_display": "Iain Moore"
     },
     {
       "title": "Modelling of Mg ii lines in solar prominences",
@@ -1664,6 +1785,17 @@
       "authors_display": "Atkinson, D.; Searle, S.; Jefferies, M. et al."
     },
     {
+      "title": "Higher Physics for CfE",
+      "year": "2013",
+      "journal": "",
+      "type": "book",
+      "doi": null,
+      "url": "https://pureportal.strath.ac.uk/en/publications/4115f8ae-0857-4830-a261-a8d5d54d53dc",
+      "is_per": false,
+      "authors_full": "Iain Moore",
+      "authors_display": "Iain Moore"
+    },
+    {
       "title": "Non-equilibrium renormalised contacts for transport in nanodevices with interaction: A quasi-particle approach",
       "year": "2013",
       "journal": "Journal of Physics Conference Series",
@@ -1739,6 +1871,17 @@
       "is_per": false,
       "authors_full": "Ness, H.; Dash, L. K.",
       "authors_display": "Ness, H.; Dash, L. K."
+    },
+    {
+      "title": "FET based nano-pore sensing",
+      "year": "2012",
+      "journal": "Journal of Computational Electronics",
+      "type": "journal-article",
+      "doi": "10.1007/s10825-012-0405-z",
+      "url": "https://doi.org/10.1007/s10825-012-0405-z",
+      "is_per": false,
+      "authors_full": "Moore, I.; Millar, C.; Roy, S.; Asenov, A.",
+      "authors_display": "Moore, I.; Millar, C.; Roy, S. et al."
     },
     {
       "title": "Functionality in single-molecule devices: Model calculations and applications of the inelastic electron tunneling signal in molecular junctions",
@@ -1970,6 +2113,17 @@
       "is_per": false,
       "authors_full": "Labrosse, N.; Dalla, S.; Marshall, S.",
       "authors_display": "Labrosse, N.; Dalla, S.; Marshall, S."
+    },
+    {
+      "title": "Brownian noise in FET based nano-pore sensing",
+      "year": "2010",
+      "journal": "2010 14th International Workshop on Computational Electronics, IWCE 2010",
+      "type": "conference-paper",
+      "doi": "10.1109/iwce.2010.5677932",
+      "url": "https://doi.org/10.1109/iwce.2010.5677932",
+      "is_per": false,
+      "authors_full": "Moore, I.; Millar, C.; Roy, S.; Asenov, A.",
+      "authors_display": "Moore, I.; Millar, C.; Roy, S. et al."
     },
     {
       "title": "Generalization and applicability of the Landauer formula for nonequilibrium current in the presence of interactions",
@@ -2465,6 +2619,17 @@
       "is_per": false,
       "authors_full": "Nicolas Labrosse",
       "authors_display": "Nicolas Labrosse"
+    },
+    {
+      "title": "Single ion detection using FET based nano-sensors: a combined drift diffusion and Brownian dynamics 3D simulation study",
+      "year": null,
+      "journal": "",
+      "type": "dissertation-thesis",
+      "doi": null,
+      "url": "https://eleanor.lib.gla.ac.uk/record=b3034687",
+      "is_per": false,
+      "authors_full": "Iain Moore",
+      "authors_display": "Iain Moore"
     }
   ]
 }
