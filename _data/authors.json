@@ -28,11 +28,25 @@
     "per_count": 22
   },
   {
+    "name": "Laura Gray",
+    "orcid": "0009-0002-7653-2006",
+    "institution": "University of Strathclyde",
+    "pub_count": 5,
+    "per_count": 1
+  },
+  {
     "name": "Nicolas Labrosse",
     "orcid": "0000-0002-4638-157X",
     "institution": "University of Glasgow",
     "pub_count": 127,
     "per_count": 7
+  },
+  {
+    "name": "Iain Moore",
+    "orcid": "0000-0002-7180-4079",
+    "institution": "University of Strathclyde",
+    "pub_count": 13,
+    "per_count": 3
   },
   {
     "name": "William Stafford",
