@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-21",
+  "last_updated": "2026-05-25",
   "total": 239,
   "publications": [
     {
@@ -20,7 +20,7 @@
       "type": "journal-article",
       "doi": "10.1142/s2661339526500058",
       "url": "https://doi.org/10.1142/s2661339526500058",
-      "is_per": false,
+      "is_per": true,
       "authors_full": "Moore, I.; Farmer, S.; Gray, L.",
       "authors_display": "Moore, I.; Farmer, S.; Gray, L."
     },
