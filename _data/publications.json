@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-01",
-  "total": 239,
+  "last_updated": "2026-06-05",
+  "total": 257,
   "publications": [
     {
       "title": "Analysis of Lyman β and Lyman γ lines in a pre-eruptive and eruptive prominence with Solar Orbiter SPICE observations",
@@ -12,6 +12,17 @@
       "is_per": false,
       "authors_full": "Zhang, Y.; Labrosse, N.; Parenti, S.; Kucera, T. A.",
       "authors_display": "Zhang, Y.; Labrosse, N.; Parenti, S. et al."
+    },
+    {
+      "title": "Enhancing action in supporting international pre-service science teachers via self-study",
+      "year": "2026",
+      "journal": "",
+      "type": "journal-article",
+      "doi": null,
+      "url": "",
+      "is_per": false,
+      "authors_full": "Daniel Cottle",
+      "authors_display": "Daniel Cottle"
     },
     {
       "title": "Evaluating Practical Methods in Secondary School Physics: Speed and Acceleration",
@@ -67,6 +78,17 @@
       "is_per": true,
       "authors_full": "Wood, A.; Galloway, R.; Rhind, S.; McQueen, H.; Kinnear, G.; Hounsell, D.",
       "authors_display": "Wood, A.; Galloway, R.; Rhind, S. et al."
+    },
+    {
+      "title": "Understanding the experience of international trainee teachers in England and exploring implications for teacher educators",
+      "year": "2026",
+      "journal": "BERA Teacher Education Advancement Network Conference 2026, Sheffield , United Kingdom, 20/05/26",
+      "type": "conference-output",
+      "doi": null,
+      "url": "",
+      "is_per": false,
+      "authors_full": "Daniel Cottle",
+      "authors_display": "Daniel Cottle"
     },
     {
       "title": "What needs to change to make evidence-based teaching the norm? [blog post]",
@@ -179,6 +201,17 @@
       "authors_display": "Burgoyne, K.; Hargreaves, S.; Akhter, N. et al."
     },
     {
+      "title": "Levelling Up Physics",
+      "year": "2025",
+      "journal": "GIREP-EPEC 2025 , Leiden, Netherlands, 30/06/25",
+      "type": "conference-output",
+      "doi": null,
+      "url": "",
+      "is_per": false,
+      "authors_full": "Daniel Cottle",
+      "authors_display": "Daniel Cottle"
+    },
+    {
       "title": "Magnetic Reconnection between a Solar Jet and a Filament Channel",
       "year": "2025",
       "journal": "The Astrophysical Journal",
@@ -234,6 +267,17 @@
       "authors_display": "Fox, M. F. J.; Howson, C. K.; Durk, J. et al."
     },
     {
+      "title": "‘Just enjoying physics’—lessons learned from online near- peer outreach to support widening participation in physics",
+      "year": "2025",
+      "journal": "European Journal of Physics",
+      "type": "journal-article",
+      "doi": "10.1088/1361-6404/adeb14",
+      "url": "https://doi.org/10.1088/1361-6404/adeb14",
+      "is_per": true,
+      "authors_full": "Cottle, D.; Willett, E.; Wright, T.",
+      "authors_display": "Cottle, D.; Willett, E.; Wright, T."
+    },
+    {
       "title": "“It’s Like a Nice Atmosphere”—Understanding Physics Students’ Experiences of a Flipped Classroom Through the Lens of Transactional Distance Theory",
       "year": "2025",
       "journal": "Education Sciences",
@@ -243,6 +287,17 @@
       "is_per": true,
       "authors_full": "Wood, A. K.",
       "authors_display": "Wood, A. K."
+    },
+    {
+      "title": "Academic resilience",
+      "year": "2024",
+      "journal": "Proceedings of the 52nd Annual Conference of SEFI",
+      "type": "conference-paper",
+      "doi": "10.5281/zenodo.14254844",
+      "url": "https://doi.org/10.5281/zenodo.14254844",
+      "is_per": false,
+      "authors_full": "Daniel Cottle",
+      "authors_display": "Daniel Cottle"
     },
     {
       "title": "Development of a global landscape of undergraduate physics laboratory courses",
@@ -265,6 +320,28 @@
       "is_per": true,
       "authors_full": "Iain Moore",
       "authors_display": "Iain Moore"
+    },
+    {
+      "title": "Exploring the experiences of undergraduate physics students taking a “Teaching Physics in School” module and the effects on their intentions to become a secondary physics teacher",
+      "year": "2024",
+      "journal": "Journal of Physics: Conference Series",
+      "type": "journal-article",
+      "doi": "10.1088/1742-6596/2750/1/012038",
+      "url": "https://doi.org/10.1088/1742-6596/2750/1/012038",
+      "is_per": true,
+      "authors_full": "Cottle, D.",
+      "authors_display": "Cottle, D."
+    },
+    {
+      "title": "Investigating the efficiency of air-source heat pumps in the secondary school physics laboratory",
+      "year": "2024",
+      "journal": "Physics Education",
+      "type": "journal-article",
+      "doi": "10.1088/1361-6552/ad0d0c",
+      "url": "https://doi.org/10.1088/1361-6552/ad0d0c",
+      "is_per": true,
+      "authors_full": "Cottle, D.; Campbell, R.",
+      "authors_display": "Cottle, D.; Campbell, R."
     },
     {
       "title": "Magnetic Reconnection between a Solar Jet and a Filament Channel",
@@ -320,6 +397,17 @@
       "is_per": true,
       "authors_full": "Gray, L.; Farmer, S.; Moore, I.",
       "authors_display": "Gray, L.; Farmer, S.; Moore, I."
+    },
+    {
+      "title": "Research design and preliminary findings from the EUniWell MASOEE project on teaching skills to disadvantaged cohorts",
+      "year": "2024",
+      "journal": "UK and Ireland Engineering Education Research Network Conference Proceedings 2023",
+      "type": "journal-article",
+      "doi": "10.31273/10.31273/9781911675167/1634",
+      "url": "https://doi.org/10.31273/10.31273/9781911675167/1634",
+      "is_per": false,
+      "authors_full": "Chung, S.; Cooke, N.; Cottle, D.",
+      "authors_display": "Chung, S.; Cooke, N.; Cottle, D."
     },
     {
       "title": "Solar prominence diagnostics and their associated estimated errors from 1D NLTE Mg ii h&k modelling",
@@ -421,6 +509,28 @@
       "authors_display": "Fox, M. F. J.; Kandiko Howson, C.; Kingsbury, M."
     },
     {
+      "title": "Euniwell: Maximising Academic And Social Outcomes In Engineering Education",
+      "year": "2023",
+      "journal": "51st Annual Conference of the European Society for Engineering Education (SEFI)",
+      "type": "conference-paper",
+      "doi": "10.21427/jyhv-qc77",
+      "url": "https://doi.org/10.21427/jyhv-qc77",
+      "is_per": false,
+      "authors_full": "Daniel Cottle",
+      "authors_display": "Daniel Cottle"
+    },
+    {
+      "title": "Exploring the experiences of undergraduate physics students on a ‘Teaching Physics in School’ module and the effects on their intentions to become physics teachers",
+      "year": "2023",
+      "journal": "BERA Annual Conference 2023, Birmingham, United Kingdom, 12/09/23",
+      "type": "conference-poster",
+      "doi": null,
+      "url": "",
+      "is_per": true,
+      "authors_full": "Daniel Cottle",
+      "authors_display": "Daniel Cottle"
+    },
+    {
       "title": "Large classes in STEM education-potential and challenges",
       "year": "2023",
       "journal": "Effective Teaching in Large STEM Classes",
@@ -487,6 +597,17 @@
       "authors_display": "Cramman, H.; Arenas, B.; Awais, R. et al."
     },
     {
+      "title": "Recruiting, Training and Retaining Secondary Physics Teachers",
+      "year": "2023",
+      "journal": "UCET Annual Conference 2023, Leeds, United Kingdom, 14/11/23",
+      "type": "conference-paper",
+      "doi": null,
+      "url": "",
+      "is_per": false,
+      "authors_full": "Daniel Cottle",
+      "authors_display": "Daniel Cottle"
+    },
+    {
       "title": "Strengthening learning communities",
       "year": "2023",
       "journal": "Academic Belonging in Higher Education",
@@ -496,6 +617,17 @@
       "is_per": true,
       "authors_full": "Kandiko Howson, C. B.; Smith, A.; Durk, J.; Fox, M. F. J.; Tymms, V.; Richards, M.",
       "authors_display": "Kandiko Howson, C. B.; Smith, A.; Durk, J. et al."
+    },
+    {
+      "title": "Supporting Students From Different Universities And Backgrounds To Improve Their Academic And Social Outcomes",
+      "year": "2023",
+      "journal": "51st Annual Conference of the European Society for Engineering Education (SEFI)",
+      "type": "conference-paper",
+      "doi": "10.21427/nwt2-eh84",
+      "url": "https://doi.org/10.21427/nwt2-eh84",
+      "is_per": true,
+      "authors_full": "Daniel Cottle",
+      "authors_display": "Daniel Cottle"
     },
     {
       "title": "The challenge and opportunities of quantum literacy for future education and transdisciplinary problem-solving",
@@ -617,6 +749,17 @@
       "is_per": false,
       "authors_full": "Nicolas Labrosse",
       "authors_display": "Nicolas Labrosse"
+    },
+    {
+      "title": "Harnessing the potential of recently retired physics teachers to mentor new physics teachers",
+      "year": "2022",
+      "journal": "Physics Education",
+      "type": "journal-article",
+      "doi": "10.1088/1361-6552/ac3931",
+      "url": "https://doi.org/10.1088/1361-6552/ac3931",
+      "is_per": true,
+      "authors_full": "Cottle, D.",
+      "authors_display": "Cottle, D."
     },
     {
       "title": "HiRISE - High-Resolution Imaging and Spectroscopy Explorer - Ultrahigh resolution, interferometric and external occulting coronagraphic science",
@@ -751,6 +894,17 @@
       "authors_display": "Cramman, H.; Burnham, J. A. J.; Campbell, C. D. et al."
     },
     {
+      "title": "Improving students' mathematical skills in secondary science",
+      "year": "2021",
+      "journal": "School Science Review",
+      "type": "journal-article",
+      "doi": null,
+      "url": "",
+      "is_per": true,
+      "authors_full": "Daniel Cottle",
+      "authors_display": "Daniel Cottle"
+    },
+    {
       "title": "Lab instruction during the COVID-19 pandemic: Effects on student views about experimental physics in comparison with previous years",
       "year": "2021",
       "journal": "Physical Review Physics Education Research",
@@ -848,6 +1002,17 @@
       "is_per": false,
       "authors_full": "Nicolas Labrosse",
       "authors_display": "Nicolas Labrosse"
+    },
+    {
+      "title": "The effects of Covid-19 on student transition from school to university in STEM subjects",
+      "year": "2021",
+      "journal": "New Directions in the Teaching of Physical Sciences",
+      "type": "journal-article",
+      "doi": "10.29311/ndtps.v0i16.3847",
+      "url": "https://doi.org/10.29311/ndtps.v0i16.3847",
+      "is_per": true,
+      "authors_full": "Cottle, D.",
+      "authors_display": "Cottle, D."
     },
     {
       "title": "Using data about classroom practices to stimulate significant conversations and aid reflection",
@@ -949,6 +1114,17 @@
       "authors_display": "Labrosse, N."
     },
     {
+      "title": "Teacher Education Modality Rapid Review",
+      "year": "2020",
+      "journal": "",
+      "type": "report",
+      "doi": null,
+      "url": "",
+      "is_per": false,
+      "authors_full": "Daniel Cottle",
+      "authors_display": "Daniel Cottle"
+    },
+    {
       "title": "The challenge and opportunities of quantum literacy for future education and transdisciplinary problem-solving",
       "year": "2020",
       "journal": "Arxiv",
@@ -1024,6 +1200,17 @@
       "is_per": false,
       "authors_full": "Nicolas Labrosse",
       "authors_display": "Nicolas Labrosse"
+    },
+    {
+      "title": "Harnessing the expertise of recently retired physics teachers to mentor beginner teachers",
+      "year": "2019",
+      "journal": "GIREP-ICPE-EPEC-MPTL Conference 2019 Programme and Book of Abstracts",
+      "type": "conference-paper",
+      "doi": null,
+      "url": "",
+      "is_per": false,
+      "authors_full": "Daniel Cottle",
+      "authors_display": "Daniel Cottle"
     },
     {
       "title": "Higher Physics",
@@ -1508,6 +1695,17 @@
       "is_per": false,
       "authors_full": "Nicolas Labrosse",
       "authors_display": "Nicolas Labrosse"
+    },
+    {
+      "title": "Exploring electrical resistance: A novel kinesthetic model helps to resolve some misconceptions",
+      "year": "2016",
+      "journal": "Physics Education",
+      "type": "journal-article",
+      "doi": "10.1088/0031-9120/51/5/054004",
+      "url": "https://doi.org/10.1088/0031-9120/51/5/054004",
+      "is_per": true,
+      "authors_full": "Cottle, D.; Marshall, R.",
+      "authors_display": "Cottle, D.; Marshall, R."
     },
     {
       "title": "First evidence of non-Gaussian solar flare EUV spectral line profiles and accelerated non-thermal ion motion",
