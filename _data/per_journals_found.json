@@ -4,6 +4,10 @@
     "count": 7
   },
   {
+    "journal": "Physics Education",
+    "count": 4
+  },
+  {
     "journal": "Physics Education Research Conference Proceedings",
     "count": 3
   },
@@ -14,6 +18,10 @@
   {
     "journal": "PHYSICAL REVIEW SPECIAL TOPICS-PHYSICS EDUCATION RESEARCH",
     "count": 3
+  },
+  {
+    "journal": "European Journal of Physics",
+    "count": 2
   },
   {
     "journal": "Education Sciences",
@@ -30,6 +38,18 @@
   {
     "journal": "Journal of Perspectives in Applied Academic Practice",
     "count": 2
+  },
+  {
+    "journal": "Journal of Physics: Conference Series",
+    "count": 1
+  },
+  {
+    "journal": "51st Annual Conference of the European Society for Engineering Education (SEFI)",
+    "count": 1
+  },
+  {
+    "journal": "New Directions in the Teaching of Physical Sciences",
+    "count": 1
   },
   {
     "journal": "Challenges in Physics Education",
@@ -53,10 +73,6 @@
   },
   {
     "journal": "Journal of Science Education and Technology",
-    "count": 1
-  },
-  {
-    "journal": "European Journal of Physics",
     "count": 1
   },
   {
@@ -116,10 +132,6 @@
     "count": 1
   },
   {
-    "journal": "Physics Education",
-    "count": 1
-  },
-  {
     "journal": "Effective Teaching in Large STEM Classes",
     "count": 1
   },
@@ -141,6 +153,14 @@
   },
   {
     "journal": "Distance Education",
+    "count": 1
+  },
+  {
+    "journal": "BERA Annual Conference 2023, Birmingham, United Kingdom, 12/09/23",
+    "count": 1
+  },
+  {
+    "journal": "School Science Review",
     "count": 1
   }
 ]
