@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://nicolaslab.github.io/per-he-publications/index.html</loc>
-    <lastmod>2026-06-08T10:13:26.972Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nicolaslab.github.io/per-he-publications/authors.html</loc>
-    <lastmod>2026-06-08T10:13:26.972Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nicolaslab.github.io/per-he-publications/about.html</loc>
-    <lastmod>2026-06-08T10:13:26.971Z</lastmod>
-  </url>
-  <url>
     <loc>https://nicolaslab.github.io/per-he-publications/journals.html</loc>
-    <lastmod>2026-06-08T10:13:26.972Z</lastmod>
+    <lastmod>2026-06-15T11:41:12.466Z</lastmod>
   </url>
   <url>
     <loc>https://nicolaslab.github.io/per-he-publications/publications.html</loc>
-    <lastmod>2026-06-08T10:13:26.972Z</lastmod>
+    <lastmod>2026-06-15T11:41:12.466Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicolaslab.github.io/per-he-publications/authors.html</loc>
+    <lastmod>2026-06-15T11:41:12.465Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicolaslab.github.io/per-he-publications/about.html</loc>
+    <lastmod>2026-06-15T11:41:12.465Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicolaslab.github.io/per-he-publications/index.html</loc>
+    <lastmod>2026-06-15T11:41:12.465Z</lastmod>
   </url>
 </urlset>
