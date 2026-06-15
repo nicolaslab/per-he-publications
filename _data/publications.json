@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-08",
-  "total": 257,
+  "last_updated": "2026-06-15",
+  "total": 259,
   "publications": [
     {
       "title": "Analysis of Lyman β and Lyman γ lines in a pre-eruptive and eruptive prominence with Solar Orbiter SPICE observations",
@@ -67,6 +67,28 @@
       "is_per": false,
       "authors_full": "Zhang, Y.; Labrosse, N.; Parenti, S.; Kucera, T. A.",
       "authors_display": "Zhang, Y.; Labrosse, N.; Parenti, S. et al."
+    },
+    {
+      "title": "Radiometric Calibration of Ha Observations with THEMIS",
+      "year": "2026",
+      "journal": "RAS Techniques and Instruments",
+      "type": "other",
+      "doi": "10.1093/rasti/rzag041",
+      "url": "https://doi.org/10.1093/rasti/rzag041",
+      "is_per": false,
+      "authors_full": "Peat, A. W.; Schmieder, B.; Barczynski, K.; Labrosse, N.; Gelly, B.",
+      "authors_display": "Peat, A. W.; Schmieder, B.; Barczynski, K. et al."
+    },
+    {
+      "title": "Radiometric calibration of Hα observations with THEMIS",
+      "year": "2026",
+      "journal": "RAS Techniques and Instruments",
+      "type": "journal-article",
+      "doi": null,
+      "url": "https://eprints.gla.ac.uk/388222/",
+      "is_per": false,
+      "authors_full": "Nicolas Labrosse",
+      "authors_display": "Nicolas Labrosse"
     },
     {
       "title": "STEMM Teachers’ Conceptions of Teaching Large Classes",
