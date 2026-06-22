@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-15",
-  "total": 259,
+  "last_updated": "2026-06-22",
+  "total": 260,
   "publications": [
     {
       "title": "Analysis of Lyman β and Lyman γ lines in a pre-eruptive and eruptive prominence with Solar Orbiter SPICE observations",
@@ -23,6 +23,17 @@
       "is_per": false,
       "authors_full": "Daniel Cottle",
       "authors_display": "Daniel Cottle"
+    },
+    {
+      "title": "Evaluating practical methodologies in Scottish certificate level physics: electrical circuits",
+      "year": "2026",
+      "journal": "Cogent Education",
+      "type": "journal-article",
+      "doi": "10.1080/2331186x.2026.2689848",
+      "url": "https://doi.org/10.1080/2331186x.2026.2689848",
+      "is_per": false,
+      "authors_full": "Gray, L.; Farmer, S.; Moore, I.",
+      "authors_display": "Gray, L.; Farmer, S.; Moore, I."
     },
     {
       "title": "Evaluating Practical Methods in Secondary School Physics: Speed and Acceleration",
