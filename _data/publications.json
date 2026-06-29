@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-22",
+  "last_updated": "2026-06-29",
   "total": 260,
   "publications": [
     {
@@ -12,6 +12,17 @@
       "is_per": false,
       "authors_full": "Zhang, Y.; Labrosse, N.; Parenti, S.; Kucera, T. A.",
       "authors_display": "Zhang, Y.; Labrosse, N.; Parenti, S. et al."
+    },
+    {
+      "title": "Effects of the removal of physics as an essential entry requirement to chemical and process engineering (CPE) programmes",
+      "year": "2026",
+      "journal": "Teaching and Learning Day 2026, Glasgow, 16/06/26",
+      "type": "conference-presentation",
+      "doi": null,
+      "url": "https://pureportal.strath.ac.uk/en/publications/698a0b41-f2c5-4095-ab32-e72108c60606",
+      "is_per": false,
+      "authors_full": "Iain Moore",
+      "authors_display": "Iain Moore"
     },
     {
       "title": "Enhancing action in supporting international pre-service science teachers via self-study",
@@ -80,26 +91,15 @@
       "authors_display": "Zhang, Y.; Labrosse, N.; Parenti, S. et al."
     },
     {
-      "title": "Radiometric Calibration of Ha Observations with THEMIS",
-      "year": "2026",
-      "journal": "RAS Techniques and Instruments",
-      "type": "other",
-      "doi": "10.1093/rasti/rzag041",
-      "url": "https://doi.org/10.1093/rasti/rzag041",
-      "is_per": false,
-      "authors_full": "Peat, A. W.; Schmieder, B.; Barczynski, K.; Labrosse, N.; Gelly, B.",
-      "authors_display": "Peat, A. W.; Schmieder, B.; Barczynski, K. et al."
-    },
-    {
       "title": "Radiometric calibration of Hα observations with THEMIS",
       "year": "2026",
       "journal": "RAS Techniques and Instruments",
       "type": "journal-article",
-      "doi": null,
+      "doi": "10.1093/rasti/rzag041",
       "url": "https://eprints.gla.ac.uk/388222/",
       "is_per": false,
-      "authors_full": "Nicolas Labrosse",
-      "authors_display": "Nicolas Labrosse"
+      "authors_full": "Peat, A. W.; Schmieder, B.; Barczynski, K.; Labrosse, N.; Gelly, B.",
+      "authors_display": "Peat, A. W.; Schmieder, B.; Barczynski, K. et al."
     },
     {
       "title": "STEMM Teachers’ Conceptions of Teaching Large Classes",
