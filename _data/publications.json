@@ -1340,7 +1340,7 @@
       "type": "journal-article",
       "doi": "10.1080/02680513.2018.1544488",
       "url": "https://doi.org/10.1080/02680513.2018.1544488",
-      "is_per": false,
+      "is_per": true,
       "authors_full": "Campbell, A.; Gallen, A.; Jones, M. H.; Walshe, A.",
       "authors_display": "Campbell, A.; Gallen, A.; Jones, M. H. et al."
     },
