@@ -42,6 +42,13 @@
     "per_count": 2
   },
   {
+    "name": "Mark Jones",
+    "orcid": "0000-0001-6217-8574",
+    "institution": "The Open Univesity",
+    "pub_count": 30,
+    "per_count": 2
+  },
+  {
     "name": "Nicolas Labrosse",
     "orcid": "0000-0002-4638-157X",
     "institution": "University of Glasgow",
