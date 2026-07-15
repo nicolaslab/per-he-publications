@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-07-13",
-  "total": 260,
+  "last_updated": "2026-07-15",
+  "total": 290,
   "publications": [
     {
       "title": "Analysis of Lyman β and Lyman γ lines in a pre-eruptive and eruptive prominence with Solar Orbiter SPICE observations",
@@ -652,6 +652,17 @@
       "authors_display": "Kandiko Howson, C. B.; Smith, A.; Durk, J. et al."
     },
     {
+      "title": "SUPPORTING SCHOLARSHIP IN STEM: DEVELOPING AND SUPPORTING AN ENGAGED, DYNAMIC COMMUNITY OF SCHOLARS",
+      "year": "2023",
+      "journal": "INTED Proceedings",
+      "type": "conference-paper",
+      "doi": "10.21125/inted.2023.0844",
+      "url": "https://doi.org/10.21125/inted.2023.0844",
+      "is_per": false,
+      "authors_full": "Pawley, S.; Jones, M.; Ford, D.",
+      "authors_display": "Pawley, S.; Jones, M.; Ford, D."
+    },
+    {
       "title": "Supporting Students From Different Universities And Backgrounds To Improve Their Academic And Social Outcomes",
       "year": "2023",
       "journal": "51st Annual Conference of the European Society for Engineering Education (SEFI)",
@@ -672,6 +683,17 @@
       "is_per": true,
       "authors_full": "Nita, L.; Mazzoli Smith, L.; Chancellor, N.; Cramman, H.",
       "authors_display": "Nita, L.; Mazzoli Smith, L.; Chancellor, N. et al."
+    },
+    {
+      "title": "The Importance of Data Ownership in Authentic Learning - Poster",
+      "year": "2023",
+      "journal": "",
+      "type": "conference-paper",
+      "doi": null,
+      "url": "https://oro.open.ac.uk/99635/",
+      "is_per": false,
+      "authors_full": "Mark Jones",
+      "authors_display": "Mark Jones"
     },
     {
       "title": "Two-horn quiescent prominence observed in Hα and Mg ii h&k lines with THEMIS and IRIS",
@@ -1059,6 +1081,17 @@
       "authors_display": "Wood, A.; Christie, H.; MacKay, J. R. D. et al."
     },
     {
+      "title": "A possible transit of a disintegrating exoplanet in the nearby multiplanet system DMPP-1",
+      "year": "2020",
+      "journal": "Astrophysical Journal Letters",
+      "type": "journal-article",
+      "doi": "10.3847/2041-8213/ab8f2b",
+      "url": "https://doi.org/10.3847/2041-8213/ab8f2b",
+      "is_per": false,
+      "authors_full": "Jones, M. H.; Haswell, C. A.; Barnes, J. R.; Staab, D.; Heller, R.",
+      "authors_display": "Jones, M. H.; Haswell, C. A.; Barnes, J. R. et al."
+    },
+    {
       "title": "BGE S1-S3 Science -Biology Chemistry Physics Topical Science",
       "year": "2020",
       "journal": "",
@@ -1112,6 +1145,17 @@
       "is_per": false,
       "authors_full": "Heinzel, P.; Štěpán, J.; Bemporad, A.; Fineschi, S.; Jejčič, S.; Labrosse, N.; Susino, R.",
       "authors_display": "Heinzel, P.; Štěpán, J.; Bemporad, A. et al."
+    },
+    {
+      "title": "Online team work in space science and astronomy at the Open University",
+      "year": "2020",
+      "journal": "Proceedings of the 3rd Symposium on Space Educational Activities",
+      "type": "conference-paper",
+      "doi": "10.29311/2020.32",
+      "url": "https://doi.org/10.29311/2020.32",
+      "is_per": false,
+      "authors_full": "Jones, M.; Chyriwsky, S.; Croston, J.; Kolb, U.; Schwenzer, S.; Urquhar, S.",
+      "authors_display": "Jones, M.; Chyriwsky, S.; Croston, J. et al."
     },
     {
       "title": "Preparing for the quantum revolution: What is the role of higher education?",
@@ -1288,6 +1332,17 @@
       "is_per": false,
       "authors_full": "Rodger, A. S.; Labrosse, N.",
       "authors_display": "Rodger, A. S.; Labrosse, N."
+    },
+    {
+      "title": "The perceptions of STEM Tutors on the role of tutorials in distance learning",
+      "year": "2019",
+      "journal": "Open Learning: The Journal of Open, Distance and e-learning",
+      "type": "journal-article",
+      "doi": "10.1080/02680513.2018.1544488",
+      "url": "https://doi.org/10.1080/02680513.2018.1544488",
+      "is_per": false,
+      "authors_full": "Campbell, A.; Gallen, A.; Jones, M. H.; Walshe, A.",
+      "authors_display": "Campbell, A.; Gallen, A.; Jones, M. H. et al."
     },
     {
       "title": "How do approaches to solving open-ended problems vary within the science disciplines?",
@@ -1543,6 +1598,17 @@
       "authors_display": "Schmieder, B.; Mein, P.; Mein, N. et al."
     },
     {
+      "title": "Mapping the circumsolar dust ring near the orbit of Venus",
+      "year": "2017",
+      "journal": "Icarus",
+      "type": "journal-article",
+      "doi": "10.1016/j.icarus.2017.01.015",
+      "url": "https://doi.org/10.1016/j.icarus.2017.01.015",
+      "is_per": false,
+      "authors_full": "Jones, M.; Bewsher, D.; Brown, D.",
+      "authors_display": "Jones, M.; Bewsher, D.; Brown, D."
+    },
+    {
       "title": "Modelling of the hydrogen Lyman lines during solar flares",
       "year": "2017",
       "journal": "AAS/Solar Physics Division Abstracts #48",
@@ -1785,6 +1851,17 @@
       "authors_display": "Copping, L. T.; Cramman, H.; Gott, S. et al."
     },
     {
+      "title": "Peer observation, feedback and reflection for development of practice in synchronous online teaching",
+      "year": "2016",
+      "journal": "Innovations in Education and Teaching International",
+      "type": "journal-article",
+      "doi": "10.1080/14703297.2015.1025808",
+      "url": "https://doi.org/10.1080/14703297.2015.1025808",
+      "is_per": true,
+      "authors_full": "Jones, M. H.; Gallen, A.",
+      "authors_display": "Jones, M. H.; Gallen, A."
+    },
+    {
       "title": "Prominence plasma and magnetic field structure - A coordinated observation with IRIS, Hinode and THEMIS",
       "year": "2016",
       "journal": "",
@@ -1816,6 +1893,28 @@
       "is_per": false,
       "authors_full": "Levens, P. J.; Labrosse, N.; Fletcher, L.; Schmieder, B.",
       "authors_display": "Levens, P. J.; Labrosse, N.; Fletcher, L. et al."
+    },
+    {
+      "title": "An Introduction to Galaxies and Cosmology (2nd ed)",
+      "year": "2015",
+      "journal": "",
+      "type": "book",
+      "doi": null,
+      "url": "http%3A%2F%2Fwww.cambridge.org%2Fgb%2Facademic%2Fsubjects%2Fphysics%2Fastrophysics%2Fintroduction-galaxies-and-cosmology-1%3Fformat%3DPB%26isbn%3D9781107492615%23DWmzhiI3YtVy1SvE.97",
+      "is_per": false,
+      "authors_full": "Mark Jones",
+      "authors_display": "Mark Jones"
+    },
+    {
+      "title": "An Introduction to the Sun and Stars",
+      "year": "2015",
+      "journal": "An Introduction to the Sun and Stars",
+      "type": "book",
+      "doi": null,
+      "url": "",
+      "is_per": false,
+      "authors_full": "Mark Jones",
+      "authors_display": "Mark Jones"
     },
     {
       "title": "Derivation of the Major Properties of Prominences Using NLTE Modelling",
@@ -2025,6 +2124,17 @@
       "is_per": false,
       "authors_full": "Iain Moore",
       "authors_display": "Iain Moore"
+    },
+    {
+      "title": "Imaging of a circumsolar dust ring near the orbit of Venus",
+      "year": "2013",
+      "journal": "Science",
+      "type": "journal-article",
+      "doi": "10.1126/science.1243194",
+      "url": "https://doi.org/10.1126/science.1243194",
+      "is_per": false,
+      "authors_full": "Jones, M. H.; Bewsher, D.; Brown, D. S.",
+      "authors_display": "Jones, M. H.; Bewsher, D.; Brown, D. S."
     },
     {
       "title": "Non-equilibrium renormalised contacts for transport in nanodevices with interaction: A quasi-particle approach",
@@ -2533,6 +2643,17 @@
       "authors_display": "Nicolas Labrosse"
     },
     {
+      "title": "The incidence of mid-infrared excesses in G and K giants",
+      "year": "2008",
+      "journal": "Monthly Notices of the Royal Astronomical Society",
+      "type": "journal-article",
+      "doi": "10.1111/j.1365-2966.2008.13282.x",
+      "url": "https://doi.org/10.1111/j.1365-2966.2008.13282.x",
+      "is_per": false,
+      "authors_full": "Jones, M. H.",
+      "authors_display": "Jones, M. H."
+    },
+    {
       "title": "The Lyman-alpha Line in Active and Eruptive Solar Prominences",
       "year": "2008",
       "journal": "",
@@ -2830,6 +2951,17 @@
       "authors_display": "Labrosse, N.; Gouttebroze, P."
     },
     {
+      "title": "The infrared properties of barium stars",
+      "year": "2001",
+      "journal": "Monthly Notices of the Royal Astronomical Society",
+      "type": "journal-article",
+      "doi": "10.1046/j.1365-8711.2001.04705.x",
+      "url": "https://doi.org/10.1046/j.1365-8711.2001.04705.x",
+      "is_per": false,
+      "authors_full": "Jones, M. H.",
+      "authors_display": "Jones, M. H."
+    },
+    {
       "title": "A ready-made code for the computation of prominence NLTE models",
       "year": "2000",
       "journal": "Solar Physics",
@@ -2850,6 +2982,204 @@
       "is_per": false,
       "authors_full": "Nicolas Labrosse",
       "authors_display": "Nicolas Labrosse"
+    },
+    {
+      "title": "A Virtual Telescope for the Open University Science Foundation Course.",
+      "year": "1998",
+      "journal": "IAU Colloq. 162: New Trends in Astronomy Teaching,",
+      "type": "conference-paper",
+      "doi": null,
+      "url": "",
+      "is_per": false,
+      "authors_full": "Mark Jones",
+      "authors_display": "Mark Jones"
+    },
+    {
+      "title": "The Design, Development and Use of a CD‐ROM Resource Library for an Open University Course",
+      "year": "1998",
+      "journal": "British Journal of Educational Technology",
+      "type": "journal-article",
+      "doi": "10.1111/1467-8535.00067",
+      "url": "https://doi.org/10.1111/1467-8535.00067",
+      "is_per": true,
+      "authors_full": "Jones, M.; Kear, K.; Reilly, A.",
+      "authors_display": "Jones, M.; Kear, K.; Reilly, A."
+    },
+    {
+      "title": "A study of the interstellar dust distribution in regions of low total column density",
+      "year": "1995",
+      "journal": "Monthly Notices of the Royal Astronomical Society",
+      "type": "journal-article",
+      "doi": "10.1093/mnras/277.4.1587",
+      "url": "https://doi.org/10.1093/mnras/277.4.1587",
+      "is_per": false,
+      "authors_full": "Jones, M. H.; Rowan-Robinson, M.; Branduardi-Raymont, G.; Smith, P.; Pedlar, A.; Willacy, K.",
+      "authors_display": "Jones, M. H.; Rowan-Robinson, M.; Branduardi-Raymont, G. et al."
+    },
+    {
+      "title": "Low-energy X-ray spectral variability of NGC 4051",
+      "year": "1995",
+      "journal": "Monthly Notices of the Royal Astronomical Society",
+      "type": "journal-article",
+      "doi": "10.1093/mnras/273.3.549",
+      "url": "https://doi.org/10.1093/mnras/273.3.549",
+      "is_per": false,
+      "authors_full": "McHardy, I. M.; Green, A. R.; Done, C.; Puchnarewicz, E. M.; Mason, K. O.; Branduardi-Raymont, G.; Jones, M. H.",
+      "authors_display": "McHardy, I. M.; Green, A. R.; Done, C. et al."
+    },
+    {
+      "title": "The U.K. Deep and Medium Surveys with ROSAT - N-Log Relation",
+      "year": "1994",
+      "journal": "Monthly Notices of the Royal Astronomical Society",
+      "type": "journal-article",
+      "doi": "10.1093/mnras/270.4.947",
+      "url": "https://doi.org/10.1093/mnras/270.4.947",
+      "is_per": false,
+      "authors_full": "Branduardi-Raymont, G.; Mason, K. O.; Warwick, R. S.; Carrera, F. J.; Graffagnino, V. G.; Mittaz, J. P. D.; Puchnarewicz, E. M.; Smith, P. J.; Barber, C. R.; Pounds, K. A.; Stewart, G. C.; McHardy, I. M.; Jones, L. R.; Merrifield, M. R.; Fabian, A. C.; McMahon, R. G.; Ward, M. J.; George, I. M.; Jones, M. H.; Lawrence, A.; Rowan-Robinson, M.",
+      "authors_display": "Branduardi-Raymont, G.; Mason, K. O.; Warwick, R. S. et al."
+    },
+    {
+      "title": "A Physical Model for the IRAS Zodiacal Dust Bands",
+      "year": "1993",
+      "journal": "Monthly Notices of the Royal Astronomical Society",
+      "type": "journal-article",
+      "doi": "10.1093/mnras/264.1.237",
+      "url": "https://doi.org/10.1093/mnras/264.1.237",
+      "is_per": false,
+      "authors_full": "Jones, M. H.; Rowan-Robinson, M.",
+      "authors_display": "Jones, M. H.; Rowan-Robinson, M."
+    },
+    {
+      "title": "A study of the interstellar dust distribution in regions of low total column density",
+      "year": "1993",
+      "journal": "Back to the Galaxy",
+      "type": "conference-paper",
+      "doi": "10.1063/1.43979",
+      "url": "https://doi.org/10.1063/1.43979",
+      "is_per": false,
+      "authors_full": "Jones, M. H.",
+      "authors_display": "Jones, M. H."
+    },
+    {
+      "title": "On the projection commonly attributed to Aitoff",
+      "year": "1993",
+      "journal": "The Observatory",
+      "type": "journal-article",
+      "doi": null,
+      "url": "",
+      "is_per": false,
+      "authors_full": "Mark Jones",
+      "authors_display": "Mark Jones"
+    },
+    {
+      "title": "The UK Deep Survey Project",
+      "year": "1993",
+      "journal": "Observational Cosmology",
+      "type": "conference-paper",
+      "doi": null,
+      "url": "",
+      "is_per": false,
+      "authors_full": "Mark Jones",
+      "authors_display": "Mark Jones"
+    },
+    {
+      "title": "The UK Extended Deep ROSAT Survey",
+      "year": "1993",
+      "journal": "Observational Cosmology",
+      "type": "conference-paper",
+      "doi": null,
+      "url": "",
+      "is_per": false,
+      "authors_full": "Mark Jones",
+      "authors_display": "Mark Jones"
+    },
+    {
+      "title": "GINGA Observations of the Dipping Low-Mass X-Ray Binaries XB 1916-053 and EXO 0748-676",
+      "year": "1992",
+      "journal": "The Astrophysical Journal",
+      "type": "journal-article",
+      "doi": "10.1086/171999",
+      "url": "https://doi.org/10.1086/171999",
+      "is_per": false,
+      "authors_full": "Smale, A. P.; Mukai, K.; Williams, O. R.; Jones, M. H.; Corbet, R. H. D.",
+      "authors_display": "Smale, A. P.; Mukai, K.; Williams, O. R. et al."
+    },
+    {
+      "title": "The EXOSAT obseravtions of SS Cygni.",
+      "year": "1992",
+      "journal": "Monthly Notices of the Royal Astronomical Society",
+      "type": "journal-article",
+      "doi": "10.1093/mnras/257.4.633",
+      "url": "https://doi.org/10.1093/mnras/257.4.633",
+      "is_per": false,
+      "authors_full": "Jones, M. H.; Watson, M. G.",
+      "authors_display": "Jones, M. H.; Watson, M. G."
+    },
+    {
+      "title": "IRAS maps of galactic emission and the zodiacal bands",
+      "year": "1991",
+      "journal": "Monthly Notices of the Royal Astronomical Society",
+      "type": "journal-article",
+      "doi": "10.1093/mnras/249.4.729",
+      "url": "https://doi.org/10.1093/mnras/249.4.729",
+      "is_per": false,
+      "authors_full": "Rowan-Robinson, M.; Hughes, J.; Jones, M.; Leech, K.; Vedi, K.; Walker, D. W.",
+      "authors_display": "Rowan-Robinson, M.; Hughes, J.; Jones, M. et al."
+    },
+    {
+      "title": "Absorption dips and the properties of the accretion stream in polars.",
+      "year": "1989",
+      "journal": "Monthly Notices of the Royal Astronomical Society",
+      "type": "journal-article",
+      "doi": "10.1093/mnras/237.1.299",
+      "url": "https://doi.org/10.1093/mnras/237.1.299",
+      "is_per": false,
+      "authors_full": "Watson, M. G.; King, A. R.; Jones, M. H.; Motch, C.",
+      "authors_display": "Watson, M. G.; King, A. R.; Jones, M. H. et al."
+    },
+    {
+      "title": "Asymmetric peak of the quasi-periodic oscillations in the power spectra of X 1820-30 observed with Ginga.",
+      "year": "1989",
+      "journal": "Publications of the Astronomical Society of Japan",
+      "type": "journal-article",
+      "doi": null,
+      "url": "",
+      "is_per": false,
+      "authors_full": "Mark Jones",
+      "authors_display": "Mark Jones"
+    },
+    {
+      "title": "GINGA observation of the X-ray pulsar 1E 2259+586 in the supernova remnant G 109.1-1.0",
+      "year": "1989",
+      "journal": "Publications of the Astronomical Society of Japan",
+      "type": "journal-article",
+      "doi": null,
+      "url": "",
+      "is_per": false,
+      "authors_full": "Mark Jones",
+      "authors_display": "Mark Jones"
+    },
+    {
+      "title": "GINGA Observations of Dipping Low Mass X-Ray Binaries",
+      "year": "1989",
+      "journal": "Two Topics in X-Ray Astronomy, Volume 1: X Ray Binaries.  Volume 2: AGN and the X Ray Background",
+      "type": "conference-paper",
+      "doi": null,
+      "url": "",
+      "is_per": false,
+      "authors_full": "Mark Jones",
+      "authors_display": "Mark Jones"
+    },
+    {
+      "title": "The X-Ray Dip Source 4U:1624-49",
+      "year": "1989",
+      "journal": "Two Topics in X-Ray Astronomy, Volume 1: X Ray Binaries.  Volume 2: AGN and the X Ray Background",
+      "type": "conference-paper",
+      "doi": null,
+      "url": "",
+      "is_per": false,
+      "authors_full": "Mark Jones",
+      "authors_display": "Mark Jones"
     },
     {
       "title": "Single ion detection using FET based nano-sensors: a combined drift diffusion and Brownian dynamics 3D simulation study",
