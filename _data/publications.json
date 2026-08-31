@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-24",
-  "total": 290,
+  "last_updated": "2026-08-31",
+  "total": 291,
   "publications": [
     {
       "title": "Analysis of Lyman β and Lyman γ lines in a pre-eruptive and eruptive prominence with Solar Orbiter SPICE observations",
@@ -16,7 +16,7 @@
     {
       "title": "Effects of the removal of physics as an essential entry requirement to chemical and process engineering (CPE) programmes",
       "year": "2026",
-      "journal": "Teaching and Learning Day 2026, Glasgow, 16/06/26",
+      "journal": "Learning and Teaching Day, Glasgow, 16/06/26",
       "type": "conference-presentation",
       "doi": null,
       "url": "https://pureportal.strath.ac.uk/en/publications/698a0b41-f2c5-4095-ab32-e72108c60606",
@@ -111,6 +111,17 @@
       "is_per": true,
       "authors_full": "Wood, A.; Galloway, R.; Rhind, S.; McQueen, H.; Kinnear, G.; Hounsell, D.",
       "authors_display": "Wood, A.; Galloway, R.; Rhind, S. et al."
+    },
+    {
+      "title": "Student interactions and experiences in online team-working activities in astrophysics and space science",
+      "year": "2026",
+      "journal": "Physical Review Physics Education Research",
+      "type": "journal-article",
+      "doi": "10.1103/ldgz-smd6",
+      "url": "https://doi.org/10.1103/ldgz-smd6",
+      "is_per": true,
+      "authors_full": "Anonymous",
+      "authors_display": "Anonymous"
     },
     {
       "title": "Understanding the experience of international trainee teachers in England and exploring implications for teacher educators",
