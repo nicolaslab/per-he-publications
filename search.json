@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "authors.html",
-    "href": "authors.html",
-    "title": "Authors",
-    "section": "",
-    "text": "authors = await FileAttachment(\"_data/authors.json\").json()\n\nmd`**${authors.length} researchers** from the UK & Ireland PER community are currently listed.`\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nhtl.html`&lt;table style=\"width:100%; border-collapse:collapse; font-size:0.9rem;\"&gt;\n  &lt;thead&gt;\n    &lt;tr style=\"border-bottom:2px solid #ccc; text-align:left;\"&gt;\n      &lt;th style=\"padding:8px 12px;\"&gt;Name&lt;/th&gt;\n      &lt;th style=\"padding:8px 12px;\"&gt;Institution&lt;/th&gt;\n      &lt;th style=\"padding:8px 12px;\"&gt;ORCID&lt;/th&gt;\n      &lt;th style=\"padding:8px 12px; text-align:center;\"&gt;Total publications&lt;/th&gt;\n      &lt;th style=\"padding:8px 12px; text-align:center;\"&gt;PER publications&lt;/th&gt;\n    &lt;/tr&gt;\n  &lt;/thead&gt;\n  &lt;tbody&gt;\n    ${authors.map((a, i) =&gt; htl.html`&lt;tr style=\"border-bottom:1px solid #eee; background:${i % 2 === 0 ? '#fff' : '#f9f9f9'};\"&gt;\n      &lt;td style=\"padding:8px 12px; font-weight:500;\"&gt;${a.name}&lt;/td&gt;\n      &lt;td style=\"padding:8px 12px; color:#444;\"&gt;${a.institution || \"\"}&lt;/td&gt;\n      &lt;td style=\"padding:8px 12px;\"&gt;\n        ${a.orcid\n          ? htl.html`&lt;a href=\"https://orcid.org/${a.orcid}\" target=\"_blank\"\n              style=\"color:#a6ce39; font-family:monospace;\"&gt;${a.orcid}&lt;/a&gt;`\n          : \"\"}\n      &lt;/td&gt;\n      &lt;td style=\"padding:8px 12px; text-align:center;\"&gt;${a.pub_count}&lt;/td&gt;\n      &lt;td style=\"padding:8px 12px; text-align:center;\"&gt;${a.per_count}&lt;/td&gt;\n    &lt;/tr&gt;`)}\n  &lt;/tbody&gt;\n&lt;/table&gt;`"
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -54,6 +47,13 @@
     "title": "About",
     "section": "Acknowledgements",
     "text": "Acknowledgements\nThis site was inspired by the University of Glasgow’s MVLS Learning, Teaching and Scholarship Network publications page, which demonstrated this approach for a different research community. We are grateful to its authors for making their source code openly available.\n\nData sourced from ORCID"
+  },
+  {
+    "objectID": "authors.html",
+    "href": "authors.html",
+    "title": "Authors",
+    "section": "",
+    "text": "authors = await FileAttachment(\"_data/authors.json\").json()\n\nmd`**${authors.length} researchers** from the UK & Ireland PER community are currently listed.`\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nhtl.html`&lt;table style=\"width:100%; border-collapse:collapse; font-size:0.9rem;\"&gt;\n  &lt;thead&gt;\n    &lt;tr style=\"border-bottom:2px solid #ccc; text-align:left;\"&gt;\n      &lt;th style=\"padding:8px 12px;\"&gt;Name&lt;/th&gt;\n      &lt;th style=\"padding:8px 12px;\"&gt;Institution&lt;/th&gt;\n      &lt;th style=\"padding:8px 12px;\"&gt;ORCID&lt;/th&gt;\n      &lt;th style=\"padding:8px 12px; text-align:center;\"&gt;Total publications&lt;/th&gt;\n      &lt;th style=\"padding:8px 12px; text-align:center;\"&gt;PER publications&lt;/th&gt;\n    &lt;/tr&gt;\n  &lt;/thead&gt;\n  &lt;tbody&gt;\n    ${authors.map((a, i) =&gt; htl.html`&lt;tr style=\"border-bottom:1px solid #eee; background:${i % 2 === 0 ? '#fff' : '#f9f9f9'};\"&gt;\n      &lt;td style=\"padding:8px 12px; font-weight:500;\"&gt;${a.name}&lt;/td&gt;\n      &lt;td style=\"padding:8px 12px; color:#444;\"&gt;${a.institution || \"\"}&lt;/td&gt;\n      &lt;td style=\"padding:8px 12px;\"&gt;\n        ${a.orcid\n          ? htl.html`&lt;a href=\"https://orcid.org/${a.orcid}\" target=\"_blank\"\n              style=\"color:#a6ce39; font-family:monospace;\"&gt;${a.orcid}&lt;/a&gt;`\n          : \"\"}\n      &lt;/td&gt;\n      &lt;td style=\"padding:8px 12px; text-align:center;\"&gt;${a.pub_count}&lt;/td&gt;\n      &lt;td style=\"padding:8px 12px; text-align:center;\"&gt;${a.per_count}&lt;/td&gt;\n    &lt;/tr&gt;`)}\n  &lt;/tbody&gt;\n&lt;/table&gt;`"
   },
   {
     "objectID": "index.html",

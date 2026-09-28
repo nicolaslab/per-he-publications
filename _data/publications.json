@@ -1,7 +1,18 @@
 {
-  "last_updated": "2026-09-21",
-  "total": 291,
+  "last_updated": "2026-09-28",
+  "total": 293,
   "publications": [
+    {
+      "title": "A critical analysis of the C-TEIR process for assessing practical physics methods",
+      "year": "2026",
+      "journal": "Journal of Physics: Conference Series",
+      "type": "journal-article",
+      "doi": "10.1088/1742-6596/3280/1/012071",
+      "url": "https://doi.org/10.1088/1742-6596/3280/1/012071",
+      "is_per": false,
+      "authors_full": "Gray, L.; Moore, I.",
+      "authors_display": "Gray, L.; Moore, I."
+    },
     {
       "title": "Analysis of Lyman β and Lyman γ lines in a pre-eruptive and eruptive prominence with Solar Orbiter SPICE observations",
       "year": "2026",
@@ -122,6 +133,17 @@
       "is_per": true,
       "authors_full": "Anonymous",
       "authors_display": "Anonymous"
+    },
+    {
+      "title": "The introduction of circuits in secondary science education: teachers’ views on confidence and content",
+      "year": "2026",
+      "journal": "Journal of Physics: Conference Series",
+      "type": "journal-article",
+      "doi": "10.1088/1742-6596/3280/1/012003",
+      "url": "https://doi.org/10.1088/1742-6596/3280/1/012003",
+      "is_per": true,
+      "authors_full": "Moore, I.; Gray, L.",
+      "authors_display": "Moore, I.; Gray, L."
     },
     {
       "title": "Understanding the experience of international trainee teachers in England and exploring implications for teacher educators",
