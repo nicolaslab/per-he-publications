@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-28",
-  "total": 293,
+  "last_updated": "2026-10-05",
+  "total": 294,
   "publications": [
     {
       "title": "A critical analysis of the C-TEIR process for assessing practical physics methods",
@@ -69,6 +69,17 @@
       "authors_display": "Moore, I.; Farmer, S.; Gray, L."
     },
     {
+      "title": "Facilitating more evenly distributed opportunities for participation and higher-order thinking in undergraduate tutorials using the Thinking Environment",
+      "year": "2026",
+      "journal": "Enhancing Teaching and Learning in Higher Education",
+      "type": "journal-article",
+      "doi": "10.62512/etlhe.40",
+      "url": "https://doi.org/10.62512/etlhe.40",
+      "is_per": false,
+      "authors_full": "Cramman, H.; Milian, J. L.; Fearn, S.; Manresa, M.",
+      "authors_display": "Cramman, H.; Milian, J. L.; Fearn, S. et al."
+    },
+    {
       "title": "How to design the perfect lecture",
       "year": "2026",
       "journal": "Europhysics Letters",
@@ -131,8 +142,8 @@
       "doi": "10.1103/ldgz-smd6",
       "url": "https://doi.org/10.1103/ldgz-smd6",
       "is_per": true,
-      "authors_full": "Anonymous",
-      "authors_display": "Anonymous"
+      "authors_full": "Jones, M. H.; Chyriwsky, S. M.; Croston, J. H.; Kolb, U. C.; Schwenzer, S. P.; Urquhart, S. A.",
+      "authors_display": "Jones, M. H.; Chyriwsky, S. M.; Croston, J. H. et al."
     },
     {
       "title": "The introduction of circuits in secondary science education: teachers’ views on confidence and content",
