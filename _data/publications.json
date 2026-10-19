@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-12",
-  "total": 294,
+  "last_updated": "2026-10-19",
+  "total": 299,
   "publications": [
     {
       "title": "A critical analysis of the C-TEIR process for assessing practical physics methods",
@@ -23,6 +23,17 @@
       "is_per": false,
       "authors_full": "Zhang, Y.; Labrosse, N.; Parenti, S.; Kucera, T. A.",
       "authors_display": "Zhang, Y.; Labrosse, N.; Parenti, S. et al."
+    },
+    {
+      "title": "Criterion-referenceability determines LLM-as-a-judge validity across physics assessment formats",
+      "year": "2026",
+      "journal": "",
+      "type": "preprint",
+      "doi": "10.48550/arxiv.2603.14732",
+      "url": "https://doi.org/10.48550/arxiv.2603.14732",
+      "is_per": false,
+      "authors_full": "Paul Mackay",
+      "authors_display": "Paul Mackay"
     },
     {
       "title": "Effects of the removal of physics as an essential entry requirement to chemical and process engineering (CPE) programmes",
@@ -146,6 +157,17 @@
       "authors_display": "Jones, M. H.; Chyriwsky, S. M.; Croston, J. H. et al."
     },
     {
+      "title": "The Answer Is Not the Argument",
+      "year": "2026",
+      "journal": "",
+      "type": "preprint",
+      "doi": "10.48550/arxiv.2609.00264",
+      "url": "https://doi.org/10.48550/arxiv.2609.00264",
+      "is_per": false,
+      "authors_full": "Paul Mackay",
+      "authors_display": "Paul Mackay"
+    },
+    {
       "title": "The introduction of circuits in secondary science education: teachers’ views on confidence and content",
       "year": "2026",
       "journal": "Journal of Physics: Conference Series",
@@ -155,6 +177,17 @@
       "is_per": true,
       "authors_full": "Moore, I.; Gray, L.",
       "authors_display": "Moore, I.; Gray, L."
+    },
+    {
+      "title": "Transitioning from A-level to higher education physics courses: where are the knowledge gaps?",
+      "year": "2026",
+      "journal": "",
+      "type": "preprint",
+      "doi": "10.48550/arxiv.2610.00175",
+      "url": "https://doi.org/10.48550/arxiv.2610.00175",
+      "is_per": true,
+      "authors_full": "Paul Mackay",
+      "authors_display": "Paul Mackay"
     },
     {
       "title": "Understanding the experience of international trainee teachers in England and exploring implications for teacher educators",
@@ -386,6 +419,17 @@
       "is_per": true,
       "authors_full": "Geschwind, G.; Alemani, M.; Fox, M. F. J.; Logman, P. S. W. M.; Tufino, E.; Lewandowski, H. J.",
       "authors_display": "Geschwind, G.; Alemani, M.; Fox, M. F. J. et al."
+    },
+    {
+      "title": "Evaluating AI and human authorship quality in academic writing through physics essays",
+      "year": "2024",
+      "journal": "European Journal of Physics",
+      "type": "journal-article",
+      "doi": "10.1088/1361-6404/ad669d",
+      "url": "https://doi.org/10.1088/1361-6404/ad669d",
+      "is_per": true,
+      "authors_full": "Yeadon, W.; Agra, E.; Inyang, O.; Mackay, P.; Mizouri, A.",
+      "authors_display": "Yeadon, W.; Agra, E.; Inyang, O. et al."
     },
     {
       "title": "Evaluating Practical Methodologies in Physics Education Survey - Anonymised data",
@@ -2553,6 +2597,17 @@
       "is_per": false,
       "authors_full": "Labrosse, N.; Heinzel, P.; Vial, J.; Kucera, T.; Parenti, S.; Gunár, S.; Schmieder, B.; Kilper, G.",
       "authors_display": "Labrosse, N.; Heinzel, P.; Vial, J. et al."
+    },
+    {
+      "title": "Quantum gravity and scalar fields",
+      "year": "2010",
+      "journal": "Physics Letters B",
+      "type": "journal-article",
+      "doi": "10.1016/j.physletb.2009.12.032",
+      "url": "https://doi.org/10.1016/j.physletb.2009.12.032",
+      "is_per": false,
+      "authors_full": "Mackay, P. T.; Toms, D. J.",
+      "authors_display": "Mackay, P. T.; Toms, D. J."
     },
     {
       "title": "Thermalisation and hard X-ray bremsstrahlung efficiency of self-interacting solar flare fast electrons",

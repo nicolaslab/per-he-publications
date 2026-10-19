@@ -9,7 +9,7 @@
   {
     "name": "Helen Cramman",
     "orcid": "0000-0002-8684-4882",
-    "institution": "University of Durham",
+    "institution": "Durham University",
     "pub_count": 27,
     "per_count": 7
   },
@@ -54,6 +54,13 @@
     "institution": "University of Glasgow",
     "pub_count": 128,
     "per_count": 7
+  },
+  {
+    "name": "Paul Mackay",
+    "orcid": "0009-0002-3792-4111",
+    "institution": "Durham University",
+    "pub_count": 5,
+    "per_count": 2
   },
   {
     "name": "Iain Moore",
