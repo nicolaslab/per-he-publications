@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-19",
-  "total": 299,
+  "last_updated": "2026-10-26",
+  "total": 300,
   "publications": [
     {
       "title": "A critical analysis of the C-TEIR process for assessing practical physics methods",
@@ -122,6 +122,17 @@
       "is_per": false,
       "authors_full": "Zhang, Y.; Labrosse, N.; Parenti, S.; Kucera, T. A.",
       "authors_display": "Zhang, Y.; Labrosse, N.; Parenti, S. et al."
+    },
+    {
+      "title": "Paper or Tablet? A Retrospective Study of Preference and Performance",
+      "year": "2026",
+      "journal": "Education Sciences",
+      "type": "journal-article",
+      "doi": "10.3390/educsci16101759",
+      "url": "https://doi.org/10.3390/educsci16101759",
+      "is_per": true,
+      "authors_full": "Galloway, R. K.; Forrest, A.; Mackay, L.",
+      "authors_display": "Galloway, R. K.; Forrest, A.; Mackay, L."
     },
     {
       "title": "Radiometric calibration of Hα observations with THEMIS",
