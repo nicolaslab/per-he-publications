@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-26",
-  "total": 300,
+  "last_updated": "2026-11-02",
+  "total": 301,
   "publications": [
     {
       "title": "A critical analysis of the C-TEIR process for assessing practical physics methods",
@@ -78,6 +78,17 @@
       "is_per": true,
       "authors_full": "Moore, I.; Farmer, S.; Gray, L.",
       "authors_display": "Moore, I.; Farmer, S.; Gray, L."
+    },
+    {
+      "title": "Exploring the Newness of Welcoming International Preservice Teachers in Teacher Education",
+      "year": "2026",
+      "journal": "Paper presented at the annual meeting of the AERA Annual Meeting, TBA, Los Angeles, CA",
+      "type": "conference-paper",
+      "doi": "10.3102/2274828",
+      "url": "https://doi.org/10.3102/2274828",
+      "is_per": false,
+      "authors_full": "Campbell, R.; Davies, R.; Cottle, D.; Neuberg, C.; Wylie, E.",
+      "authors_display": "Campbell, R.; Davies, R.; Cottle, D. et al."
     },
     {
       "title": "Facilitating more evenly distributed opportunities for participation and higher-order thinking in undergraduate tutorials using the Thinking Environment",
