@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://nicolaslab.github.io/per-he-publications/about.html</loc>
-    <lastmod>2026-10-26T11:43:48.135Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nicolaslab.github.io/per-he-publications/authors.html</loc>
-    <lastmod>2026-10-26T11:43:48.135Z</lastmod>
-  </url>
-  <url>
     <loc>https://nicolaslab.github.io/per-he-publications/index.html</loc>
-    <lastmod>2026-10-26T11:43:48.135Z</lastmod>
+    <lastmod>2026-11-02T14:00:15.980Z</lastmod>
   </url>
   <url>
     <loc>https://nicolaslab.github.io/per-he-publications/publications.html</loc>
-    <lastmod>2026-10-26T11:43:48.135Z</lastmod>
+    <lastmod>2026-11-02T14:00:15.980Z</lastmod>
   </url>
   <url>
     <loc>https://nicolaslab.github.io/per-he-publications/journals.html</loc>
-    <lastmod>2026-10-26T11:43:48.135Z</lastmod>
+    <lastmod>2026-11-02T14:00:15.980Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicolaslab.github.io/per-he-publications/about.html</loc>
+    <lastmod>2026-11-02T14:00:15.980Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicolaslab.github.io/per-he-publications/authors.html</loc>
+    <lastmod>2026-11-02T14:00:15.980Z</lastmod>
   </url>
 </urlset>
